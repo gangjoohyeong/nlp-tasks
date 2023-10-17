@@ -1,0 +1,4549 @@
+## 토큰, 레이블 구분자 : \t
+## 토큰 구분자 : \n
+## 문장 구분자 : \n\n
+## 주석 : ##
+## 칼럼명 : INDEX	WORD_FORM	LEMMA	POS	HEAD	DEPREL
+## klue-dp-v1_train_00000_wikitree	해당 그림을 보면 디즈니 공주들이 브리트니 스피어스의 앨범이나 뮤직비디오, 화보 속 모습을 똑같이 재연했다.
+1	해당	해당	NNG	2	NP
+2	그림을	그림 을	NNG+JKO	3	NP_OBJ
+3	보면	보 면	VV+EC	14	VP
+4	디즈니	디즈니	NNP	5	NP
+5	공주들이	공주 들 이	NNG+XSN+JKS	14	NP_SBJ
+6	브리트니	브리트니	NNP	7	NP
+7	스피어스의	스피어스 의	NNP+JKG	10	NP_MOD
+8	앨범이나	앨범 이나	NNG+JC	10	NP_CNJ
+9	뮤직비디오,	뮤직 비디오 ,	NNG+NNG+SP	10	NP_CNJ
+10	화보	화보	NNG	11	NP
+11	속	속	NNG	12	NP
+12	모습을	모습 을	NNG+JKO	14	NP_OBJ
+13	똑같이	똑같이	MAG	14	AP
+14	재연했다.	재연 하 였 다 .	NNG+XSA+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00001_wikitree	이날 경연에는 곽진언 씨, 김필 씨, 송유빈 군, 장우람 씨, 밴드 '버스터리드', 임도혁 씨가 출전했다.
+1	이날	이날	NNG	2	NP
+2	경연에는	경연 에 는	NNG+JKB+JX	15	NP_AJT
+3	곽진언	곽진언	NNP	4	NP
+4	씨,	씨 ,	NNB+SP	14	NP_CNJ
+5	김필	김필	NNP	6	NP
+6	씨,	씨 ,	NNB+SP	14	NP_CNJ
+7	송유빈	송유빈	NNP	8	NP
+8	군,	군 ,	NNB+SP	14	NP_CNJ
+9	장우람	장우람	NNP	10	NP
+10	씨,	씨 ,	NNB+SP	14	NP_CNJ
+11	밴드	밴드	NNG	12	NP
+12	'버스터리드',	' 버스터리드 ' ,	SS+NNP+SS+SP	14	NP_CNJ
+13	임도혁	임도혁	NNP	14	NP
+14	씨가	씨 가	NNB+JKS	15	NP_SBJ
+15	출전했다.	출전 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00002_wikitree	최근 우리는 과거로부터 이어져온 각종 적폐의 흔적들이 세월이 흘러도 후손들에게 상처로 남는다는 교훈을 얻었습니다.
+1	최근	최근	NNG	14	NP_AJT
+2	우리는	우리 는	NP+JX	14	NP_SBJ
+3	과거로부터	과거 로부터	NNG+JKB	4	NP_AJT
+4	이어져온	잇 어 지 어 오 ㄴ	VV+EC+VX+EC+VX+ETM	6	VP_MOD
+5	각종	각종	NNG	6	NP
+6	적폐의	적폐 의	NNG+JKG	7	NP_MOD
+7	흔적들이	흔적 들 이	NNG+XSN+JKS	12	NP_SBJ
+8	세월이	세월 이	NNG+JKS	9	NP_SBJ
+9	흘러도	흐르 어도	VV+EC	12	VP
+10	후손들에게	후손 들 에게	NNG+XSN+JKB	12	NP_AJT
+11	상처로	상처 로	NNG+JKB	12	NP_AJT
+12	남는다는	남 는다는	VV+ETM	13	VP_MOD
+13	교훈을	교훈 을	NNG+JKO	14	NP_OBJ
+14	얻었습니다.	얻 었 습니다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00003_wikitree	야권에서는 박근혜 대통령까지 문제 삼고 있지만 이 문제는 박근혜 대통령과는 아무 상관이 없다는 것을 민주당과 문재인 후보가 더 잘 알 것입니다.
+1	야권에서는	야권 에서 는	NNG+JKB+JX	5	NP_AJT
+2	박근혜	박근혜	NNP	3	NP
+3	대통령까지	대통령 까지	NNG+JX	5	NP_OBJ
+4	문제	문제	NNG	5	NP_OBJ
+5	삼고	삼 고	VV+EC	6	VP
+6	있지만	있 지만	VX+EC	20	VP
+7	이	이	MMD	8	DP
+8	문제는	문제 는	NNG+JX	13	NP_SBJ
+9	박근혜	박근혜	NNP	10	NP
+10	대통령과는	대통령 과 는	NNG+JKB+JX	13	NP_AJT
+11	아무	아무	MMD	12	DP
+12	상관이	상관 이	NNG+JKS	13	NP_SBJ
+13	없다는	없 다는	VA+ETM	14	VP_MOD
+14	것을	것 을	NNB+JKO	20	NP_OBJ
+15	민주당과	민주당 과	NNP+JC	17	NP_CNJ
+16	문재인	문재인	NNP	17	NP
+17	후보가	후보 가	NNG+JKS	20	NP_SBJ
+18	더	더	MAG	19	AP
+19	잘	잘	MAG	20	AP
+20	알	알 ㄹ	VV+ETM	21	VP_MOD
+21	것입니다.	것 이 ㅂ니다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00004_wikitree	만약 직장가입자가 근로소득 외에 사업소득, 이자, 배당, 임대소득 등을 합친 종합소득이 7천200만원을 넘는 경우 추가로 최대 230만원까지 보험료가 부과된다.
+1	만약	만약	NNG	13	AP
+2	직장가입자가	직장 가입자 가	NNG+NNG+JKS	13	NP_SBJ
+3	근로소득	근로 소득	NNG+NNG	4	NP
+4	외에	외 에	NNB+JKB	10	NP_AJT
+5	사업소득,	사업 소득 ,	NNG+NNG+SP	8	NP_CNJ
+6	이자,	이자 ,	NNG+SP	8	NP_CNJ
+7	배당,	배당 ,	NNG+SP	8	NP_CNJ
+8	임대소득	임대 소득	NNG+NNG	9	NP
+9	등을	등 을	NNB+JKO	10	NP_OBJ
+10	합친	합치 ㄴ	VV+ETM	11	VP_MOD
+11	종합소득이	종합 소득 이	NNG+NNG+JKS	13	NP_SBJ
+12	7천200만원을	7 천 200 만 원 을	SN+NR+SN+NR+NNB+JKO	13	NP_OBJ
+13	넘는	넘 는	VV+ETM	14	VP_MOD
+14	경우	경우	NNG	19	NP_AJT
+15	추가로	추가 로	NNG+JKB	17	NP_AJT
+16	최대	최대	NNG	17	NP
+17	230만원까지	230 만 원 까지	SN+NR+NNB+JX	19	NP_AJT
+18	보험료가	보험료 가	NNG+JKS	19	NP_SBJ
+19	부과된다.	부과 되 ㄴ다 .	NNG+XSV+EF+SF	0	VP
+
+## klue-dp-v1_train_00005_wikitree	전문가들이 초기 대응의 중요성을 강조하지만, 응급 처치는 전문가나 119구급대에 맡겨야 한다는 잘못된 인식 때문에 일반인들은 여전히 심폐소생술을 꺼리고 있다.
+1	전문가들이	전문가 들 이	NNG+XSN+JKS	5	NP_SBJ
+2	초기	초기	NNG	3	NP
+3	대응의	대응 의	NNG+JKG	4	NP_MOD
+4	중요성을	중요 성 을	NNG+XSN+JKO	5	NP_OBJ
+5	강조하지만,	강조 하 지만 ,	NNG+XSV+EC+SP	18	VP
+6	응급	응급	NNG	7	NP
+7	처치는	처치 는	NNG+JX	10	NP_OBJ
+8	전문가나	전문가 나	NNG+JC	9	NP_CNJ
+9	119구급대에	119 구급대 에	SN+NNG+JKB	10	NP_AJT
+10	맡겨야	맡기 어야	VV+EC	11	VP
+11	한다는	하 ㄴ다는	VX+ETM	13	VP_MOD
+12	잘못된	잘못 되 ㄴ	MAG+XSV+ETM	13	VP_MOD
+13	인식	인식	NNG	14	NP
+14	때문에	때문 에	NNB+JKB	18	NP_AJT
+15	일반인들은	일반인 들 은	NNG+XSN+JX	18	NP_SBJ
+16	여전히	여전히	MAG	18	AP
+17	심폐소생술을	심폐 소생술 을	NNG+NNG+JKO	18	NP_OBJ
+18	꺼리고	꺼리 고	VV+EC	19	VP
+19	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00006_wikitree	검찰은 재판과정에서 전 전 대통령 일가가 숨겨놓은 재산이 아직도 수백억 원에 달한다고 밝혔다.
+1	검찰은	검찰 은	NNG+JX	13	NP_SBJ
+2	재판과정에서	재판 과정 에서	NNG+NNG+JKB	13	NP_AJT
+3	전	전	NNP	5	NP
+4	전	전	MMD	5	DP
+5	대통령	대통령	NNG	6	NP
+6	일가가	일가 가	NNG+JKS	7	NP_SBJ
+7	숨겨놓은	숨기 어 놓 은	VV+EC+VX+ETM	8	VP_MOD
+8	재산이	재산 이	NNG+JKS	12	NP_SBJ
+9	아직도	아직 도	MAG+JX	12	AP
+10	수백억	수백억	NR	11	DP
+11	원에	원 에	NNB+JKB	12	NP_AJT
+12	달한다고	달하 ㄴ다고	VV+EC	13	VP_AJT
+13	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00007_wikitree	우선 열차 증차 시기를 애초 계획한 2018년에서 1년 앞당겨 2017년까지 70량을 늘리기로 했다.
+1	우선	우선	MAG	12	AP
+2	열차	열차	NNG	3	NP
+3	증차	증차	NNG	4	NP
+4	시기를	시기 를	NNG+JKO	9	NP_OBJ
+5	애초	애초	NNG	6	NP
+6	계획한	계획 하 ㄴ	NNG+XSV+ETM	7	VP_MOD
+7	2018년에서	2018 년 에서	SN+NNB+JKB	9	NP_AJT
+8	1년	1 년	SN+NNB	9	NP_OBJ
+9	앞당겨	앞 당기 어	NNG+VV+EC	12	VP
+10	2017년까지	2017 년 까지	SN+NNB+JX	12	NP_AJT
+11	70량을	70 량 을	SN+NNB+JKO	12	NP_OBJ
+12	늘리기로	늘리 기 로	VV+ETN+JKB	13	VP_AJT
+13	했다.	하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00008_wikitree	그는 가까스로 구조돼 응급실로 옮겨졌고 이날 바타클랑에서는 이번 동시 다발 테러에서 가장 많은 100여 명의 사상자가 발생했다.
+1	그는	그 는	NP+JX	3	NP_SBJ
+2	가까스로	가까스로	MAG	3	AP
+3	구조돼	구조 되 어	NNG+XSV+EC	5	VP
+4	응급실로	응급실 로	NNG+JKB	5	NP_AJT
+5	옮겨졌고	옮기 어 지 었 고	VV+EC+VX+EP+EC	17	VP
+6	이날	이날	NNG	17	NP_AJT
+7	바타클랑에서는	바타클랑 에서 는	NNP+JKB+JX	17	NP_AJT
+8	이번	이번	NNG	11	NP
+9	동시	동시	NNG	10	NP
+10	다발	다발	NNG	11	NP
+11	테러에서	테러 에서	NNG+JKB	17	NP_AJT
+12	가장	가장	MAG	13	AP
+13	많은	많 은	VA+ETM	16	VP_MOD
+14	100여	100 여	SN+XSN	15	NP
+15	명의	명 의	NNB+JKG	16	NP_MOD
+16	사상자가	사상자 가	NNG+JKS	17	NP_SBJ
+17	발생했다.	발생 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00009_wikitree	섬에 갇힌 채 홍씨의 염전에서 수년간 일하던 김씨 등은 김씨가 서울에 있는 어머니에게 보낸 편지가 경찰에 전달돼 2013년 2월 구출됐다.
+1	섬에	섬 에	NNG+JKB	2	NP_AJT
+2	갇힌	갇히 ㄴ	VV+ETM	3	VP_MOD
+3	채	채	NNB	7	NP_AJT
+4	홍씨의	홍 씨 의	NNP+NNB+JKG	5	NP_MOD
+5	염전에서	염전 에서	NNG+JKB	7	NP_AJT
+6	수년간	수년 간	NNG+XSN	7	NP_AJT
+7	일하던	일 하 던	NNG+XSV+ETM	8	VP_MOD
+8	김씨	김 씨	NNP+NNB	9	NP
+9	등은	등 은	NNB+JX	20	NP_SBJ
+10	김씨가	김 씨 가	NNP+NNB+JKS	14	NP_SBJ
+11	서울에	서울 에	NNP+JKB	12	NP_AJT
+12	있는	있 는	VV+ETM	13	VP_MOD
+13	어머니에게	어머니 에게	NNG+JKB	14	NP_AJT
+14	보낸	보내 ㄴ	VV+ETM	15	VP_MOD
+15	편지가	편지 가	NNG+JKS	17	NP_SBJ
+16	경찰에	경찰 에	NNG+JKB	17	NP_AJT
+17	전달돼	전달 되 어	NNG+XSV+EC	20	VP
+18	2013년	2013 년	SN+NNB	19	NP
+19	2월	2 월	SN+NNB	20	NP_AJT
+20	구출됐다.	구출 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00010_wikitree	길을 건너던 50대 여성이 두 차례 뺑소니 사고를 당한 뒤 또 다시 차량에 치여 숨지는 안타까운 사고가 발생했다.
+1	길을	길 을	NNG+JKO	2	NP_OBJ
+2	건너던	건너 던	VV+ETM	4	VP_MOD
+3	50대	50 대	SN+NNB	4	NP
+4	여성이	여성 이	NNG+JKS	14	NP_SBJ
+5	두	두	MMN	6	DP
+6	차례	차례	NNG	9	NP_AJT
+7	뺑소니	뺑소니	NNG	8	NP
+8	사고를	사고 를	NNG+JKO	9	NP_OBJ
+9	당한	당하 ㄴ	VV+ETM	10	VP_MOD
+10	뒤	뒤	NNG	14	NP_AJT
+11	또	또	MAG	12	AP
+12	다시	다시	MAG	14	AP
+13	차량에	차량 에	NNG+JKB	14	NP_AJT
+14	치여	치이 어	VV+EC	15	VP
+15	숨지는	숨지 는	VV+ETM	17	VP_MOD
+16	안타까운	안타깝 ㄴ	VA+ETM	17	VP_MOD
+17	사고가	사고 가	NNG+JKS	18	NP_SBJ
+18	발생했다.	발생 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00011_wikitree	세월호 참사 1주기를 맞은 전날(16일) 경찰은 '세월호 추모문화제'를 끝낸 뒤 거리행진을 하던 시민들을 막아섰다.
+1	세월호	세월호	NNP	2	NP
+2	참사	참사	NNG	3	NP
+3	1주기를	1 주기 를	SN+NNG+JKO	4	NP_OBJ
+4	맞은	맞 은	VV+ETM	5	VP_MOD
+5	전날(16일)	전 날 ( 16 일 )	MMD+NNG+SS+SN+NNB+SS	14	NP_AJT
+6	경찰은	경찰 은	NNG+JX	14	NP_SBJ
+7	'세월호	' 세월호	SS+NNP	8	NP
+8	추모문화제'를	추모 문화제 ' 를	NNG+NNG+SS+JKO	9	NP_OBJ
+9	끝낸	끝내 ㄴ	VV+ETM	10	VP_MOD
+10	뒤	뒤	NNG	12	NP_AJT
+11	거리행진을	거리 행진 을	NNG+NNG+JKO	12	NP_OBJ
+12	하던	하 던	VV+ETM	13	VP_MOD
+13	시민들을	시민 들 을	NNG+XSN+JKO	14	NP_OBJ
+14	막아섰다.	막 아 서 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00012_wikitree	18일 종합편성채널 JTBC '비정상회담'에는 오랜만에 브라운관으로 돌아온 한예슬 씨가 게스트로 출연했다.
+1	18일	18 일	SN+NNB	11	NP_AJT
+2	종합편성채널	종합 편성 채널	NNG+NNG+NNG	3	NP
+3	JTBC	JTBC	SL	4	NP
+4	'비정상회담'에는	' 비정상회담 ' 에 는	SS+NNP+SS+JKB+JX	11	NP_AJT
+5	오랜만에	오랜만 에	NNG+JKB	7	NP_AJT
+6	브라운관으로	브라운관 으로	NNG+JKB	7	NP_AJT
+7	돌아온	돌 아 오 ㄴ	VV+EC+VV+ETM	9	VP_MOD
+8	한예슬	한예슬	NNP	9	NP
+9	씨가	씨 가	NNB+JKS	11	NP_SBJ
+10	게스트로	게스트 로	NNG+JKB	11	NP_AJT
+11	출연했다.	출연 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00013_wikitree	18일 오전까지 수면에 노출됐던 '세월호' 선수가 급기야 바닷속으로 자취를 감췄다.
+1	18일	18 일	SN+NNB	2	NP
+2	오전까지	오전 까지	NNG+JX	4	NP_AJT
+3	수면에	수면 에	NNG+JKB	4	NP_AJT
+4	노출됐던	노출 되 었 던	NNG+XSV+EP+ETM	6	VP_MOD
+5	'세월호'	' 세월호 '	SS+NNP+SS	6	NP
+6	선수가	선수 가	NNG+JKS	10	NP_SBJ
+7	급기야	급기야	MAG	10	AP
+8	바닷속으로	바닷속 으로	NNG+JKB	10	NP_AJT
+9	자취를	자취 를	NNG+JKO	10	NP_OBJ
+10	감췄다.	감추 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00014_wikitree	자신의 가방을 검사하는 것이 기분 나쁘다는 게 이 여행객의 난동 이유였다.
+1	자신의	자신 의	NNG+JKG	2	NP_MOD
+2	가방을	가방 을	NNG+JKO	3	NP_OBJ
+3	검사하는	검사 하 는	NNG+XSV+ETM	4	VP_MOD
+4	것이	것 이	NNB+JKS	6	NP_SBJ
+5	기분	기분	NNG	6	NP_SBJ
+6	나쁘다는	나쁘 다는	VA+ETM	7	VP_MOD
+7	게	것 이	NNB+JKS	11	NP_SBJ
+8	이	이	MMD	9	DP
+9	여행객의	여행객 의	NNG+JKG	11	NP_MOD
+10	난동	난동	NNG	11	NP
+11	이유였다.	이유 이 었 다 .	NNG+VCP+EP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00015_wikitree	전문교강사 자격증은 3D프린팅 소프트웨어와 하드웨어를 아우르는 지식뿐만 아니라 '전문 강의인'으로 인정받을 수 있는 자격증이다.
+1	전문교강사	전문 교강사	NNG+NNG	2	NP
+2	자격증은	자격증 은	NNG+JX	14	NP_SBJ
+3	3D프린팅	3 D 프린팅	SN+SL+NNG	5	NP
+4	소프트웨어와	소프트웨어 와	NNG+JC	5	NP_CNJ
+5	하드웨어를	하드웨어 를	NNG+JKO	6	NP_OBJ
+6	아우르는	아우르 는	VV+ETM	7	VP_MOD
+7	지식뿐만	지식 뿐 만	NNG+JX+JX	8	NP_CMP
+8	아니라	아니 라	VCN+EC	11	VP
+9	'전문	' 전문	SS+NNG	10	NP
+10	강의인'으로	강의인 ' 으로	NNG+SS+JKB	11	NP_AJT
+11	인정받을	인정 받 을	NNG+XSV+ETM	12	VP_MOD
+12	수	수	NNB	13	NP_SBJ
+13	있는	있 는	VV+ETM	14	VP_MOD
+14	자격증이다.	자격증 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00016_wikitree	세상에는 늘 억울함이 존재하고 직접 내 일이 아닐 때엔 이러한 사건들이 기사 그 이상의 문제가 아니라고 저 또한 생각했습니다.
+1	세상에는	세상 에 는	NNG+JKB+JX	4	NP_AJT
+2	늘	늘	MAG	4	AP
+3	억울함이	억울하 ㅁ 이	VA+ETN+JKS	4	VP_SBJ
+4	존재하고	존재 하 고	NNG+XSV+EC	16	VP
+5	직접	직접	MAG	8	AP
+6	내	나 의	NP+JKG	7	NP_MOD
+7	일이	일 이	NNG+JKC	8	NP_CMP
+8	아닐	아니 ㄹ	VCN+ETM	9	VP_MOD
+9	때엔	때 에 ㄴ	NNG+JKB+JX	16	NP_AJT
+10	이러한	이러하 ㄴ	VA+ETM	11	VP_MOD
+11	사건들이	사건 들 이	NNG+XSN+JKS	16	NP_SBJ
+12	기사	기사	NNG	14	NP
+13	그	그	MMD	14	DP
+14	이상의	이상 의	NNG+JKG	15	NP_MOD
+15	문제가	문제 가	NNG+JKC	16	NP_CMP
+16	아니라고	아니 라고	VCN+EC	19	VP_CMP
+17	저	저	NP	19	NP_SBJ
+18	또한	또한	MAG	19	AP
+19	생각했습니다.	생각 하 였 습니다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00017_wikitree	박 씨 인터뷰와 화보는 '인스타일' 1월호에서 만나볼 수 있다.
+1	박	박	NNP	2	NP
+2	씨	씨	NNB	4	NP
+3	인터뷰와	인터뷰 와	NNG+JC	4	NP_CNJ
+4	화보는	화보 는	NNG+JX	7	NP_OBJ
+5	'인스타일'	' 인스타일 '	SS+NNP+SS	6	NP
+6	1월호에서	1 월 호 에서	SN+NNB+NNB+JKB	7	NP_AJT
+7	만나볼	만나 아 보 ㄹ	VV+EC+VX+ETM	8	VP_MOD
+8	수	수	NNB	9	NP_SBJ
+9	있다.	있 다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00018_wikitree	이 씨 등 참가자들은 세월호 모형배를 수레로 운반하며 삼보일배를 하고 있다.
+1	이	이	NNP	2	NP
+2	씨	씨	NNG	3	NP
+3	등	등	NNB	4	NP
+4	참가자들은	참가자 들 은	NNG+XSN+JX	8	NP_SBJ
+5	세월호	세월호	NNP	6	NP
+6	모형배를	모형 배 를	NNG+NNG+JKO	8	NP_OBJ
+7	수레로	수레 로	NNG+JKB	8	NP_AJT
+8	운반하며	운반 하 며	NNG+XSV+EC	10	VP
+9	삼보일배를	삼보일배 를	NNG+JKO	10	NP_OBJ
+10	하고	하 고	VV+EC	11	VP
+11	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00019_wikitree	지난 방송에서 알려준 레시피는 양이 너무 많다는 지적에 백씨는 이날 방송에서 싱글족을 위한 미니 만능간장 레시피를 공개했다.
+1	지난	지나 ㄴ	VV+ETM	2	VP_MOD
+2	방송에서	방송 에서	NNG+JKB	3	NP_AJT
+3	알려준	알리 어 주 ㄴ	VV+EC+VX+ETM	4	VP_MOD
+4	레시피는	레시피 는	NNG+JX	7	NP_SBJ
+5	양이	양 이	NNG+JKS	7	NP_SBJ
+6	너무	너무	MAG	7	AP
+7	많다는	많 다는	VA+ETM	8	VP_MOD
+8	지적에	지적 에	NNG+JKB	17	NP_AJT
+9	백씨는	백 씨 는	NNP+NNB+JX	17	NP_SBJ
+10	이날	이날	NNG	11	NP
+11	방송에서	방송 에서	NNG+JKB	17	NP_AJT
+12	싱글족을	싱글족 을	NNG+JKO	13	NP_OBJ
+13	위한	위하 ㄴ	VV+ETM	16	VP_MOD
+14	미니	미니	NNG	15	NP
+15	만능간장	만능 간장	NNG+NNG	16	NP
+16	레시피를	레시피 를	NNG+JKO	17	NP_OBJ
+17	공개했다.	공개 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00020_wikitree	여성 체육 교사 신규임용도 2010년부터 3년간 0명을 기록하다가 2013년 5명, 2014년 5명, 작년 8명 등 증가세를 보인다.
+1	여성	여성	NNG	3	NP
+2	체육	체육	NNG	3	NP
+3	교사	교사	NNG	4	NP
+4	신규임용도	신규 임용 도	NNG+NNG+JX	8	NP_SBJ
+5	2010년부터	2010 년 부터	SN+NNB+JX	6	NP_AJT
+6	3년간	3 년 간	SN+NNB+XSN	8	NP_AJT
+7	0명을	0 명 을	SN+NNB+JKO	8	NP_OBJ
+8	기록하다가	기록 하 다가	NNG+XSV+EC	17	VP
+9	2013년	2013 년	SN+NNB	10	NP
+10	5명,	5 명 ,	SN+NNB+SP	14	NP_CNJ
+11	2014년	2014 년	SN+NNB	12	NP
+12	5명,	5 명 ,	SN+NNB+SP	14	NP_CNJ
+13	작년	작년	NNG	14	NP
+14	8명	8 명	SN+NNB	15	NP
+15	등	등	NNB	17	NP_AJT
+16	증가세를	증가세 를	NNG+JKO	17	NP_OBJ
+17	보인다.	보이 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00021_wikitree	새누리당은 4일께 양당 원내지도부 차원의 접촉을 통해 국정조사 정상화를 위한 해법을 모색할 예정이지만 여야의 입장이 첨예하게 맞서고 있어 진통이 예상된다.
+1	새누리당은	새누리당 은	NNP+JX	12	NP_SBJ
+2	4일께	4 일 께	SN+NNB+XSN	12	NP_AJT
+3	양당	양당	NNG	4	NP
+4	원내지도부	원내 지도부	NNG+NNG	5	NP
+5	차원의	차원 의	NNG+JKG	6	NP_MOD
+6	접촉을	접촉 을	NNG+JKO	7	NP_OBJ
+7	통해	통하 여	VV+EC	12	VP
+8	국정조사	국정 조사	NNG+NNG	9	NP
+9	정상화를	정상 화 를	NNG+XSN+JKO	10	NP_OBJ
+10	위한	위하 ㄴ	VV+ETM	11	VP_MOD
+11	해법을	해법 을	NNG+JKO	12	NP_OBJ
+12	모색할	모색 하 ㄹ	NNG+XSV+ETM	13	VP_MOD
+13	예정이지만	예정 이 지만	NNG+VCP+EC	20	VNP
+14	여야의	여 야 의	NNG+NNG+JKG	15	NP_MOD
+15	입장이	입장 이	NNG+JKS	17	NP_SBJ
+16	첨예하게	첨예하 게	VA+EC	17	VP_AJT
+17	맞서고	맞서 고	VV+EC	18	VP
+18	있어	있 어	VX+EC	20	VP
+19	진통이	진통 이	NNG+JKS	20	NP_SBJ
+20	예상된다.	예상 되 ㄴ다 .	NNG+XSV+EF+SF	0	VP
+
+## klue-dp-v1_train_00022_wikitree	그러나 최근 전 검사는 검사실에서 성관계가 있었다는 사실도 인정한 것으로 알려졌다.
+1	그러나	그러나	MAJ	11	AP
+2	최근	최근	NNG	11	NP_AJT
+3	전	전	NNP	4	NP
+4	검사는	검사 는	NNG+JX	9	NP_SBJ
+5	검사실에서	검사실 에서	NNG+JKB	7	NP_AJT
+6	성관계가	성 관계 가	NNG+NNG+JKS	7	NP_SBJ
+7	있었다는	있 었 다는	VV+EP+ETM	8	VP_MOD
+8	사실도	사실 도	NNG+JX	9	NP_OBJ
+9	인정한	인정 하 ㄴ	NNG+XSV+ETM	10	VP_MOD
+10	것으로	것 으로	NNB+JKB	11	NP_AJT
+11	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00023_wikitree	장로회가 차별금지법안의 반대 이유로 꼽은 '사회적 분열의 원인을 제공할 갈등 요소'는 종교적 차별을 금지하는 조항과 성 정체성에 대한 차별 금지, 사상 또는 정치적 의견에 대한 차별 금지 조항입니다.
+1	장로회가	장로회 가	NNG+JKS	5	NP_SBJ
+2	차별금지법안의	차별 금지 법안 의	NNG+NNG+NNG+JKG	4	NP_MOD
+3	반대	반대	NNG	4	NP
+4	이유로	이유 로	NNG+JKB	5	NP_AJT
+5	꼽은	꼽 은	VV+ETM	11	VP_MOD
+6	'사회적	' 사회 적	SS+NNG+XSN	7	NP
+7	분열의	분열 의	NNG+JKG	8	NP_MOD
+8	원인을	원인 을	NNG+JKO	9	NP_OBJ
+9	제공할	제공 하 ㄹ	NNG+XSV+ETM	11	VP_MOD
+10	갈등	갈등	NNG	11	NP
+11	요소'는	요소 ' 는	NNG+SS+JX	28	NP_SBJ
+12	종교적	종교 적	NNG+XSN	13	NP
+13	차별을	차별 을	NNG+JKO	14	NP_OBJ
+14	금지하는	금지 하 는	NNG+XSV+ETM	15	VP_MOD
+15	조항과	조항 과	NNG+JC	28	NP_CNJ
+16	성	성	NNG	17	NP
+17	정체성에	정체 성 에	NNG+XSN+JKB	18	NP_AJT
+18	대한	대하 ㄴ	VV+ETM	20	VP_MOD
+19	차별	차별	NNG	20	NP
+20	금지,	금지 ,	NNG+SP	28	NP_CNJ
+21	사상	사상	NNG	22	NP
+22	또는	또는	MAG	24	AP
+23	정치적	정치 적	NNG+XSN	24	NP
+24	의견에	의견 에	NNG+JKB	25	NP_AJT
+25	대한	대하 ㄴ	VV+ETM	26	VP_MOD
+26	차별	차별	NNG	27	NP
+27	금지	금지	NNG	28	NP
+28	조항입니다.	조항 이 ㅂ니다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00024_wikitree	또한 대학과 그린시스템, 하드웨어, 반도체 등을 준비해 온 중소 업체들의 아이디어 제품들도 만나 볼 수 있었다.
+1	또한	또한	MAG	13	AP
+2	대학과	대학 과	NNG+JC	5	NP_CNJ
+3	그린시스템,	그린 시스템 ,	NNG+NNG+SP	5	NP_CNJ
+4	하드웨어,	하드 웨어 ,	NNG+NNG+SP	5	NP_CNJ
+5	반도체	반도체	NNG	6	NP
+6	등을	등 을	NNB+JKO	7	NP_OBJ
+7	준비해	준비 하 여	NNG+XSV+EC	8	VP
+8	온	오 ㄴ	VX+ETM	10	VP_MOD
+9	중소	중소	NNG	10	NP
+10	업체들의	업체 들 의	NNG+XSN+JKG	12	NP_MOD
+11	아이디어	아이디어	NNG	12	NP
+12	제품들도	제품 들 도	NNG+XSN+JX	13	NP_OBJ
+13	만나	만나 아	VV+EC	14	VP
+14	볼	보 ㄹ	VV+ETM	15	VP_MOD
+15	수	수	NNB	16	NP_SBJ
+16	있었다.	있 었 다 .	VA+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00025_wikitree	상자에는 그의 죽음을 추모하는 글귀도 적혀있다.
+1	상자에는	상자 에 는	NNG+JKB+JX	6	NP_AJT
+2	그의	그 의	NP+JKG	3	NP_MOD
+3	죽음을	죽 음 을	VV+ETN+JKO	4	VP_OBJ
+4	추모하는	추모 하 는	NNG+XSV+ETM	5	VP_MOD
+5	글귀도	글귀 도	NNG+JX	6	NP_SBJ
+6	적혀있다.	적히 어 있 다 .	VV+EC+VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00026_wikitree	영화 '인터스텔라'가 600만 고지를 넘으며 크리스토퍼 놀란 감독의 한국 최고 흥행작으로 자리매김했다.
+1	영화	영화	NNG	2	NP
+2	'인터스텔라'가	' 인터스텔라 ' 가	SS+NNP+SS+JKS	5	NP_SBJ
+3	600만	600 만	SN+NR	4	NP
+4	고지를	고지 를	NNG+JKO	5	NP_OBJ
+5	넘으며	넘 으며	VV+EC	12	VP
+6	크리스토퍼	크리스토퍼	NNP	7	NP
+7	놀란	놀란	NNP	8	NP
+8	감독의	감독 의	NNG+JKG	11	NP_MOD
+9	한국	한국	NNP	11	NP
+10	최고	최고	NNG	11	NP
+11	흥행작으로	흥행작 으로	NNG+JKB	12	NP_AJT
+12	자리매김했다.	자리매김 하 였 다 .	NNG+XSA+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00027_wikitree	이 편지는 1845년에 작성된 편지라고 하는데요.
+1	이	이	MMD	2	DP
+2	편지는	편지 는	NNG+JX	5	NP_SBJ
+3	1845년에	1845 년 에	SN+NNB+JKB	4	NP_AJT
+4	작성된	작성 되 ㄴ	NNG+XSV+ETM	5	VP_MOD
+5	편지라고	편지 이 라고	NNG+VCP+EC	6	VNP_CMP
+6	하는데요.	하 는데 요	VV+EF+JX	0	VP
+
+## klue-dp-v1_train_00028_wikitree	이는 세월호가 제주 해상교통관제센터(VTS)에 보낸 첫 신고보다 3분 앞선 시각이다.
+1	이는	이 는	NP+JX	10	NP_SBJ
+2	세월호가	세월호 가	NNP+JKS	5	NP_SBJ
+3	제주	제주	NNP	4	NP
+4	해상교통관제센터(VTS)에	해상교통관제센터 ( VTS ) 에	NNP+SS+SL+SS+JKB	5	NP_AJT
+5	보낸	보내 ㄴ	VV+ETM	7	VP_MOD
+6	첫	첫	MMN	7	DP
+7	신고보다	신고 보다	NNG+JKB	9	NP_AJT
+8	3분	3 분	SN+NNB	9	NP_OBJ
+9	앞선	앞 서 ㄴ	NNG+VV+ETM	10	VP_MOD
+10	시각이다.	시각 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00029_wikitree	지난 1일(이하 한국시각) 영국 매체 더 선에 따르면 스테이시는 최근 불거진 긱스의 염문설에 인내심을 잃고 결혼 생활을 끝내기로 결정했다.
+1	지난	지나 ㄴ	VV+ETM	2	VP_MOD
+2	1일(이하	1 일 ( 이하	SN+NNB+SS+NNG	3	NP
+3	한국시각)	한국 시각 )	NNP+NNG+SS	8	NP_AJT
+4	영국	영국	NNP	5	NP
+5	매체	매체	NNG	7	NP
+6	더	더	NNP	7	NP
+7	선에	선 에	NNP+JKB	8	NP_AJT
+8	따르면	따르 면	VV+EC	15	VP
+9	스테이시는	스테이시 는	NNP+JX	15	NP_SBJ
+10	최근	최근	NNG	11	NP_AJT
+11	불거진	불거지 ㄴ	VV+ETM	13	VP_MOD
+12	긱스의	긱스 의	NNP+JKG	13	NP_MOD
+13	염문설에	염문설 에	NNG+JKB	15	NP_AJT
+14	인내심을	인내심 을	NNG+JKO	15	NP_OBJ
+15	잃고	잃 고	VV+EC	19	VP
+16	결혼	결혼	NNG	17	NP
+17	생활을	생활 을	NNG+JKO	18	NP_OBJ
+18	끝내기로	끝내 기 로	VV+ETN+JKB	19	VP_AJT
+19	결정했다.	결정 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00030_wikitree	미 해군은 당초 지난 19일 메인주(州)에서 줌왈트호에 대한 진수식을 개최할 예정이었으나 연방정부 셧다운(부분 업무정지)으로 일정을 늦췄으며, 이에 따라 별도의 공식행사 없이 진수하기로 했다.
+1	미	미	NNP	2	NP
+2	해군은	해군 은	NNG+JX	11	NP_SBJ
+3	당초	당초	NNG	11	NP_AJT
+4	지난	지나 ㄴ	VV+ETM	5	VP_MOD
+5	19일	19 일	SN+NNB	10	NP_AJT
+6	메인주(州)에서	메인주 ( 州 ) 에서	NNP+SS+SH+SS+JKB	10	NP_AJT
+7	줌왈트호에	줌왈트호 에	NNP+JKB	8	NP_AJT
+8	대한	대하 ㄴ	VV+ETM	9	VP_MOD
+9	진수식을	진수식 을	NNG+JKO	10	NP_OBJ
+10	개최할	개최 하 ㄹ	NNG+XSV+ETM	11	VP_MOD
+11	예정이었으나	예정 이 었 으나	NNG+VCP+EP+EC	16	VNP
+12	연방정부	연방 정부	NNG+NNG	14	NP
+13	셧다운(부분	셧다운 ( 부분	NNG+SS+NNG	14	NP
+14	업무정지)으로	업무 정지 ) 으로	NNG+NNG+SS+JKB	16	NP_AJT
+15	일정을	일정 을	NNG+JKO	16	NP_OBJ
+16	늦췄으며,	늦추 었 으며 ,	VV+EP+EC+SP	18	VP
+17	이에	이 에	NP+JKB	18	NP_AJT
+18	따라	따르 아	VV+EC	22	VP
+19	별도의	별도 의	NNG+JKG	20	NP_MOD
+20	공식행사	공식 행사	NNG+NNG	21	NP_SBJ
+21	없이	없이	MAG	22	AP
+22	진수하기로	진수 하 기 로	NNG+XSA+ETN+JKB	23	VP_AJT
+23	했다.	하 였 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00031_wikitree	소방당국과 경찰은 크레인을 동원해 오후 6시부터 버스 인양에 나서고 있지만, 물살이 거센데다 현장 여건이 만만치 않아 어려움을 겪고 있다.
+1	소방당국과	소방 당국 과	NNG+NNG+JC	2	NP_CNJ
+2	경찰은	경찰 은	NNG+JX	4	NP_SBJ
+3	크레인을	크레인 을	NNG+JKO	4	NP_OBJ
+4	동원해	동원 하 여	NNG+XSV+EC	9	VP
+5	오후	오후	NNG	6	NP
+6	6시부터	6 시 부터	SN+NNB+JX	9	NP_AJT
+7	버스	버스	NNG	8	NP
+8	인양에	인양 에	NNG+JKB	9	NP_AJT
+9	나서고	나서 고	VV+EC	10	VP
+10	있지만,	있 지만 ,	VX+EC+SP	12	VP
+11	물살이	물 살 이	NNG+NNG+JKS	12	NP_SBJ
+12	거센데다	거세 ㄴ데다	VA+EC	15	VP
+13	현장	현장	NNG	14	NP
+14	여건이	여건 이	NNG+JKS	15	NP_SBJ
+15	만만치	만만하 지	VA+EC	16	VP
+16	않아	않 아	VX+EC	18	VP
+17	어려움을	어렵 음 을	VA+ETN+JKO	18	VP_OBJ
+18	겪고	겪 고	VV+EC	19	VP
+19	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00032_wikitree	기회, 정의, 따뜻한 공동체를 실현시킬 수 있는 정책 대안을 위해 노력해왔습니다.
+1	기회,	기회 ,	NNG+SP	4	NP_CNJ
+2	정의,	정의 ,	NNG+SP	4	NP_CNJ
+3	따뜻한	따뜻하 ㄴ	VA+ETM	4	VP_MOD
+4	공동체를	공동체 를	NNG+JKO	5	NP_OBJ
+5	실현시킬	실현 시키 ㄹ	NNG+XSV+ETM	6	VP_MOD
+6	수	수	NNB	7	NP_SBJ
+7	있는	있 는	VV+ETM	9	VP_MOD
+8	정책	정책	NNG	9	NP
+9	대안을	대안 을	NNG+JKO	10	NP_OBJ
+10	위해	위하 여	VV+EC	11	VP
+11	노력해왔습니다.	노력 하 여 오 았 습니다 .	NNG+XSV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00033_wikitree	A씨는 시신을 방에 두고 있다가 지난 3일 오후 2시 30분께 서울 강동구의 한 우체국에서 전남 나주에 사는 어머니(60)에게 택배로 보낸 혐의도 받고 있다.
+1	A씨는	A 씨 는	SL+NNB+JX	4	NP_SBJ
+2	시신을	시신 을	NNG+JKO	4	NP_OBJ
+3	방에	방 에	NNG+JKB	4	NP_AJT
+4	두고	두 고	VV+EC	5	VP
+5	있다가	있 다가	VX+EC	20	VP
+6	지난	지나 ㄴ	VV+ETM	7	VP_MOD
+7	3일	3 일	SN+NNB	8	NP
+8	오후	오후	NNG	9	NP
+9	2시	2 시	SN+NNB	10	NP
+10	30분께	30 분 께	SN+NNB+JKB	20	NP_AJT
+11	서울	서울	NNP	12	NP
+12	강동구의	강동구 의	NNP+JKG	14	NP_MOD
+13	한	한	MMN	14	DP
+14	우체국에서	우체국 에서	NNG+JKB	20	NP_AJT
+15	전남	전남	NNP	16	NP
+16	나주에	나주 에	NNP+JKB	17	NP_AJT
+17	사는	살 는	VV+ETM	18	VP_MOD
+18	어머니(60)에게	어머니 ( 60 ) 에게	NNG+SS+SN+SS+JKB	20	NP_AJT
+19	택배로	택배 로	NNG+JKB	20	NP_AJT
+20	보낸	보내 ㄴ	VV+ETM	21	VP_MOD
+21	혐의도	혐의 도	NNG+JX	22	NP_OBJ
+22	받고	받 고	VV+EC	23	VP
+23	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00034_wikitree	13일 법무부에 따르면 다음 주 초 열리는 가석방심사에 최태원 SK그룹 회장과 최재원 부회장, 구본상 전 LIG넥스원 부회장은 대상자 명단에 포함되지 않았다.
+1	13일	13 일	SN+NNB	20	NP_AJT
+2	법무부에	법무부 에	NNP+JKB	3	NP_AJT
+3	따르면	따르 면	VV+EC	20	VP
+4	다음	다음	NNG	5	NP
+5	주	주	NNG	6	NP
+6	초	초	NNB	7	NP_AJT
+7	열리는	열리 는	VV+ETM	8	VP_MOD
+8	가석방심사에	가 석방 심사 에	XPN+NNG+NNG+JKB	20	NP_AJT
+9	최태원	최태원	NNP	11	NP
+10	SK그룹	SK 그룹	SL+NNG	11	NP
+11	회장과	회장 과	NNG+JC	17	NP_CNJ
+12	최재원	최재원	NNP	13	NP
+13	부회장,	부회장 ,	NNG+SP	17	NP_CNJ
+14	구본상	구본상	NNP	17	NP
+15	전	전	MMD	17	DP
+16	LIG넥스원	LIG 넥스원	SL+NNP	17	NP
+17	부회장은	부회장 은	NNG+JX	20	NP_SBJ
+18	대상자	대상자	NNG	19	NP
+19	명단에	명단 에	NNG+JKB	20	NP_AJT
+20	포함되지	포함 되 지	NNG+XSV+EC	21	VP
+21	않았다.	않 았 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00035_wikitree	이 양은 진심 어린 응원으로 남학생에게 힘을 북돋워 줬다는 게 제작진 측 설명이다.
+1	이	이	NNP	2	NP
+2	양은	양 은	NNB+JX	8	NP_SBJ
+3	진심	진심	NNG	4	NP_SBJ
+4	어린	어리 ㄴ	VA+ETM	5	VP_MOD
+5	응원으로	응원 으로	NNG+JKB	8	NP_AJT
+6	남학생에게	남학생 에게	NNG+JKB	8	NP_AJT
+7	힘을	힘 을	NNG+JKO	8	NP_OBJ
+8	북돋워	북돋우 어	VV+EC	9	VP
+9	줬다는	주 었 다는	VX+EP+ETM	10	VP_MOD
+10	게	것 이	NNB+JKS	13	NP_SBJ
+11	제작진	제작진	NNG	12	NP
+12	측	측	NNB	13	NP
+13	설명이다.	설명 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00036_wikitree	일부 언론이 비판했던대로, 피해 여성 인턴이 미국 경찰에 신고한지 거의 25시간여가 지난 뒤에야 보고받은 셈입니다.
+1	일부	일부	NNG	2	NP
+2	언론이	언론 이	NNG+JKS	3	NP_SBJ
+3	비판했던대로,	비판 하 였 던 대로 ,	NNG+XSV+EP+ETM+JX+SP	14	NP_AJT
+4	피해	피해	NNG	6	NP
+5	여성	여성	NNG	6	NP
+6	인턴이	인턴 이	NNG+JKS	9	NP_SBJ
+7	미국	미국	NNP	8	NP
+8	경찰에	경찰 에	NNG+JKB	9	NP_AJT
+9	신고한지	신고 하 ㄴ 지	NNG+XSV+ETM+NNB	12	VP
+10	거의	거의	MAG	12	AP
+11	25시간여가	25 시간 여 가	SN+NNB+XSN+JKS	12	NP_SBJ
+12	지난	지나 ㄴ	VV+ETM	13	VP_MOD
+13	뒤에야	뒤 에 야	NNG+JKB+JX	14	NP_AJT
+14	보고받은	보고 받 은	NNG+VV+ETM	15	VP_MOD
+15	셈입니다.	셈 이 ㅂ니다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00037_wikitree	개그우먼 정주리(30)씨가 1살 연하 일반인 남성과 결혼식을 올린다는 보도가 나왔다.
+1	개그우먼	개그우먼	NNG	2	NP
+2	정주리(30)씨가	정주리 ( 30 ) 씨 가	NNP+SS+SN+SS+NNB+JKS	8	NP_SBJ
+3	1살	1 살	SN+NNB	4	NP
+4	연하	연하	NNG	6	NP
+5	일반인	일반인	NNG	6	NP
+6	남성과	남성 과	NNG+JC	8	NP_AJT
+7	결혼식을	결혼식 을	NNG+JKO	8	NP_OBJ
+8	올린다는	올리 ㄴ다는	VV+ETM	9	VP_MOD
+9	보도가	보도 가	NNG+JKS	10	NP_SBJ
+10	나왔다.	나오 았 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00038_wikitree	다만 애플이 두 특허의 중복을 일부 인정했다는 점은 앞으로 소송에서 삼성에 유리하게 작용할 수도 있다.
+1	다만	다만	MAG	13	AP
+2	애플이	애플 이	NNP+JKS	7	NP_SBJ
+3	두	두	MMN	4	DP
+4	특허의	특허 의	NNG+JKG	5	NP_MOD
+5	중복을	중복 을	NNG+JKO	7	NP_OBJ
+6	일부	일부	NNG	7	NP_OBJ
+7	인정했다는	인정 하 였 다는	NNG+XSV+EP+ETM	8	VP_MOD
+8	점은	점 은	NNG+JX	13	NP_SBJ
+9	앞으로	앞 으로	NNG+JKB	13	NP_AJT
+10	소송에서	소송 에서	NNG+JKB	13	NP_AJT
+11	삼성에	삼성 에	NNP+JKB	13	NP_AJT
+12	유리하게	유리 하 게	NNG+XSA+EC	13	VP_AJT
+13	작용할	작용 하 ㄹ	NNG+XSV+ETM	14	VP_MOD
+14	수도	수 도	NNB+JX	15	NP_SBJ
+15	있다.	있 다 .	VA+EF+SF	0	VP
+
+## klue-dp-v1_train_00039_wikitree	참담함과 답답함과 자책감을 극복하지 못할 것이라는 무기력함도 느껴지지만 다행히 아직도 진행중인 수사와 재판이 많습니다.
+1	참담함과	참담 하 ㅁ 과	NNG+XSA+ETN+JC	3	VP_CNJ
+2	답답함과	답답하 ㅁ 과	VA+ETN+JC	3	VP_CNJ
+3	자책감을	자책감 을	NNG+JKO	4	NP_OBJ
+4	극복하지	극복 하 지	NNG+XSV+EC	5	VP
+5	못할	못 하 ㄹ	MAG+XSV+ETM	6	VP_MOD
+6	것이라는	것 이 라는	NNB+VCP+ETM	7	VNP_MOD
+7	무기력함도	무 기력 하 ㅁ 도	XPN+NNG+XSA+ETN+JX	8	VP_SBJ
+8	느껴지지만	느끼 어 지 지만	VV+EC+VX+EC	14	VP
+9	다행히	다행히	MAG	14	AP
+10	아직도	아직 도	MAG+JX	11	AP
+11	진행중인	진행 중 이 ㄴ	NNG+NNB+VCP+ETM	13	VNP_MOD
+12	수사와	수사 와	NNG+JC	13	NP_CNJ
+13	재판이	재판 이	NNG+JKS	14	NP_SBJ
+14	많습니다.	많 습니다 .	VA+EF+SF	0	VP
+
+## klue-dp-v1_train_00040_wikitree	시신은 부패한 상태였고 김 씨는 지난 3일께 사망한 것으로 경찰은 추정하고 있다.
+1	시신은	시신 은	NNG+JX	3	NP_SBJ
+2	부패한	부패 하 ㄴ	NNG+XSV+ETM	3	VP_MOD
+3	상태였고	상태 이 었 고	NNG+VCP+EP+EC	11	VNP
+4	김	김	NNP	5	NP
+5	씨는	씨 는	NNB+JX	8	NP_SBJ
+6	지난	지나 ㄴ	VV+ETM	7	VP_MOD
+7	3일께	3 일 께	SN+NNB+XSN	8	NP_AJT
+8	사망한	사망 하 ㄴ	NNG+XSV+ETM	9	VP_MOD
+9	것으로	것 으로	NNB+JKB	11	NP_AJT
+10	경찰은	경찰 은	NNG+JX	11	NP_SBJ
+11	추정하고	추정 하 고	NNG+XSV+EC	12	VP
+12	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00041_wikitree	아일랜드 법인은 1990년대 후반 생산시설이 폐쇄돼 콜센터 등을 거느리는 서류상의 지주 회사로만 운영됐다.
+1	아일랜드	아일랜드	NNP	2	NP
+2	법인은	법인 은	NNG+JX	6	NP_SBJ
+3	1990년대	1990 년대	SN+NNB	4	NP
+4	후반	후반	NNG	6	NP_AJT
+5	생산시설이	생산 시설 이	NNG+NNG+JKS	6	NP_SBJ
+6	폐쇄돼	폐쇄 되 어	NNG+XSV+EC	13	VP
+7	콜센터	콜센터	NNG	8	NP
+8	등을	등 을	NNB+JKO	9	NP_OBJ
+9	거느리는	거느리 는	VV+ETM	12	VP_MOD
+10	서류상의	서류 상 의	NNG+XSN+JKG	12	NP_MOD
+11	지주	지주	NNG	12	NP
+12	회사로만	회사 로 만	NNG+JKB+JX	13	NP_AJT
+13	운영됐다.	운영 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00042_wikitree	하루 평균 철도는 324량, 고속버스 1천749회, 항공기 14편, 여객선 174회를 증편한다.
+1	하루	하루	NNG	2	NP
+2	평균	평균	NNG	3	NP
+3	철도는	철도 는	NNG+JX	4	NP_SBJ
+4	324량,	324 량 ,	SN+NNB+SP	10	NP_CNJ
+5	고속버스	고속 버스	NNG+NNG	6	NP
+6	1천749회,	1 천 749 회 ,	SN+NR+SN+NNB+SP	10	NP_CNJ
+7	항공기	항공기	NNG	8	NP
+8	14편,	14 편 ,	SN+NNB+SP	10	NP_CNJ
+9	여객선	여객선	NNG	10	NP
+10	174회를	174 회 를	SN+NNB+JKO	11	NP_OBJ
+11	증편한다.	증편 하 ㄴ다 .	NNG+XSV+EF+SF	0	VP
+
+## klue-dp-v1_train_00043_wikitree	A양은 자신이 머물던 부산역의 한 찜질방 부근을 배회하다가 이를 본 B씨의 신고로 지난 4일 경찰에 붙잡혔다.
+1	A양은	A 양 은	SL+NNG+JX	8	NP_SBJ
+2	자신이	자신 이	NNG+JKS	3	NP_SBJ
+3	머물던	머물 던	VV+ETM	4	VP_MOD
+4	부산역의	부산역 의	NNP+JKG	6	NP_MOD
+5	한	한	MMN	6	DP
+6	찜질방	찜질 방	NNG+NNG	7	NP
+7	부근을	부근 을	NNG+JKO	8	NP_OBJ
+8	배회하다가	배회 하 다가	NNG+XSV+EC	16	VP
+9	이를	이 를	NP+JKO	10	NP_OBJ
+10	본	보 ㄴ	VV+ETM	11	VP_MOD
+11	B씨의	B 씨 의	SL+NNB+JKG	12	NP_MOD
+12	신고로	신고 로	NNG+JKB	16	NP_AJT
+13	지난	지나 ㄴ	VV+ETM	14	VP_MOD
+14	4일	4 일	SN+NNB	16	NP_AJT
+15	경찰에	경찰 에	NNG+JKB	16	NP_AJT
+16	붙잡혔다.	붙잡히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00044_wikitree	앞서 반기문 유엔 사무총장도 최근 열린 유엔 안전보장이사회(안보리) 긴급회의에서 이스라엘과 팔레스타인의 즉각 정전을 촉구했다.
+1	앞서	앞서	MAG	14	AP
+2	반기문	반기문	NNP	4	NP
+3	유엔	유엔	NNP	4	NP
+4	사무총장도	사무총장 도	NNG+JX	14	NP_SBJ
+5	최근	최근	NNG	6	NP_AJT
+6	열린	열리 ㄴ	VV+ETM	9	VP_MOD
+7	유엔	유엔	NNP	8	NP
+8	안전보장이사회(안보리)	안전보장이사회 ( 안보리 )	NNP+SS+NNP+SS	9	NP
+9	긴급회의에서	긴급 회의 에서	NNG+NNG+JKB	14	NP_AJT
+10	이스라엘과	이스라엘 과	NNP+JC	11	NP_CNJ
+11	팔레스타인의	팔레스타인 의	NNP+JKG	13	NP_MOD
+12	즉각	즉각	MAG	13	AP_MOD
+13	정전을	정전 을	NNG+JKO	14	NP_OBJ
+14	촉구했다.	촉구 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00045_wikitree	미국 경제 전문지 월스트리트저널은 24일 스플래시 데이터라는 보안 관련 애플리케이션 제조업체가 2014년 한 해 동안 북미와 서유럽 지역 주요 인터넷 사이트 등에서 설정된 330만 개 이상의 비밀번호를 분석한 결과를 보도했다.
+1	미국	미국	NNP	3	NP
+2	경제	경제	NNG	3	NP
+3	전문지	전문지	NNG	4	NP
+4	월스트리트저널은	월스트리트저널 은	NNP+JX	30	NP_SBJ
+5	24일	24 일	SN+NNB	30	NP_AJT
+6	스플래시	스플래시	NNG	7	NP
+7	데이터라는	데이터 이 라는	NNG+VCP+ETM	11	VNP_MOD
+8	보안	보안	NNG	9	NP
+9	관련	관련	NNG	10	NP
+10	애플리케이션	애플리케이션	NNG	11	NP
+11	제조업체가	제조 업체 가	NNG+NNG+JKS	28	NP_SBJ
+12	2014년	2014 년	SN+NNB	14	NP
+13	한	한	MMN	14	DP
+14	해	해	NNG	15	NP
+15	동안	동안	NNG	23	NP_AJT
+16	북미와	북미 와	NNP+JC	17	NP_CNJ
+17	서유럽	서유럽	NNP	18	NP
+18	지역	지역	NNG	21	NP
+19	주요	주요	NNG	21	NP
+20	인터넷	인터넷	NNG	21	NP
+21	사이트	사이트	NNG	22	NP
+22	등에서	등 에서	NNB+JKB	23	NP_AJT
+23	설정된	설정 되 ㄴ	NNG+XSV+ETM	27	VP_MOD
+24	330만	330 만	SN+NR	25	NP
+25	개	개	NNB	26	NP
+26	이상의	이상 의	NNG+JKG	27	NP_MOD
+27	비밀번호를	비밀 번호 를	NNG+NNG+JKO	28	NP_OBJ
+28	분석한	분석 하 ㄴ	NNG+XSV+ETM	29	VP_MOD
+29	결과를	결과 를	NNG+JKO	30	NP_OBJ
+30	보도했다.	보도 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00046_wikitree	서청원 새누리당 후보가 7선 고지에 오르며 원내 재입성에 성공했습니다.
+1	서청원	서청원	NNP	3	NP
+2	새누리당	새누리당	NNP	3	NP
+3	후보가	후보 가	NNG+JKS	6	NP_SBJ
+4	7선	7 선	SN+NNG	5	NP
+5	고지에	고지 에	NNG+JKB	6	NP_AJT
+6	오르며	오르 며	VV+EC	9	VP
+7	원내	원내	NNG	8	NP
+8	재입성에	재 입성 에	XPN+NNG+JKB	9	NP_AJT
+9	성공했습니다.	성공 하 였 습니다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00047_wikitree	또 다른 사진에는 결혼식장 앞에서 환한 미소를 지으며 손을 꼭 붙잡고 있는 김새롬 씨, 남편인 요리 연구가 이찬오 씨 모습이 담겼다.
+1	또	또	MAG	2	AP
+2	다른	다른	MMD	3	DP
+3	사진에는	사진 에 는	NNG+JKB+JX	21	NP_AJT
+4	결혼식장	결혼식장	NNG	5	NP
+5	앞에서	앞 에서	NNG+JKB	8	NP_AJT
+6	환한	환하 ㄴ	VA+ETM	7	VP_MOD
+7	미소를	미소 를	NNG+JKO	8	NP_OBJ
+8	지으며	짓 으며	VV+EC	11	VP
+9	손을	손 을	NNG+JKO	11	NP_OBJ
+10	꼭	꼭	MAG	11	AP
+11	붙잡고	붙잡 고	VV+EC	12	VP
+12	있는	있 는	VX+ETM	14	VP_MOD
+13	김새롬	김새롬	NNP	14	NP
+14	씨,	씨 ,	NNB+SP	19	NP_CNJ
+15	남편인	남편 이 ㄴ	NNG+VCP+ETM	19	VNP_MOD
+16	요리	요리	NNG	17	NP
+17	연구가	연구가	NNG	19	NP
+18	이찬오	이찬오	NNP	19	NP
+19	씨	씨	NNB	20	NP
+20	모습이	모습 이	NNG+JKS	21	NP_SBJ
+21	담겼다.	담기 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00048_wikitree	충북 청주에서 발생한 '크림빵 뺑소니' 사고와 관련, 유력한 용의자 검거가 임박한 것으로 보인다.
+1	충북	충북	NNP	2	NP
+2	청주에서	청주 에서	NNP+JKB	3	NP_AJT
+3	발생한	발생 하 ㄴ	NNG+XSV+ETM	6	VP_MOD
+4	'크림빵	' 크림 빵	SS+NNG+NNG	5	NP
+5	뺑소니'	뺑소니 '	NNG+SS	6	NP
+6	사고와	사고 와	NNG+JKB	7	NP_AJT
+7	관련,	관련 ,	NNG+SP	13	NP_AJT
+8	유력한	유력 하 ㄴ	NNG+XSA+ETM	9	VP_MOD
+9	용의자	용의자	NNG	10	NP
+10	검거가	검거 가	NNG+JKS	11	NP_SBJ
+11	임박한	임박하 ㄴ	VA+ETM	12	VP_MOD
+12	것으로	것 으로	NNB+JKB	13	NP_AJT
+13	보인다.	보이 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00049_wikitree	배우 고아라 씨가 18일 케이블TV tvN '응답하라 1994' 첫 방송을 앞두고 트위터에 올린 셀카 사진입니다.
+1	배우	배우	NNG	3	NP
+2	고아라	고아라	NNP	3	NP
+3	씨가	씨 가	NNB+JKS	11	NP_SBJ
+4	18일	18 일	SN+NNB	11	NP_AJT
+5	케이블TV	케이블 TV	NNG+SL	6	NP
+6	tvN	tvN	SL	8	NP
+7	'응답하라	' 응답하라	SS+NNP	8	NP
+8	1994'	1994 '	SN+SS	10	NP
+9	첫	첫	MMN	10	DP
+10	방송을	방송 을	NNG+JKO	11	NP_OBJ
+11	앞두고	앞두 고	VV+EC	13	VP
+12	트위터에	트위터 에	NNP+JKB	13	NP_AJT
+13	올린	올리 ㄴ	VV+ETM	15	VP_MOD
+14	셀카	셀카	NNG	15	NP
+15	사진입니다.	사진 이 ㅂ니다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00050_wikitree	17일 오후 12시 현재 소방당국은 헬기 탑승자 전원이 사망했다고 밝혔다.
+1	17일	17 일	SN+NNB	2	NP
+2	오후	오후	NNG	3	NP
+3	12시	12 시	SN+NNB	4	NP
+4	현재	현재	MAG	10	AP
+5	소방당국은	소방 당국 은	NNG+NNG+JX	10	NP_SBJ
+6	헬기	헬기	NNG	7	NP
+7	탑승자	탑승자	NNG	8	NP
+8	전원이	전원 이	NNG+JKS	9	NP_SBJ
+9	사망했다고	사망 하 였 다고	NNG+XSV+EP+EC	10	VP_AJT
+10	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00051_wikitree	서울고법 형사3부(부장판사 강영수)는 특정범죄가중처벌 등에 관한 법률 위반 혐의로 기소된 박 의원에 대해 9일 무죄를 선고한 원심을 깨고 일부 알선수재 혐의를 유죄로 인정하면서 징역 1년에 집행유예 2년, 추징금 3000만원을 선고했다.
+1	서울고법	서울고법	NNP	2	NP
+2	형사3부(부장판사	형사 3 부 ( 부장 판사	NNG+SN+NNG+SS+NNG+NNG	3	NP
+3	강영수)는	강영수 ) 는	NNP+SS+JX	18	NP_SBJ
+4	특정범죄가중처벌	특정 범죄 가중 처벌	NNG+NNG+NNG+NNG	5	NP
+5	등에	등 에	NNB+JKB	6	NP_AJT
+6	관한	관하 ㄴ	VV+ETM	7	VP_MOD
+7	법률	법률	NNG	8	NP
+8	위반	위반	NNG	9	NP
+9	혐의로	혐의 로	NNG+JKB	10	NP_AJT
+10	기소된	기소 되 ㄴ	NNG+XSV+ETM	12	VP_MOD
+11	박	박	NNP	12	NP
+12	의원에	의원 에	NNG+JKB	13	NP_AJT
+13	대해	대하 여	VV+EC	16	VP
+14	9일	9 일	SN+NNB	16	NP_AJT
+15	무죄를	무죄 를	NNG+JKO	16	NP_OBJ
+16	선고한	선고 하 ㄴ	NNG+XSV+ETM	17	VP_MOD
+17	원심을	원심 을	NNG+JKO	18	NP_OBJ
+18	깨고	깨 고	VV+EC	23	VP
+19	일부	일부	NNG	21	NP
+20	알선수재	알선 수재	NNG+NNG	21	NP
+21	혐의를	혐의 를	NNG+JKO	23	NP_OBJ
+22	유죄로	유죄 로	NNG+JKB	23	NP_AJT
+23	인정하면서	인정 하 면서	NNG+XSV+EC	30	VP
+24	징역	징역	NNG	25	NP
+25	1년에	1 년 에	SN+NNB+JKB	30	NP_AJT
+26	집행유예	집행 유예	NNG+NNG	27	NP
+27	2년,	2 년 ,	SN+NNB+SP	29	NP_CNJ
+28	추징금	추징금	NNG	29	NP
+29	3000만원을	3000 만 원 을	SN+NR+NNB+JKO	30	NP_OBJ
+30	선고했다.	선고 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00052_wikitree	공개되는 강의에는 '독일사회와 문화', '중남미문학의 이해', '미생물의세계·바이러스' 등이 포함됐으며, 별 강연과 저자와 대화 등의 행사도 마련돼있다.
+1	공개되는	공개 되 는	NNG+XSV+ETM	2	VP_MOD
+2	강의에는	강의 에 는	NNG+JKB+JX	9	NP_AJT
+3	'독일사회와	' 독일 사회 와	SS+NNP+NNG+JC	4	NP_CNJ
+4	문화',	문화 ' ,	NNG+SS+SP	7	NP_CNJ
+5	'중남미문학의	' 중남미 문학 의	SS+NNP+NNG+JKG	6	NP_MOD
+6	이해',	이해 ' ,	NNG+SS+SP	7	NP_CNJ
+7	'미생물의세계·바이러스'	' 미생물 의 세계 · 바이러스 '	SS+NNG+JKG+NNG+SP+NNG+SS	8	NP
+8	등이	등 이	NNB+JKS	9	NP_SBJ
+9	포함됐으며,	포함 되 었 으며 ,	NNG+XSV+EP+EC+SP	16	VP
+10	별	별	NNG	11	NP
+11	강연과	강연 과	NNG+JC	13	NP_CNJ
+12	저자와	저자 와	NNG+JKB	13	NP_AJT
+13	대화	대화	NNG	14	NP
+14	등의	등 의	NNB+JKG	15	NP_MOD
+15	행사도	행사 도	NNG+JX	16	NP_SBJ
+16	마련돼있다.	마련 되 어 있 다 .	NNG+XSV+EC+VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00053_wikitree	경제혁신의 세 번째 실천 전략은 내수확대를 통해 우리 경제를 내수와 수출이 균형을 이루는 경제로 만드는 것입니다.
+1	경제혁신의	경제 혁신 의	NNG+NNG+JKG	5	NP_MOD
+2	세	세	MMN	3	DP
+3	번째	번 째	NNB+XSN	5	NP
+4	실천	실천	NNG	5	NP
+5	전략은	전략 은	NNG+JX	7	NP_SBJ
+6	내수확대를	내수 확대 를	NNG+NNG+JKO	7	NP_OBJ
+7	통해	통하 여	VV+EC	15	VP
+8	우리	우리	NP	9	NP
+9	경제를	경제 를	NNG+JKO	15	NP_OBJ
+10	내수와	내수 와	NNG+JC	11	NP_CNJ
+11	수출이	수출 이	NNG+JKS	13	NP_SBJ
+12	균형을	균형 을	NNG+JKO	13	NP_OBJ
+13	이루는	이루 는	VV+ETM	14	VP_MOD
+14	경제로	경제 로	NNG+JKB	15	NP_AJT
+15	만드는	만들 는	VV+ETM	16	VP_MOD
+16	것입니다.	것 이 ㅂ니다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00054_wikitree	10월 2일 오후 1시와 4시에는 서울시립미술관 덕수궁길, 10월 3일 오후 2시와 6시에는 청계천로 청계광장에서 진행된다.
+1	10월	10 월	SN+NNB	2	NP
+2	2일	2 일	SN+NNB	5	NP
+3	오후	오후	NNG	5	NP
+4	1시와	1 시 와	SN+NNB+JC	5	NP_CNJ
+5	4시에는	4 시 에 는	SN+NNB+JKB+JX	15	NP_AJT
+6	서울시립미술관	서울시립미술관	NNP	7	NP
+7	덕수궁길,	덕수궁길 ,	NNP+SP	15	NP_AJT
+8	10월	10 월	SN+NNB	9	NP
+9	3일	3 일	SN+NNB	12	NP
+10	오후	오후	NNG	12	NP
+11	2시와	2 시 와	SN+NNB+JC	12	NP_CNJ
+12	6시에는	6 시 에 는	SN+NNB+JKB+JX	15	NP_AJT
+13	청계천로	청계천로	NNP	14	NP
+14	청계광장에서	청계광장 에서	NNP+JKB	15	NP_AJT
+15	진행된다.	진행 되 ㄴ다 .	NNG+XSV+EF+SF	0	VP
+
+## klue-dp-v1_train_00055_wikitree	게다가 접촉 당시에는 문제의 환자가 메르스 확진 판정을 받기 전이었던 것으로 알려졌다.
+1	게다가	게다가	MAG	12	AP
+2	접촉	접촉	NNG	3	NP
+3	당시에는	당시 에 는	NNG+JKB+JX	10	NP_AJT
+4	문제의	문제 의	NNG+JKG	5	NP_MOD
+5	환자가	환자 가	NNG+JKS	9	NP_SBJ
+6	메르스	메르스	NNP	7	NP
+7	확진	확진	NNG	8	NP
+8	판정을	판정 을	NNG+JKO	9	NP_OBJ
+9	받기	받 기	VV+ETN	10	VP
+10	전이었던	전 이 었 던	NNG+VCP+EP+ETM	11	VNP_MOD
+11	것으로	것 으로	NNB+JKB	12	NP_AJT
+12	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00056_wikitree	그는 따라서 매일 우유를 많이 마시는 임산부들은 아연 보충제를 복용하는 것이 바람직하다고 권고했다.
+1	그는	그 는	NP+JX	13	NP_SBJ
+2	따라서	따라서	MAJ	12	AP
+3	매일	매일	MAG	6	AP
+4	우유를	우유 를	NNG+JKO	6	NP_OBJ
+5	많이	많이	MAG	6	AP
+6	마시는	마시 는	VV+ETM	7	VP_MOD
+7	임산부들은	임산부 들 은	NNG+XSN+JX	10	NP_SBJ
+8	아연	아연	NNG	9	NP
+9	보충제를	보충제 를	NNG+JKO	10	NP_OBJ
+10	복용하는	복용 하 는	NNG+XSV+ETM	11	VP_MOD
+11	것이	것 이	NNB+JKS	12	NP_SBJ
+12	바람직하다고	바람직하 다고	VA+EC	13	VP_CMP
+13	권고했다.	권고 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00057_wikitree	셋째, 단일화는 대선 승리와 정권교체를 위한 단일화, 가치와 철학이 하나되는 단일화, 미래를 바꾸는 단일화의 원칙 아래 새누리당의 집권연장에 반대하는 모든 국민의 뜻을 하나로 모아나가기로 의견을 같이 했다.
+1	셋째,	셋째 ,	NR+SP	27	NP_AJT
+2	단일화는	단일 화 는	NNG+XSN+JX	6	NP_SBJ
+3	대선	대선	NNG	4	NP
+4	승리와	승리 와	NNG+JC	5	NP_CNJ
+5	정권교체를	정권 교체 를	NNG+NNG+JKO	6	NP_OBJ
+6	위한	위하 ㄴ	VV+ETM	7	VP_MOD
+7	단일화,	단일 화 ,	NNG+XSN+SP	14	NP_CNJ
+8	가치와	가치 와	NNG+JC	9	NP_CNJ
+9	철학이	철학 이	NNG+JKS	10	NP_SBJ
+10	하나되는	하나 되 는	NR+XSV+ETM	11	VP_MOD
+11	단일화,	단일 화 ,	NNG+XSN+SP	14	NP_CNJ
+12	미래를	미래 를	NNG+JKO	13	NP_OBJ
+13	바꾸는	바꾸 는	VV+ETM	14	VP_MOD
+14	단일화의	단일 화 의	NNG+XSN+JKG	15	NP_MOD
+15	원칙	원칙	NNG	16	NP
+16	아래	아래	NNG	24	NP_AJT
+17	새누리당의	새누리당 의	NNP+JKG	18	NP_MOD
+18	집권연장에	집권 연장 에	NNG+NNG+JKB	19	NP_AJT
+19	반대하는	반대 하 는	NNG+XSV+ETM	22	VP_MOD
+20	모든	모든	MMN	21	DP
+21	국민의	국민 의	NNG+JKG	22	NP_MOD
+22	뜻을	뜻 을	NNG+JKO	24	NP_OBJ
+23	하나로	하나 로	NR+JKB	24	NP_AJT
+24	모아나가기로	모으 아 나가 기 로	VV+EC+VX+ETN+JKB	27	VP_AJT
+25	의견을	의견 을	NNG+JKO	27	NP_OBJ
+26	같이	같이	MAG	27	AP
+27	했다.	하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00058_wikitree	인사처는 이와 별도로 5급 이하 실무직 공무원에 대한 평가도 강화해 최하위 등급이 나오면 6개월 동안 호봉 승급을 제한하기로 했다.
+1	인사처는	인사 처 는	NNG+NNG+JX	10	NP_SBJ
+2	이와	이 와	NP+JKB	3	NP_AJT
+3	별도로	별도 로	NNG+JKB	10	NP_AJT
+4	5급	5 급	SN+NNG	5	NP
+5	이하	이하	NNG	7	NP
+6	실무직	실무 직	NNG+NNG	7	NP
+7	공무원에	공무원 에	NNG+JKB	8	NP_AJT
+8	대한	대하 ㄴ	VV+ETM	9	VP_MOD
+9	평가도	평가 도	NNG+JX	10	NP_OBJ
+10	강화해	강화 하 여	NNG+XSV+EC	18	VP
+11	최하위	최 하위	XPN+NNG	12	NP
+12	등급이	등급 이	NNG+JKS	13	NP_SBJ
+13	나오면	나오 면	VV+EC	18	VP
+14	6개월	6 개월	SN+NNB	15	NP
+15	동안	동안	NNG	18	NP_AJT
+16	호봉	호봉	NNG	17	NP
+17	승급을	승급 을	NNG+JKO	18	NP_OBJ
+18	제한하기로	제한 하 기 로	NNG+XSV+ETN+JKB	19	VP_AJT
+19	했다.	하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00059_wikitree	가수 겸 배우 장수원 씨가 힘들었던 시절 가까운 지인에게 사기를 당한 적이 있다고 털어놨다.
+1	가수	가수	NNG	2	NP
+2	겸	겸	NNB	3	NP
+3	배우	배우	NNG	5	NP
+4	장수원	장수원	NNP	5	NP
+5	씨가	씨 가	NNB+JKS	14	NP_SBJ
+6	힘들었던	힘들 었 던	VA+EP+ETM	7	VP_MOD
+7	시절	시절	NNG	11	NP_AJT
+8	가까운	가깝 ㄴ	VA+ETM	9	VP_MOD
+9	지인에게	지인 에게	NNG+JKB	11	NP_AJT
+10	사기를	사기 를	NNG+JKO	11	NP_OBJ
+11	당한	당하 ㄴ	VV+ETM	12	VP_MOD
+12	적이	적 이	NNB+JKS	13	NP_SBJ
+13	있다고	있 다고	VV+EC	14	VP_CMP
+14	털어놨다.	털 어 놓 았 다 .	VV+EC+VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00060_wikitree	부부에게는 5살 된 큰딸이 있으며, 가정형편이 어려워 막내딸이 태어나자마자 충남에 있는 친할머니에게 맡겼다가 올해 1월 집으로 데려와서 키웠다고 경찰은 설명했다.
+1	부부에게는	부부 에게 는	NNG+JKB+JX	5	NP_AJT
+2	5살	5 살	SN+NNB	3	NP_CMP
+3	된	되 ㄴ	VV+ETM	4	VP_MOD
+4	큰딸이	큰딸 이	NNG+JKS	5	NP_SBJ
+5	있으며,	있 으며 ,	VA+EC+SP	7	VP
+6	가정형편이	가정 형편 이	NNG+NNG+JKS	7	NP_SBJ
+7	어려워	어렵 어	VA+EC	13	VP
+8	막내딸이	막내 딸 이	NNG+NNG+JKS	9	NP_SBJ
+9	태어나자마자	태어나 자마자	VV+EC	13	VP
+10	충남에	충남 에	NNP+JKB	11	NP_AJT
+11	있는	있 는	VA+ETM	12	VP_MOD
+12	친할머니에게	친 할머니 에게	XPN+NNG+JKB	13	NP_AJT
+13	맡겼다가	맡기 었 다가	VV+EP+EC	17	VP
+14	올해	올해	NNG	15	NP
+15	1월	1 월	SN+NNB	17	NP_AJT
+16	집으로	집 으로	NNG+JKB	17	NP_AJT
+17	데려와서	데리 어 오 아서	VV+EC+VX+EC	18	VP
+18	키웠다고	키우 었 다고	VV+EP+EC	20	VP_CMP
+19	경찰은	경찰 은	NNG+JX	20	NP_SBJ
+20	설명했다.	설명 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00061_wikitree	미스터피자에 따르면 정 회장은 경찰에 입건된 후 직원들을 통해 해당 경비원에 수 차례 사과의 뜻을 전해왔다.
+1	미스터피자에	미스터피자 에	NNP+JKB	2	NP_AJT
+2	따르면	따르 면	VV+EC	16	VP
+3	정	정	NNP	4	NP
+4	회장은	회장 은	NNG+JX	6	NP_SBJ
+5	경찰에	경찰 에	NNG+JKB	6	NP_AJT
+6	입건된	입건 되 ㄴ	NNG+XSV+ETM	7	VP_MOD
+7	후	후	NNG	9	NP_AJT
+8	직원들을	직원 들 을	NNG+XSN+JKO	9	NP_OBJ
+9	통해	통하 여	VV+EC	16	VP
+10	해당	해당	NNG	11	NP
+11	경비원에	경비원 에	NNG+JKB	16	NP_AJT
+12	수	수	MMN	13	DP
+13	차례	차례	NNG	16	NP_AJT
+14	사과의	사과 의	NNG+JKG	15	NP_MOD
+15	뜻을	뜻 을	NNG+JKO	16	NP_OBJ
+16	전해왔다.	전하 여 오 았 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00062_wikitree	내용은 지난달 14일 열린 제1차 민중총궐기에서 시민과 경찰이 충돌하며 발생한 과잉진압을 비판하고, 박 대통령의 그러한 행동이 독재자였던 고 박정희 전 대통령을 그대로 닮아간다는 것이다.
+1	내용은	내용 은	NNG+JX	24	NP_SBJ
+2	지난달	지나 ㄴ 달	VV+ETM+NNG	3	NP
+3	14일	14 일	SN+NNB	4	NP_AJT
+4	열린	열리 ㄴ	VV+ETM	6	VP_MOD
+5	제1차	제 1 차	XPN+SN+NNB	6	DP
+6	민중총궐기에서	민중 총궐기 에서	NNG+NNG+JKB	10	NP_AJT
+7	시민과	시민 과	NNG+JC	8	NP_CNJ
+8	경찰이	경찰 이	NNG+JKS	9	NP_SBJ
+9	충돌하며	충돌 하 며	NNG+XSV+EC	10	VP
+10	발생한	발생 하 ㄴ	NNG+XSV+ETM	11	VP_MOD
+11	과잉진압을	과잉 진압 을	NNG+NNG+JKO	12	NP_OBJ
+12	비판하고,	비판 하 고 ,	NNG+XSV+EC+SP	23	VP
+13	박	박	NNP	14	NP
+14	대통령의	대통령 의	NNG+JKG	16	NP_MOD
+15	그러한	그러하	VA	16	VP_MOD
+16	행동이	행동 이	NNG+JKS	23	NP_SBJ
+17	독재자였던	독재자 이 었 던	NNG+VCP+EP+ETM	21	VNP_MOD
+18	고	고	MMA	19	DP
+19	박정희	박정희	NNP	21	NP
+20	전	전	MMD	21	DP
+21	대통령을	대통령 을	NNG+JKO	23	NP_OBJ
+22	그대로	그대로	MAG	23	AP
+23	닮아간다는	닮 아 가 ㄴ다는	VV+EC+VX+ETM	24	VP_MOD
+24	것이다.	것 이 다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00063_wikitree	여야가 6월 국회 중에 최대한의 지원책 마련에 합의하고, 정부는 이를 수용해야 할 것입니다.
+1	여야가	여 야 가	NNG+NNG+JKS	8	NP_SBJ
+2	6월	6 월	SN+NNB	3	NP
+3	국회	국회	NNG	4	NP
+4	중에	중 에	NNB+JKB	8	NP_AJT
+5	최대한의	최대 한 의	NNG+NNG+JKG	6	NP_MOD
+6	지원책	지원책	NNG	7	NP
+7	마련에	마련 에	NNG+JKB	8	NP_AJT
+8	합의하고,	합의 하 고 ,	NNG+XSV+EC+SP	11	VP
+9	정부는	정부 는	NNG+JX	11	NP_SBJ
+10	이를	이 를	NP+JKO	11	NP_OBJ
+11	수용해야	수용 하 여야	NNG+XSV+EC	12	VP
+12	할	하 ㄹ	VX+ETM	13	VP_MOD
+13	것입니다.	것 이 ㅂ니다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00064_wikitree	오염물질과 세균을 효과적으로 제거하고 싶다면 항균효과가 뛰어난 주방 세제를 사용하는 것도 좋다.
+1	오염물질과	오염 물질 과	NNG+NNG+JC	2	NP_CNJ
+2	세균을	세균 을	NNG+JKO	4	NP_OBJ
+3	효과적으로	효과 적 으로	NNG+XSN+JKB	4	NP_AJT
+4	제거하고	제거 하 고	NNG+XSV+EC	5	VP
+5	싶다면	싶 다면	VX+EC	10	VP
+6	항균효과가	항균 효과 가	NNG+NNG+JKS	7	NP_SBJ
+7	뛰어난	뛰 어 나 ㄴ	VV+EC+VV+ETM	9	VP_MOD
+8	주방	주방	NNG	9	NP
+9	세제를	세제 를	NNG+JKO	10	NP_OBJ
+10	사용하는	사용 하 는	NNG+XSV+ETM	11	VP_MOD
+11	것도	것 도	NNB+JX	12	NP_SBJ
+12	좋다.	좋 다 .	VA+EF+SF	0	VP
+
+## klue-dp-v1_train_00065_wikitree	이번 화재로 인해 소방소 추산 13억5천만원의 재산 피해가 났고, 불은 2시간여 만에 진화됐다.
+1	이번	이	MMD	2	DP
+2	화재로	화재 로	NNG+JKB	3	NP_AJT
+3	인해	인하 여	VV+EC	9	VP
+4	소방소	소방소	NNG	5	NP
+5	추산	추산	NNG	8	NP
+6	13억5천만원의	13 억 5 천만 원 의	SN+NR+SN+NR+NNB+JKG	8	NP_MOD
+7	재산	재산	NNG	8	NP
+8	피해가	피해 가	NNG+JKS	9	NP_SBJ
+9	났고,	나 았 고 ,	VV+EP+EC+SP	13	VP
+10	불은	불 은	NNG+JX	13	NP_SBJ
+11	2시간여	2 시 간 여	SN+NNB+NNG+XSN	12	NP
+12	만에	만 에	NNB+JKB	13	NP_AJT
+13	진화됐다.	진화 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00066_wikitree	검찰은 비자금 가운데 상당 부분이 정 전부회장에게 상납된 것으로 의심하고 있다.
+1	검찰은	검찰 은	NNG+JX	10	NP_SBJ
+2	비자금	비자금	NNG	3	NP
+3	가운데	가운데	NNG	5	NP
+4	상당	상당	NNG	5	NP
+5	부분이	부분 이	NNG+JKS	8	NP_SBJ
+6	정	정	NNP	7	NP
+7	전부회장에게	전 부회장 에게	MMD+NNG+JKB	8	NP_AJT
+8	상납된	상납 되 ㄴ	NNG+XSV+ETM	9	VP_MOD
+9	것으로	것 으로	NNB+JKB	10	NP_AJT
+10	의심하고	의심 하 고	NNG+XSV+EC	11	VP
+11	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00067_wikitree	이어 \"내가 제일 좋아하는 가수가 정인이다. 정인도 한쪽 귀가 들리지 않는다. 하지만 노력 끝에 좋은 가수가 됐다”고 소개했다.
+1	이어	이어	MAG	18	AP
+2	\"내가	\" 내 가	SS+NP+JKS	4	NP_SBJ
+3	제일	제일	MAG	4	NP_AJT
+4	좋아하는	좋 아 하 는	VV+EC+VX+ETM	5	VP_MOD
+5	가수가	가수 가	NNG+JKS	6	NP_SBJ
+6	정인이다.	정인 이 다 .	NNP+VCP+EF+SF	11	VNP
+7	정인도	정인 도	NNP+JX	10	NP_SBJ
+8	한쪽	한쪽	NNG	9	NP
+9	귀가	귀 가	NNG+JKS	10	NP_SBJ
+10	들리지	들리 지	VV+EC	11	VP
+11	않는다.	않 는다 .	VX+EF+SF	17	VP
+12	하지만	하지만	MAJ	17	AP
+13	노력	노력	NNG	14	NP
+14	끝에	끝 에	NNG+JKB	17	NP_AJT
+15	좋은	좋 은	VA+ETM	16	VP_MOD
+16	가수가	가수 가	NNG+JKC	17	NP_CMP
+17	됐다”고	되 었 다 ” 고	VV+EP+EF+SS+JKQ	18	VP_CMP
+18	소개했다.	소개 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00068_wikitree	이 코너는 갑자기 가슴이 사라진 전효성 씨로 발칵 뒤집힌 세상을 상상했다.
+1	이	이	MMD	2	DP
+2	코너는	코너 는	NNG+JX	11	NP_SBJ
+3	갑자기	갑자기	MAG	5	AP
+4	가슴이	가슴 이	NNG+JKS	5	NP_SBJ
+5	사라진	사라지 ㄴ	VV+ETM	7	VP_MOD
+6	전효성	전효성	NNP	7	NP
+7	씨로	씨 로	NNB+JKB	9	NP_AJT
+8	발칵	발칵	MAG	9	AP
+9	뒤집힌	뒤집히 ㄴ	VV+ETM	10	VP_MOD
+10	세상을	세상 을	NNG+JKO	11	NP_OBJ
+11	상상했다.	상상 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00069_wikitree	모델별로 카이런 3만7313대, 액티언 2만8724대, 액티언스포츠 2만7068대, 렉스턴 1만9815대 등이다.
+1	모델별로	모델 별 로	NNG+XSN+JKB	10	NP_AJT
+2	카이런	카이런	NNP	3	NP
+3	3만7313대,	3 만 7313 대 ,	SN+NR+SN+NNB+SP	9	NP_CNJ
+4	액티언	액티언	NNP	5	NP
+5	2만8724대,	2 만 8724 대 ,	SN+NR+SN+NNB+SP	9	NP_CNJ
+6	액티언스포츠	액티언스포츠	NNP	7	NP
+7	2만7068대,	2 만 7068 대 ,	SN+NR+SN+NNB+SP	9	NP_CNJ
+8	렉스턴	렉스턴	NNP	9	NP
+9	1만9815대	1 만 9815 대	SN+NR+SN+NNB	10	NP
+10	등이다.	등 이 다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00070_wikitree	11일 경찰은 중간 수사 결과를 발표하며 김 씨가 10일 오전 한 상점에 침입해 여주인을 성폭행했다고 밝혔다.
+1	11일	11 일	SN+NNB	6	NP_AJT
+2	경찰은	경찰 은	NNG+JX	6	NP_SBJ
+3	중간	중간	NNG	4	NP
+4	수사	수사	NNG	5	NP
+5	결과를	결과 를	NNG+JKO	6	NP_OBJ
+6	발표하며	발표 하 며	NNG+XSV+EC	16	VP
+7	김	김	NNP	8	NP
+8	씨가	씨 가	NNB+JKS	13	NP_SBJ
+9	10일	10 일	SN+NNB	10	NP
+10	오전	오전	NNG	13	NP_AJT
+11	한	한	MMN	12	DP
+12	상점에	상점 에	NNG+JKB	13	NP_AJT
+13	침입해	침입 하 여	NNG+XSV+EC	15	VP
+14	여주인을	여주인 을	NNG+JKO	15	NP_OBJ
+15	성폭행했다고	성폭행 하 였 다고	NNG+XSV+EP+EC	16	VP_AJT
+16	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00071_wikitree	이에 청와대 출입기자단은 이들 언론사가 '비보도 약속을 위반했다'며 출입정지의 징계를 내렸습니다.
+1	이에	이 에	NP+JKB	11	NP_AJT
+2	청와대	청와대	NNP	3	NP
+3	출입기자단은	출입 기자단 은	NNG+NNG+JX	8	NP_SBJ
+4	이들	이 들	NP+XSN	5	NP
+5	언론사가	언론사 가	NNG+JKS	8	NP_SBJ
+6	'비보도	' 비 보도	SS+XPN+NNG	7	NP
+7	약속을	약속 을	NNG+JKO	8	NP_OBJ
+8	위반했다'며	위반 하 였 다 ' 며	NNG+XSV+EP+EF+SS+EC	11	VP
+9	출입정지의	출입 정지 의	NNG+NNG+JKG	10	NP_MOD
+10	징계를	징계 를	NNG+JKO	11	NP_OBJ
+11	내렸습니다.	내리 었 습니다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00072_wikitree	이 댓글에는 보좌관이 아닌 힐러리 본인이 직접 썼다는 표시인 이니셜 'H'가 함께 담겼다.
+1	이	이	MMD	2	DP
+2	댓글에는	댓글 에 는	NNG+JKB+JX	13	NP_AJT
+3	보좌관이	보좌관 이	NNG+JKS	4	NP_CMP
+4	아닌	아니 ㄴ	VCN+ETM	6	VP_MOD
+5	힐러리	힐러리	NNP	6	NP
+6	본인이	본인 이	NNG+JKS	8	NP_SBJ
+7	직접	직접	MAG	8	AP
+8	썼다는	쓰 었 다는	VV+EP+ETM	9	VP_MOD
+9	표시인	표시 이 ㄴ	NNG+VCP+ETM	11	VNP_MOD
+10	이니셜	이니셜	NNG	11	NP
+11	'H'가	' H ' 가	SS+SL+SS+JKS	13	NP_SBJ
+12	함께	함께	MAG	13	AP
+13	담겼다.	담기 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00073_wikitree	한 페이스북 이용자가 '후의 미래'라며 올려주신 사진입니다.
+1	한	한	MMN	3	DP
+2	페이스북	페이스북	NNP	3	NP
+3	이용자가	이용자 가	NNG+JKS	6	NP_SBJ
+4	'후의	' 후 의	SS+NNG+JKG	5	NP_MOD
+5	미래'라며	미래 ' 이 라며	NNG+SS+VCP+EC	6	VNP
+6	올려주신	올리 어 주 시 ㄴ	VV+EC+VX+EP+ETM	7	VP_MOD
+7	사진입니다.	사진 이 ㅂ니다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00074_wikitree	특히 최근 국정수행에 대한 여론조사 결과, 박 대통령 지지율이 속절없이 추락하면서 국정운영의 마지노선으로 여겨지는 30%를 위협하는 수준에 도달한 것이 총리 교체에 결정적인 영향을 미친 것으로 보인다.
+1	특히	특히	MAG	26	AP
+2	최근	최근	NNG	3	NP
+3	국정수행에	국정 수행 에	NNG+NNG+JKB	4	NP_AJT
+4	대한	대하 ㄴ	VV+ETM	5	VP_MOD
+5	여론조사	여론 조사	NNG+NNG	6	NP
+6	결과,	결과 ,	NNG+SP	26	NP_AJT
+7	박	박	NNP	8	NP
+8	대통령	대통령	NNG	9	NP
+9	지지율이	지지 율 이	NNG+XSN+JKS	11	NP_SBJ
+10	속절없이	속절없이	MAG	11	AP
+11	추락하면서	추락 하 면서	NNG+XSV+EC	18	VP
+12	국정운영의	국정 운영 의	NNG+NNG+JKG	13	NP_MOD
+13	마지노선으로	마지노선 으로	NNG+JKB	14	NP_AJT
+14	여겨지는	여기 어 지 는	VV+EC+VX+ETM	15	VP_MOD
+15	30%를	30 % 를	SN+SW+JKO	16	NP_OBJ
+16	위협하는	위협 하 는	NNG+XSV+ETM	17	VP_MOD
+17	수준에	수준 에	NNG+JKB	18	NP_AJT
+18	도달한	도달 하 ㄴ	NNG+XSV+ETM	19	VP_MOD
+19	것이	것 이	NNB+JKS	24	NP_SBJ
+20	총리	총리	NNG	21	NP
+21	교체에	교체 에	NNG+JKB	24	NP_AJT
+22	결정적인	결정 적 이 ㄴ	NNG+XSN+VCP+ETM	23	VNP_MOD
+23	영향을	영향 을	NNG+JKO	24	NP_OBJ
+24	미친	미치 ㄴ	VV+ETM	25	VP_MOD
+25	것으로	것 으로	NNB+JKB	26	NP_AJT
+26	보인다.	보이 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00075_wikitree	학생들의 중간고사 기간을 맞아 SNS에서는 때로 침통함마저 느껴진다.
+1	학생들의	학생 들 의	NNG+XSN+JKG	3	NP_MOD
+2	중간고사	중간 고사	NNG+NNG	3	NP
+3	기간을	기간 을	NNG+JKO	4	NP_OBJ
+4	맞아	맞 아	VV+EC	8	VP
+5	SNS에서는	SNS 에서 는	SL+JKB+JX	8	NP_AJT
+6	때로	때로	MAG	8	AP
+7	침통함마저	침통 하 ㅁ 마저	NNG+XSA+ETN+JX	8	VP_SBJ
+8	느껴진다.	느끼 어 지 ㄴ다 .	VV+EC+VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00076_wikitree	지난 10월 FOMC 회의 이후 재닛 옐런 연준 의장을 비롯한 많은 연준 위원들이 12월 금리 인상을 강하게 시사해왔다.
+1	지난	지나 ㄴ	VV+ETM	2	VP_MOD
+2	10월	10 월	SN+NNB	4	NP
+3	FOMC	FOMC	SL	4	NP
+4	회의	회의	NNG	5	NP
+5	이후	이후	NNG	18	NP_AJT
+6	재닛	재닛	NNP	7	NP
+7	옐런	옐런	NNP	9	NP
+8	연준	연준	NNG	9	NP
+9	의장을	의장 을	NNG+JKO	10	NP_OBJ
+10	비롯한	비롯하 ㄴ	VV+ETM	13	VP_MOD
+11	많은	많 은	VA+ETM	13	VP_MOD
+12	연준	연준	NNG	13	NP
+13	위원들이	위원 들 이	NNG+XSN+JKS	18	NP_SBJ
+14	12월	12 월	SN+NNB	16	NP
+15	금리	금리	NNG	16	NP
+16	인상을	인상 을	NNG+JKO	18	NP_OBJ
+17	강하게	강하 게	VA+EC	18	VP_AJT
+18	시사해왔다.	시사 하 여 오 았 다 .	NNG+XSV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00077_wikitree	이후 10개월 동안 학점은행제로 학사학위에 필요한 학점을 모두 이수해 과학기술연합대학원대학교 천문우주과학 전공 대학원에 입학했다.
+1	이후	이후	NNG	9	NP_AJT
+2	10개월	10 개월	SN+NNB	3	NP
+3	동안	동안	NNG	9	NP_AJT
+4	학점은행제로	학점 은행 제 로	NNG+NNG+XSN+JKB	9	NP_AJT
+5	학사학위에	학사 학위 에	NNG+NNG+JKB	6	NP_AJT
+6	필요한	필요 하 ㄴ	NNG+XSA+ETM	7	VP_MOD
+7	학점을	학점 을	NNG+JKO	9	NP_OBJ
+8	모두	모두	MAG	9	AP
+9	이수해	이수 하 어	NNG+XSV+EC	14	VP
+10	과학기술연합대학원대학교	과학기술연합대학원대학교	NNP	13	NP
+11	천문우주과학	천문 우주 과학	NNG+NNG+NNG	12	NP
+12	전공	전공	NNG	13	NP
+13	대학원에	대학원 에	NNG+JKB	14	NP_AJT
+14	입학했다.	입학 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00078_wikitree	식목일인 오늘 지구를 생각하며 작은 나무 한 그루 심어보세요.
+1	식목일인	식목일 이 ㄴ	NNG+VCP+ETM	2	VNP_MOD
+2	오늘	오늘	NNG	9	NP_AJT
+3	지구를	지구 를	NNG+JKO	4	NP_OBJ
+4	생각하며	생각 하 며	NNG+XSV+EC	9	VP
+5	작은	작 은	VA+ETM	6	VP_MOD
+6	나무	나무	NNG	8	NP
+7	한	한	MMN	8	DP
+8	그루	그루	NNB	9	NP_OBJ
+9	심어보세요.	심 어 보 시 어 요 .	VV+EC+VX+EP+EF+JX+SF	0	VP
+
+## klue-dp-v1_train_00079_wikitree	17일 방송된 JTBC 예능 프로그램 '투유 프로젝트 - 슈가맨’에서 밴드 이지 보컬 오 씨는 지난2005년에 큰 인기를 얻었던 노래 '응급실’을 부르는 깜짝 무대를 선보였다.
+1	17일	17 일	SN+NNB	2	NP_AJT
+2	방송된	방송 되 ㄴ	NNG+XSV+ETM	9	VP_MOD
+3	JTBC	JTBC	SL	5	NP
+4	예능	예능	NNG	5	NP
+5	프로그램	프로그램	NNG	9	NP
+6	'투유	' 투유	SS+NNG	7	NP
+7	프로젝트	프로젝트	NNG	8	NP
+8	-	-	SS	9	X
+9	슈가맨’에서	슈가맨 ’ 에서	NNP+SS+JKB	24	NP_AJT
+10	밴드	밴드	NNG	11	NP
+11	이지	이지	NNP	12	NP
+12	보컬	보컬	NNG	14	NP
+13	오	오	NNP	14	NP
+14	씨는	씨 는	NNB+JX	24	NP_SBJ
+15	지난2005년에	지나 ㄴ 2005 년 에	VV+ETM+SN+NNB+JKB	18	NP_AJT
+16	큰	크 ㄴ	VA+ETM	17	VP_MOD
+17	인기를	인기 를	NNG+JKO	18	NP_OBJ
+18	얻었던	얻 었 던	VV+EP+ETM	19	VP_MOD
+19	노래	노래	NNG	20	NP
+20	'응급실’을	' 응급실 ’ 을	SS+NNP+SS+JKO	21	NP_OBJ
+21	부르는	부르 는	VV+ETM	23	VP_MOD
+22	깜짝	깜짝	MAG	23	NP
+23	무대를	무대 를	NNG+JKO	24	NP_OBJ
+24	선보였다.	선 보이 었 다 .	NNG+VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00080_wikitree	서울의 낮 기온은 26도로 전날보다 조금 낮겠습니다.
+1	서울의	서울 의	NNP+JKG	3	NP_MOD
+2	낮	낮	NNG	3	NP
+3	기온은	기온 은	NNG+JX	4	NP_SBJ
+4	26도로	26 도 로	SN+NNB+JKB	7	NP_AJT
+5	전날보다	전 날 보다	MMD+NNG+JKB	7	NP_AJT
+6	조금	조금	MAG	7	AP
+7	낮겠습니다.	낮 겠 습니다 .	VA+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00081_wikitree	나빴던 건 신호등이 아니라, 타이밍이 아니라, 내 수많은 망설임이었다.
+1	나빴던	나쁘 았 던	VA+EP+ETM	2	VP_MOD
+2	건	것 ㄴ	NNB+JX	4	NP_SBJ
+3	신호등이	신호등 이	NNG+JKS	4	NP_CMP
+4	아니라,	아니 라 ,	VCN+EC+SP	6	VP
+5	타이밍이	타이밍 이	NNG+JKC	6	NP_CMP
+6	아니라,	아니 라 ,	VCN+EC+SP	9	VP
+7	내	나 의	NP+JKG	9	NP_MOD
+8	수많은	수 많 은	NNG+VA+ETM	9	VP_MOD
+9	망설임이었다.	망설이 ㅁ 이 었 다 .	VV+ETN+VCP+EP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00082_wikitree	또 한 기독교 콜로키엄 회원으로도 활발하게 활동한 것으로 알려졌다.
+1	또	또	MAG	9	AP
+2	한	한	MMN	3	NP
+3	기독교	기독교	NNG	4	NP
+4	콜로키엄	콜로키엄	NNG	5	NP
+5	회원으로도	회원 으로 도	NNG+JKB+JX	7	NP_AJT
+6	활발하게	활발하 게	VA+EC	7	VP_AJT
+7	활동한	활동 하 ㄴ	NNG+XSV+ETM	8	VP_MOD
+8	것으로	것 으로	NNB+JKB	9	NP_AJT
+9	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00083_wikitree	스티븐슨 교수와 울퍼 교수의 연구는 이른바 `이스터린의 역설'과 상반되는 연구결과여서 주목을 받고 있다.
+1	스티븐슨	스티븐슨	NNP	2	NP
+2	교수와	교수 와	NNG+JC	4	NP_CNJ
+3	울퍼	울퍼	NNP	4	NP
+4	교수의	교수 의	NNG+JKG	5	NP_MOD
+5	연구는	연구 는	NNG+JX	10	NP_SBJ
+6	이른바	이른바	MAG	10	AP
+7	`이스터린의	` 이스터린 의	SS+NNG+JKG	8	NP
+8	역설'과	역설 ' 과	NNG+SS+JC	9	NP_AJT
+9	상반되는	상반 되 는	NNG+XSV+ETM	10	VP_MOD
+10	연구결과여서	연구 결과 이 어서	NNG+NNG+VCP+EC	12	VNP
+11	주목을	주목 을	NNG+JKO	12	NP_OBJ
+12	받고	받 고	VV+EC	13	VP
+13	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00084_wikitree	이를 위해 도쿄국립박물관에 질의서를 보내 2005년 국립문화재연구소의 조사 때 발견되지 않은 백옥이 올해 등장한 이유, 이 총재가 열람할 당시 투구와 최근 공개된 투구의 장식이 다른 이유 등을 밝혀달라고 요청할 계획이다.
+1	이를	이 를	NP+JKO	2	NP_OBJ
+2	위해	위하 여	VV+EC	5	VP
+3	도쿄국립박물관에	도쿄국립박물관 에	NNP+JKB	5	NP_AJT
+4	질의서를	질의 서 를	NNG+NNG+JKO	5	NP_OBJ
+5	보내	보내 어	VV+EC	29	VP
+6	2005년	2005 년	SN+NNB	8	NP
+7	국립문화재연구소의	국립문화재연구소 의	NNP+JKG	8	NP_MOD
+8	조사	조사	NNG	9	NP
+9	때	때	NNG	10	NP_AJT
+10	발견되지	발견 되 지	NNG+XSV+EC	11	VP
+11	않은	않 은	VX+ETM	12	VP_MOD
+12	백옥이	백옥 이	NNG+JKS	14	NP_SBJ
+13	올해	올해	NNG	14	NP_AJT
+14	등장한	등장 하 ㄴ	NNG+XSV+ETM	15	VP_MOD
+15	이유,	이유 ,	NNG+SP	26	NP_CNJ
+16	이	이	NNP	17	NP
+17	총재가	총재 가	NNG+JKS	18	NP_SBJ
+18	열람할	열람 하 ㄹ	NNG+XSA+ETM	19	VP_MOD
+19	당시	당시	NNG	20	NP
+20	투구와	투구 와	NNG+JC	23	NP_CNJ
+21	최근	최근	NNG	22	NP_AJT
+22	공개된	공개 되 ㄴ	NNG+XSV+ETM	23	VP_MOD
+23	투구의	투구 의	NNG+JKG	24	NP_MOD
+24	장식이	장식 이	NNG+JKS	25	NP_SBJ
+25	다른	다른	MMD	26	DP
+26	이유	이유	NNG	27	NP
+27	등을	등 을	NNB+JKO	28	NP_OBJ
+28	밝혀달라고	밝히 어 달 라고	VV+EC+VX+EC	29	VP_CMP
+29	요청할	요청 하 ㄹ	NNG+XSV+ETM	30	VP_MOD
+30	계획이다.	계획 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00085_wikitree	이수만 SM엔터테인먼트 회장은 2천1억원으로 2위로 밀려났다.
+1	이수만	이수만	NNP	3	NP
+2	SM엔터테인먼트	SM 엔터테인먼트	SL+NNG	3	NP
+3	회장은	회장 은	NNG+JX	4	NP_SBJ
+4	2천1억원으로	2 천 1 억 원 으로	SN+NR+SN+NR+NNB+JKB	6	NP_AJT
+5	2위로	2 위 로	SN+NNB+JKB	6	NP_AJT
+6	밀려났다.	밀리 어 나 았 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00086_wikitree	쿠즈네츠의 메달은 그의 아들로 역시 경제학자인 폴 쿠즈네츠가 경매에 내놓았다.
+1	쿠즈네츠의	쿠즈네츠 의	NNP+JKG	2	NP_MOD
+2	메달은	메달 은	NNG+JX	10	NP_OBJ
+3	그의	그 의	NP+JKG	4	NP_MOD
+4	아들로	아들 로	NNG+JKB	6	NP_AJT
+5	역시	역시	MAG	6	AP
+6	경제학자인	경제 학자 이 ㄴ	NNG+NNG+VCP+ETM	8	VNP_MOD
+7	폴	폴	NNP	8	NP
+8	쿠즈네츠가	쿠즈네츠 가	NNP+JKS	10	NP_SBJ
+9	경매에	경매 에	NNG+JKB	10	NP_AJT
+10	내놓았다.	내 어 놓 았 다 .	VV+EC+VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00087_wikitree	통영관광개발공사는 이날 케이블카 간격을 조절하는 전원장치의 안전센서가 고장 나 3~5분 작동이 멈췄다고 밝혔다.
+1	통영관광개발공사는	통영관광개발공사 는	NNP+JX	13	NP_SBJ
+2	이날	이 날	MMD+NNG	9	NP_AJT
+3	케이블카	케이블 카	NNG+NNG	4	NP
+4	간격을	간격 을	NNG+JKO	5	NP_OBJ
+5	조절하는	조절 하 는	NNG+XSV+ETM	6	VP_MOD
+6	전원장치의	전원 장치 의	NNG+NNG+JKG	7	NP_MOD
+7	안전센서가	안전 센서 가	NNG+NNG+JKS	9	NP_SBJ
+8	고장	고장	NNG	9	NP_SBJ
+9	나	나 아	VV+EC	12	VP
+10	3~5분	3 ~ 5 분	SN+SO+SN+NNB	12	NP_AJT
+11	작동이	작동 이	NNG+JKS	12	NP_SBJ
+12	멈췄다고	멈추 었 다고	VV+EP+EC	13	VP_AJT
+13	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00088_wikitree	라면(평균 포함 소금량 2g) 175봉지 정도다.
+1	라면(평균	라면 ( 평균	NNG+SS+NNG	2	NP
+2	포함	포함	NNG	3	NP
+3	소금량	소금 량	NNG+NNG	4	NP
+4	2g)	2 g )	SN+SL+SS	5	NP
+5	175봉지	175 봉지	SN+NNG	6	NP
+6	정도다.	정도 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00089_wikitree	한편 별은 지난 9일 오전 8시 15분경 서울에 위치한 한 산부인과에서 아들을 출산했다.
+1	한편	한편	MAG	13	AP
+2	별은	별 은	NNP+JX	13	NP_SBJ
+3	지난	지나 ㄴ	VV+ETM	4	VP_MOD
+4	9일	9 일	SN+NNB	7	NP
+5	오전	오전	NNG	7	NP
+6	8시	8 시	SN+NNB	7	NP
+7	15분경	15 분 경	SN+NNB+XSN	13	NP_AJT
+8	서울에	서울 에	NNP+JKB	9	NP_AJT
+9	위치한	위치 하 ㄴ	NNG+XSV+ETM	11	VP_MOD
+10	한	한	MMN	11	DP
+11	산부인과에서	산부인과 에서	NNG+JKB	13	NP_AJT
+12	아들을	아들 을	NNG+JKO	13	NP_OBJ
+13	출산했다.	출산 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00090_wikitree	이영표의 A매치 출전 횟수는 홍명보 축구 대표팀 감독(135경기)과 이운재(132경기)에 이어 국내 선수로는 세 번째로 많다.
+1	이영표의	이영표 의	NNP+JKG	4	NP_MOD
+2	A매치	A 매치	SL+NNG	3	NP
+3	출전	출전	NNG	4	NP
+4	횟수는	횟수 는	NNG+JX	10	NP_SBJ
+5	홍명보	홍명보	NNP	8	NP
+6	축구	축구	NNG	7	NP
+7	대표팀	대표 팀	NNG+NNG	8	NP
+8	감독(135경기)과	감독 ( 135 경기 ) 과	NNG+SS+SN+NNG+SS+JC	9	NP_CNJ
+9	이운재(132경기)에	이운재 ( 132 경기 ) 에	NNP+SS+SN+NNG+SS+JKB	10	NP_AJT
+10	이어	잇 어	VV+EC	15	VP
+11	국내	국내	NNG	12	NP
+12	선수로는	선수 로 는	NNG+JKB+JX	15	NP_AJT
+13	세	세	MMN	14	DP
+14	번째로	번 째 로	NNB+XSN+JKB	15	NP_AJT
+15	많다.	많 다 .	VA+EF+SF	0	VP
+
+## klue-dp-v1_train_00091_wikitree	사고 직후 대구광역시와 지하철 종사자들이 사고를 축소·은폐하고, 현장을 훼손하는 등 부실한 대응으로 피해가 확대된 것으로 밝혀졌다.
+1	사고	사고	NNG	2	NP
+2	직후	직후	NNG	7	NP_AJT
+3	대구광역시와	대구광역시 와	NNP+JC	5	NP_CNJ
+4	지하철	지하철	NNG	5	NP
+5	종사자들이	종사자 들 이	NNG+XSN+JKS	7	NP_SBJ
+6	사고를	사고 를	NNG+JKO	7	NP_OBJ
+7	축소·은폐하고,	축소 · 은폐 하 고 ,	NNG+SP+NNG+XSV+EC+SP	9	VP
+8	현장을	현장 을	NNG+JKO	9	NP_OBJ
+9	훼손하는	훼손 하 는	NNG+XSV+ETM	10	VP_MOD
+10	등	등	NNB	12	NP
+11	부실한	부실 하 ㄴ	NNG+XSA+ETM	12	VP_MOD
+12	대응으로	대응 으로	NNG+JKB	14	NP_AJT
+13	피해가	피해 가	NNG+JKS	14	NP_SBJ
+14	확대된	확대 되 ㄴ	NNG+XSV+ETM	15	VP_MOD
+15	것으로	것 으로	NNB+JKB	16	NP_AJT
+16	밝혀졌다.	밝히 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00092_wikitree	만성 심장질환을 앓던 소녀 조던은 루카스 심장을 이식받아 새 삶을 살게 됐다.
+1	만성	만성	NNG	2	NP
+2	심장질환을	심장 을 질환	NNG+JKO+NNG	3	NP_OBJ
+3	앓던	앓 던	VV+ETM	5	VP_MOD
+4	소녀	소녀	NNG	5	NP
+5	조던은	조던 은	NNP+JX	8	NP_SBJ
+6	루카스	루카스	NNP	7	NP
+7	심장을	심장 을	NNG+JKO	8	NP_OBJ
+8	이식받아	이식 받 아	NNG+VV+EC	11	VP
+9	새	새	MMA	10	DP
+10	삶을	삶 을	NNG+JKO	11	NP_OBJ
+11	살게	살 게	VV+EC	12	VP
+12	됐다.	되 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00093_wikitree	이후 영상에서는 같은날 '프랑스 리그1' 25라운드 경기에서 즐라탄이 선보인 상의 탈의 세레머니가 이어졌다.
+1	이후	이후	NNG	2	NP
+2	영상에서는	영상 에서 는	NNG+JKB+JX	13	NP_AJT
+3	같은날	같 은 날	VA+ETM+NNG	7	NP
+4	'프랑스	' 프랑스	SS+NNP	5	NP
+5	리그1'	리그 1 '	NNG+SN+SS	6	NP
+6	25라운드	25 라운드	SN+NNG	7	NP
+7	경기에서	경기 에서	NNG+JKB	9	NP_AJT
+8	즐라탄이	즐라탄 이	NNP+JKS	9	NP_SBJ
+9	선보인	선 보이 ㄴ	NNG+VV+ETM	12	VP_MOD
+10	상의	상의	NNG	11	NP
+11	탈의	탈의	NNG	12	NP
+12	세레머니가	세레머니 가	NNG+JKS	13	NP_SBJ
+13	이어졌다.	잇 어 지 었 다	VV+EC+VX+EP+EF	0	VP
+
+## klue-dp-v1_train_00094_wikitree	경찰은 수년째 친부에게 성폭행 당하는 여성이 있다는 첩보를 입수, A씨를 붙잡아 수사를 벌인 뒤 딸의 피해 사실을 밝혀냈다.
+1	경찰은	경찰 은	NNG+JX	18	NP_SBJ
+2	수년째	수 년 째	MMN+NNB+XSN	5	NP_AJT
+3	친부에게	친부 에게	NNG+JKB	5	NP_AJT
+4	성폭행	성 폭행	NNG+NNG	5	NP_OBJ
+5	당하는	당하 는	VV+ETM	6	VP_MOD
+6	여성이	여성 이	NNG+JKS	7	NP_SBJ
+7	있다는	있 다는	VV+ETM	8	VP_MOD
+8	첩보를	첩보 를	NNG+JKO	9	NP_OBJ
+9	입수,	입수 ,	NNG+SP	13	NP
+10	A씨를	A 씨 를	SL+NNB+JKO	11	NP_OBJ
+11	붙잡아	붙잡 아	VV+EC	13	VP
+12	수사를	수사 를	NNG+JKO	13	NP_OBJ
+13	벌인	벌이 ㄴ	VV+ETM	14	VP_MOD
+14	뒤	뒤	NNG	18	NP_AJT
+15	딸의	딸 의	NNG+JKG	16	NP_MOD
+16	피해	피해	NNG	17	NP
+17	사실을	사실 을	NNG+JKO	18	NP_OBJ
+18	밝혀냈다.	밝히 어 내 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00095_wikitree	출제기관인 한국교육과정평가원은 24일 이같은 내용의 2015학년도 수능 정답을 확정했다고 발표했다.
+1	출제기관인	출제 기관 이 ㄴ	NNG+NNG+VCP+ETM	2	VNP_MOD
+2	한국교육과정평가원은	한국교육과정평가원 은	NNP+JX	10	NP_SBJ
+3	24일	24 일	SN+NNB	10	NP_AJT
+4	이같은	이 같 은	NP+VA+ETM	5	VP_MOD
+5	내용의	내용 의	NNG+JKG	8	NP_MOD
+6	2015학년도	2015 학년 도	SN+NNG+JX	8	NP
+7	수능	수능	NNG	8	NP
+8	정답을	정답 을	NNG+JKO	9	NP_OBJ
+9	확정했다고	확정 하 였 다고	NNG+XSV+EP+EC	10	VP_AJT
+10	발표했다.	발표 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00096_wikitree	배우 유승호(22) 씨가 밝힌 말이다.
+1	배우	배우	NNG	2	NP
+2	유승호(22)	유승호 ( 22 )	NNP+SS+SN+SS	3	NP
+3	씨가	씨 가	NNB+JKS	4	NP_SBJ
+4	밝힌	밝히 ㄴ	VV+ETM	5	VP_MOD
+5	말이다.	말 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00097_wikitree	그럼에도 불구하고 우리 새누리당은 유독 종로에서 지난 5년간, 19대 총선을 비롯해 서울시장 보궐선거, 18대 대통령 선거, 지방선거 등 총 4번의 선거에서 연이어 패배하는 아픔을 겪었습니다.
+1	그럼에도	그렇 ㅁ 에 도	VA+ETN+JKB+JX	2	VP_AJT
+2	불구하고	불구하 고	VV+EC	25	VP
+3	우리	우리	NP	4	NP
+4	새누리당은	새누리당 은	NNP+JX	25	NP_SBJ
+5	유독	유독	MAG	23	AP
+6	종로에서	종로 에서	NNP+JKB	23	NP_AJT
+7	지난	지나 ㄴ	VV+ETM	8	VP_MOD
+8	5년간,	5 년 간 ,	SN+NNB+XSN+SP	23	NP_AJT
+9	19대	19 대	SN+NNB	10	NP
+10	총선을	총선 을	NNG+JKO	11	NP_OBJ
+11	비롯해	비롯하 여	VV+EC	21	VP
+12	서울시장	서울 시장	NNP+NNG	13	NP
+13	보궐선거,	보궐 선거 ,	NNG+NNG+SP	17	NP_CNJ
+14	18대	18 대	SN+NNB	15	NP
+15	대통령	대통령	NNG	16	NP
+16	선거,	선거 ,	NNG+SP	17	NP_CNJ
+17	지방선거	지방 선거	NNG+NNG	18	NP
+18	등	등	NNB	21	NP
+19	총	총	MMN	20	DP
+20	4번의	4 번 의	SN+NNB+JKG	21	NP_MOD
+21	선거에서	선거 에서	NNG+JKB	23	NP_AJT
+22	연이어	연잇 어	VV+EC	23	VP
+23	패배하는	패배 하 는	NNG+XSV+ETM	24	VP_MOD
+24	아픔을	아픔 을	NNG+JKO	25	NP_OBJ
+25	겪었습니다.	겪 었 습니다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00098_wikitree	트윗을 남길 당시 기성용은 허벅지 부상으로 2013 브라질월드컵 최종예선 레바논, 우즈베키스탄, 이란 전 명단에서 빠졌고, 이에 불만을 품고 트윗을 남겼다는 주장이 제기됐습니다.
+1	트윗을	트윗 을	NNG+JKO	2	NP_OBJ
+2	남길	남기 ㄹ	VV+ETM	3	VP_MOD
+3	당시	당시	NNG	15	NP_AJT
+4	기성용은	기성용 은	NNP+JX	15	NP_SBJ
+5	허벅지	허벅지	NNG	6	NP
+6	부상으로	부상 으로	NNG+JKB	15	NP_AJT
+7	2013	2013	SN	9	NP
+8	브라질월드컵	브라질 월드컵	NNP+NNG	9	NP
+9	최종예선	최종 예선	NNG+NNG	13	NP
+10	레바논,	레바논 ,	NNP+SP	12	NP_CNJ
+11	우즈베키스탄,	우즈베키스탄 ,	NNP+SP	12	NP_CNJ
+12	이란	이란	NNP	13	NP
+13	전	전	XSN	14	NP
+14	명단에서	명단 에서	NNG+JKB	15	NP_AJT
+15	빠졌고,	빠지 었 고 ,	VV+EP+EC+SP	18	VP
+16	이에	이 에	NP+JKB	18	NP_AJT
+17	불만을	불만 을	NNG+JKO	18	NP_OBJ
+18	품고	품 고	VV+EC	20	VP
+19	트윗을	트윗 을	NNG+JKO	20	NP_OBJ
+20	남겼다는	남기 었 다는	VV+EP+ETM	21	VP_MOD
+21	주장이	주장 이	NNG+JKS	22	NP_SBJ
+22	제기됐습니다.	제기 되 었 습니다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00099_wikitree	1년 이상의 시간이 흘러 익숙해졌을 법도 하지만 여전히 외계어를 대하는 것처럼 생소하고, 그 뜻을 전혀 모르는 사람도 상당하다.
+1	1년	1 년	SN+NNB	2	NP
+2	이상의	이상 의	NNG+JKG	3	NP_MOD
+3	시간이	시간 이	NNG+JKS	4	NP_SBJ
+4	흘러	흐르 어	VV+EC	5	VP
+5	익숙해졌을	익숙하 여 지 었 을	VA+EC+VX+EP+ETM	6	VP_MOD
+6	법도	법 도	NNB+JX	7	NP
+7	하지만	하 지만	VV+EC	18	VP
+8	여전히	여전히	MAG	12	AP
+9	외계어를	외계어 를	NNG+JKO	10	NP_OBJ
+10	대하는	대하 는	VV+ETM	11	VP_MOD
+11	것처럼	것 처럼	NNB+JKB	12	NP_AJT
+12	생소하고,	생소하 고 ,	VA+EC+SP	18	VP
+13	그	그	MMD	14	DP
+14	뜻을	뜻 을	NNG+JKO	16	NP_OBJ
+15	전혀	전혀	MAG	16	AP
+16	모르는	모르 는	VV+ETM	17	VP_MOD
+17	사람도	사람 도	NNG+JX	18	NP_SBJ
+18	상당하다.	상당 하 다 .	NNG+XSA+EF+SF	0	VP
+
+## klue-dp-v1_train_00100_wikitree	검찰 측이 리의 증언이 구체적이지 않다고 지적하자 리는 직접 자리에서 일어나서 자신의 목을 붙잡고 무릎을 굽히면서 범행 장면을 재연해보이기도 했다.
+1	검찰	검찰	NNG	2	NP
+2	측이	측 이	NNB+JKS	7	NP_SBJ
+3	리의	리 의	NNP+JKG	4	NP_MOD
+4	증언이	증언 이	NNG+JKS	5	NP_SBJ
+5	구체적이지	구체 적 이 지	NNG+XSN+VCP+EC	6	VNP
+6	않다고	않 다고	VX+EC	7	VP_CMP
+7	지적하자	지적 하 자	NNG+XSV+EC	19	VP
+8	리는	리 는	NNP+JX	19	NP_SBJ
+9	직접	직접	MAG	11	AP
+10	자리에서	자리 에서	NNG+JKB	11	NP_AJT
+11	일어나서	일 어 나 아서	VV+EC+VX+EC	16	VP
+12	자신의	자신 의	NNG+JKG	13	NP_MOD
+13	목을	목 을	NNG+JKO	14	NP_OBJ
+14	붙잡고	붙잡 고	VV+EC	16	VP
+15	무릎을	무릎 을	NNG+JKO	16	NP_OBJ
+16	굽히면서	굽히 면서	VV+EC	19	VP
+17	범행	범행	NNG	18	NP
+18	장면을	장면 을	NNG+JKO	19	NP_OBJ
+19	재연해보이기도	재연 하 여 보이 기 도	NNG+XSA+EC+VV+ETN+JX	20	VP
+20	했다.	하 였 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00101_wikitree	류현진은 올 시즌 28차례 선발 등판해 13승 7패에 평균 자책점 3.03이라는 준수한 성적을 내고 있다.
+1	류현진은	류현진 은	NNP+JX	6	NP_SBJ
+2	올	올	NNG	3	DP
+3	시즌	시즌	NNG	6	NP_AJT
+4	28차례	28 차례	SN+NNG	6	NP_AJT
+5	선발	선발	NNG	6	NP
+6	등판해	등판 하 여	NNG+XSV+EC	14	VP
+7	13승	13 승	SN+NNG	8	NP
+8	7패에	7 패 에	SN+NNG+JKB	11	NP_AJT
+9	평균	평균	NNG	10	NP
+10	자책점	자책 점	NNG+NNG	11	NP
+11	3.03이라는	3 . 03 이 라는	SN+SP+SN+VCP+ETM	13	VNP_MOD
+12	준수한	준수하 ㄴ	VA+ETM	13	VP_MOD
+13	성적을	성적 을	NNG+JKO	14	NP_OBJ
+14	내고	내 고	VV+EC	15	VP
+15	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00102_wikitree	북한 조선중앙TV는 19일 김 명예부위원장이 지방의회 대의원 선거 투표에 참가한 사실과 영상을 함께 공개했다.
+1	북한	북한	NNP	2	NP
+2	조선중앙TV는	조선 중앙 TV 는	NNP+NNG+SL+JX	14	NP_SBJ
+3	19일	19 일	SN+NNB	10	NP_AJT
+4	김	김	NNP	5	NP
+5	명예부위원장이	명예 부위원장 이	NNG+NNG+JKS	10	NP_SBJ
+6	지방의회	지방 의회	NNG+NNG	8	NP
+7	대의원	대 의원	XPN+NNG	8	NP
+8	선거	선거	NNG	9	NP
+9	투표에	투표 에	NNG+JKB	10	NP_AJT
+10	참가한	참가 하 ㄴ	NNG+XSV+ETM	12	VP_MOD
+11	사실과	사실 과	NNG+JC	12	NP_CNJ
+12	영상을	영상 을	NNG+JKO	14	NP_OBJ
+13	함께	함께	MAG	14	AP
+14	공개했다.	공개 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00103_wikitree	당시 피해자 일부의 아이클라우드(애플의 데이터 저장 서비스) 계정이 해킹당한 것으로 알려지면서 클라우드 서비스의 보안성에 대한 우려가 제기되기도 했다.
+1	당시	당시	NNG	9	NP_AJT
+2	피해자	피해자	NNG	3	NP
+3	일부의	일부 의	NNG+JKG	8	NP_MOD
+4	아이클라우드(애플의	아이클라우드 ( 애플 의	NNP+SS+NNP+JKG	7	NP_MOD
+5	데이터	데이터	NNG	6	NP
+6	저장	저장	NNG	7	NP
+7	서비스)	서비스 )	NNG+SS	8	NP
+8	계정이	계정 이	NNG+JKS	9	NP_SBJ
+9	해킹당한	해킹 당하 ㄴ	NNG+XSV+ETM	10	VP_MOD
+10	것으로	것 으로	NNB+JKB	11	NP_AJT
+11	알려지면서	알리 어 지 면서	VV+EC+VX+EC	17	VP
+12	클라우드	클라우드	NNP	13	NP
+13	서비스의	서비스 의	NNG+JKG	14	NP_MOD
+14	보안성에	보안 성 에	NNG+XSN+JKB	15	NP_AJT
+15	대한	대하 ㄴ	VV+ETM	16	VP_MOD
+16	우려가	우려 가	NNG+JKS	17	NP_SBJ
+17	제기되기도	제기 되 기 도	NNG+XSV+ETN+JX	18	VP
+18	했다.	하 였 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00104_wikitree	이후 4월 중순 B양이 먼저 A씨에게 연락했고, A씨는 범행 당일 B양을 집으로 불러 성교를 하기에 이르렀다.
+1	이후	이후	NNG	7	NP_AJT
+2	4월	4 월	SN+NNB	3	NP
+3	중순	중순	NNG	7	NP_AJT
+4	B양이	B 양 이	SL+NNB+JKS	7	NP_SBJ
+5	먼저	먼저	MAG	7	AP
+6	A씨에게	A 씨 에게	SL+NNB+JKB	7	NP_AJT
+7	연락했고,	연락 하 였 고 ,	NNG+XSV+EP+EC+SP	16	VP
+8	A씨는	A 씨 는	SL+NNB+JX	15	NP_SBJ
+9	범행	범행	NNG	10	NP
+10	당일	당일	NNG	15	NP_AJT
+11	B양을	B 양 을	SL+NNB+JKO	13	NP_OBJ
+12	집으로	집 으로	NNG+JKB	13	NP_AJT
+13	불러	부르 어	VV+EC	15	VP
+14	성교를	성교 를	NNG+JKO	15	NP_OBJ
+15	하기에	하 기 에	VV+ETN+JKB	16	VP_AJT
+16	이르렀다.	이르 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00105_wikitree	공정위의 이번 조치 결과는 미래부의 TV홈쇼핑사 사업 재승인에 적지 않은 영향을 미칠 것으로 보인다.
+1	공정위의	공정위 의	NNP+JKG	3	NP_MOD
+2	이번	이번	NNG	3	NP
+3	조치	조치	NNG	4	NP
+4	결과는	결과 는	NNG+JX	12	NP_SBJ
+5	미래부의	미래부 의	NNP+JKG	8	NP_MOD
+6	TV홈쇼핑사	TV 홈 쇼핑사	SL+NNG+NNG	7	NP
+7	사업	사업	NNG	8	NP
+8	재승인에	재 승인 에	XPN+NNG+JKB	12	NP_AJT
+9	적지	적 지	VA+EC	10	VP
+10	않은	않 은	VX+ETM	11	VP_MOD
+11	영향을	영향 을	NNG+JKO	12	NP_OBJ
+12	미칠	미치 ㄹ	VV+ETM	13	VP_MOD
+13	것으로	것 으로	NNB+JKB	14	NP_AJT
+14	보인다.	보이 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00106_wikitree	이 사진이 널리 알려지자 이스라엘과 '앙숙'인 레바논 네티즌들의 분노를 샀고 그레이지의 미스 레바논 자격을 박탈해야 한다는 격한 주장까지 나왔다.
+1	이	이	MMD	2	DP
+2	사진이	사진 이	NNG+JKS	4	NP_SBJ
+3	널리	널리	MAG	4	AP
+4	알려지자	알리 어 지 자	VV+EC+VX+EC	10	VP
+5	이스라엘과	이스라엘 과	NNP+JC	6	NP_CNJ
+6	'앙숙'인	' 앙숙 ' 이 ㄴ	SS+NNP+SS+VCP+ETM	8	VNP_MOD
+7	레바논	레바논	NNP	8	NP
+8	네티즌들의	네티즌 들 의	NNG+XSN+JKG	9	NP_MOD
+9	분노를	분노 를	NNG+JKO	10	NP_OBJ
+10	샀고	사 았 고	VV+EP+EC	19	VP
+11	그레이지의	그레이지 의	NNP+JKG	14	NP_MOD
+12	미스	미스	NNG	13	NP
+13	레바논	레바논	NNP	14	NP
+14	자격을	자격 을	NNG+JKO	15	NP_OBJ
+15	박탈해야	박탈 하 여야	NNG+XSV+EC	16	VP
+16	한다는	하 ㄴ다는	VX+ETM	18	VP_MOD
+17	격한	격하 ㄴ	VA+ETM	18	VP_MOD
+18	주장까지	주장 까지	NNG+JX	19	NP_SBJ
+19	나왔다.	나오 았 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00107_wikitree	한편 해당 리조트 강당에는 사고 당시 관광객을 비롯해 부산 외대 신입생 등 100여명이 머물렀으며, 이들은 오는 3월 입학을 앞두고 환영회를 하고 있던 것으로 알려졌다.
+1	한편	한편	MAG	24	AP
+2	해당	해당	NNG	3	NP
+3	리조트	리조트	NNG	4	NP
+4	강당에는	강당 에 는	NNG+JKB+JX	14	NP_AJT
+5	사고	사고	NNG	6	NP
+6	당시	당시	NNG	14	NP_AJT
+7	관광객을	관광객 을	NNG+JKO	8	NP_OBJ
+8	비롯해	비롯하 여	VV+EC	14	VP
+9	부산	부산	NNP	10	NP
+10	외대	외대	NNP	11	NP
+11	신입생	신입 생	NNG+XSN	12	NP
+12	등	등	NNB	13	NP
+13	100여명이	100 여 명 이	SN+XSN+NNB+JKS	14	NP_SBJ
+14	머물렀으며,	머무르 었 으며 ,	VV+EP+EC+SP	19	VP
+15	이들은	이 들 은	NP+XSN+JX	19	NP_SBJ
+16	오는	오 는	VV+ETM	17	VP_MOD
+17	3월	3 월	SN+NNB	18	NP
+18	입학을	입학 을	NNG+JKO	19	NP_OBJ
+19	앞두고	앞 두 고	NNG+VV+EC	21	VP
+20	환영회를	환영회 를	NNG+JKO	21	NP_OBJ
+21	하고	하 고	VV+EC	22	VP
+22	있던	있 던	VX+ETM	23	VP_MOD
+23	것으로	것 으로	NNB+JKB	24	NP_AJT
+24	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00108_wikitree	최종합계 18언더파 270타를 기록한 박 선수는15언더파 273타를 친 스페인의 카를로타 시간다를 3타 차로 따돌리고 시즌 5승째를 거뒀다.
+1	최종합계	최종 합계	NNG+NNG	3	NP
+2	18언더파	18 언더 파	SN+NNG+NNG	3	NP
+3	270타를	270 타 를	SN+NNG+JKO	4	NP_OBJ
+4	기록한	기록 하 ㄴ	NNG+XSV+ETM	6	VP_MOD
+5	박	박	NNP	6	NP
+6	선수는15언더파	선수 는 15 언더 파	NNG+JX+SN+NNG+NNG	7	NP
+7	273타를	273 타 를	SN+NNG+JKO	8	NP_OBJ
+8	친	치 ㄴ	VV+ETM	11	VP_MOD
+9	스페인의	스페인 의	NNP+JKG	11	NP_MOD
+10	카를로타	카를로타	NNP	11	NP
+11	시간다를	시간다 를	NNP+JKO	14	NP_OBJ
+12	3타	3 타	SN+NNG	13	NP
+13	차로	차 로	NNB+JKB	14	NP_AJT
+14	따돌리고	따돌리 고	VV+EC	17	VP
+15	시즌	시즌	NNG	16	NP
+16	5승째를	5 승 째 를	SN+NNB+XSN+JKO	17	NP_OBJ
+17	거뒀다.	거두 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00109_wikitree	데 로사는 \"넘어야할 문제들이 많지만 작은 카메라가 혁신이 될 것이라고 생각한다”고 밝혔습니다.
+1	데	데	NNP	2	NP
+2	로사는	로사 는	NNP+JX	12	NP_SBJ
+3	\"넘어야할	\" 넘 어야 하 ㄹ	SS+VV+EC+VX+ETM	4	VP_MOD
+4	문제들이	문제 들 이	NNG+XSN+JKS	5	NP_SBJ
+5	많지만	많 지만	VA+EC	9	VP
+6	작은	작 은	VA+ETM	7	VP_MOD
+7	카메라가	카메라 가	NNG+JKS	9	NP_SBJ
+8	혁신이	혁신 이	NNG+JKC	9	NP_CMP
+9	될	되 ㄹ	VV+ETM	10	VP_MOD
+10	것이라고	것 이 라고	NNB+VCP+EC	11	VNP_CMP
+11	생각한다”고	생각 하 ㄴ다 ” 고	NNG+XSV+EF+SS+JKQ	12	VP_AJT
+12	밝혔습니다.	밝히 었 습니다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00110_wikitree	20일 아침 최저기온은 서울 3도, 대전 1도, 부산 7도, 광주 1도 등이다.
+1	20일	20 일	SN+NNB	2	NP
+2	아침	아침	NNG	3	NP
+3	최저기온은	최저 기온 은	NNG+NNG+JX	12	NP_SBJ
+4	서울	서울	NNP	5	NP
+5	3도,	3 도 ,	SN+NNB+SP	11	NP_CNJ
+6	대전	대전	NNP	7	NP
+7	1도,	1 도 ,	SN+NNB+SP	11	NP_CNJ
+8	부산	부산	NNP	9	NP
+9	7도,	7 도 ,	SN+NNB+SP	11	NP_CNJ
+10	광주	광주	NNP	11	NP
+11	1도	1 도	SN+NNB	12	NP
+12	등이다.	등 이 다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00111_wikitree	이석기 통합진보당 의원이 지난 2002년 부인과 이혼한 뒤, 혼자서 생활해 온 것으로 알려졌습니다.
+1	이석기	이석기	NNP	3	NP
+2	통합진보당	통합진보당	NNP	3	NP
+3	의원이	의원 이	NNG+JKS	10	NP_SBJ
+4	지난	지나 ㄴ	VV+ETM	5	VP_MOD
+5	2002년	2002 년	SN+NNB	7	NP_AJT
+6	부인과	부인 과	NNG+JKB	7	NP_AJT
+7	이혼한	이혼 하 ㄴ	NNG+XSV+ETM	8	VP_MOD
+8	뒤,	뒤 ,	NNG+SP	10	NP_AJT
+9	혼자서	혼자 서	NNG+JKS	10	NP_SBJ
+10	생활해	생활 하 여	NNG+XSV+EC	11	VP
+11	온	오 ㄴ	VX+ETM	12	VP_MOD
+12	것으로	것 으로	NNB+JKB	13	NP_AJT
+13	알려졌습니다.	알리 어 지 었 습니다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00112_wikitree	한국도로공사는 하행선에서 시작된 정체가 낮엔 더 심해질 것이며, 상행선은 오전 10시쯤부터 서서히 밀릴 것으로 예상했다.
+1	한국도로공사는	한국도로공사 는	NNP+JX	15	NP_SBJ
+2	하행선에서	하행선 에서	NNG+JKB	3	NP_AJT
+3	시작된	시작 되 ㄴ	NNG+XSV+ETM	4	VP_MOD
+4	정체가	정체 가	NNG+JKS	7	NP_SBJ
+5	낮엔	낮 에 ㄴ	NNG+JKB+JX	7	NP_AJT
+6	더	더	MAG	7	AP
+7	심해질	심하 여 지 ㄹ	VA+EC+VX+ETM	8	VP_MOD
+8	것이며,	것 이 며 ,	NNB+VCP+EC+SP	13	VNP
+9	상행선은	상행선 은	NNG+JX	13	NP_SBJ
+10	오전	오전	NNG	11	NP
+11	10시쯤부터	10 시 쯤 부터	SN+NNB+XSN+JX	13	NP_AJT
+12	서서히	서서히	MAG	13	AP
+13	밀릴	밀리 ㄹ	VV+ETM	14	VP_MOD
+14	것으로	것 으로	NNB+JKB	15	NP_AJT
+15	예상했다.	예상 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00113_wikitree	2007년 제주에서 프로에 데뷔, 2010년까지 활약한 구자철은 이듬해 1월 독일 분데스리가의 볼프스부르크로 이적했다.
+1	2007년	2007 년	SN+NNB	4	NP_AJT
+2	제주에서	제주 에서	NNP+JKB	4	NP_AJT
+3	프로에	프로 에	NNG+JKB	4	NP_AJT
+4	데뷔,	데뷔 ,	NNG+SP	6	NP
+5	2010년까지	2010 년 까지	SN+NNB+JX	6	NP_AJT
+6	활약한	활약 하 ㄴ	NNG+XSV+ETM	7	VP_MOD
+7	구자철은	구자철 은	NNP+JX	13	NP_SBJ
+8	이듬해	이듬해	NNG	9	NP
+9	1월	1 월	SN+NNB	13	NP_AJT
+10	독일	독일	NNP	11	NP
+11	분데스리가의	분데스리가 의	NNP+JKG	12	NP_MOD
+12	볼프스부르크로	볼프스부르크 로	NNP+JKB	13	NP_AJT
+13	이적했다.	이적 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00114_wikitree	그러나 마셸 여사는 모잠비크에 있는 만델라 소유의 4개 부동산과 다른 자산을 받는 대신 해당 권리를 포기할 것으로 보인다고 AFP는 전했다.
+1	그러나	그러나	MAJ	20	AP
+2	마셸	마셸	NNP	3	NP
+3	여사는	여사 는	NNG+JX	16	NP_SBJ
+4	모잠비크에	모잠비크 에	NNP+JKB	5	NP_AJT
+5	있는	있 는	VV+ETM	9	VP_MOD
+6	만델라	만델라	NNP	7	NP
+7	소유의	소유 의	NNG+JKG	9	NP_MOD
+8	4개	4 개	SN+NNB	9	NP
+9	부동산과	부동산 과	NNG+JC	11	NP_AJT
+10	다른	다른	MMD	11	DP
+11	자산을	자산 을	NNG+JKO	12	NP_OBJ
+12	받는	받 는	VV+ETM	13	VP_MOD
+13	대신	대신	NNG	16	NP_AJT
+14	해당	해당	NNG	15	NP
+15	권리를	권리 를	NNG+JKO	16	NP_OBJ
+16	포기할	포기 하 ㄹ	NNG+XSV+ETM	17	VP_MOD
+17	것으로	것 으로	NNB+JKB	18	NP_AJT
+18	보인다고	보이 ㄴ다고	VV+EC	20	VP_CMP
+19	AFP는	AFP 는	SL+JX	20	NP_SBJ
+20	전했다.	전하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00115_wikitree	또한 그로 인한 피해는 고스란히 국민이 보게 되어있습니다.
+1	또한	또한	MAG	7	AP
+2	그로	그 로	MMD+JKB	3	NP_AJT
+3	인한	인하 ㄴ	VV+ETM	4	VP_MOD
+4	피해는	피해 는	NNG+JX	7	NP_OBJ
+5	고스란히	고스란히	MAG	7	AP
+6	국민이	국민 이	NNG+JKS	7	NP_SBJ
+7	보게	보 게	VV+EC	8	VP
+8	되어있습니다.	되 어 있 습니다 .	VV+EC+VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00116_wikitree	시진핑 중국 국가주석 내외가 오늘 낮 1박2일 일정의 국빈방문을 위해 한국에 도착했다.
+1	시진핑	시진핑	NNP	3	NP
+2	중국	중국	NNP	3	NP
+3	국가주석	국가 주석	NNG+NNG	4	NP
+4	내외가	내외 가	NNG+JKS	10	NP_SBJ
+5	오늘	오늘	MAG	6	NP
+6	낮	낮	NNG	10	NP_AJT
+7	1박2일	1 박 2 일	SN+NNB+SN+NNB	8	NP
+8	일정의	일정 의	NNG+JKG	9	NP_MOD
+9	국빈방문을	국빈 방문 을	NNG+NNG+JKO	10	NP_OBJ
+10	위해	위하 여	VV+EC	12	VP
+11	한국에	한국 에	NNP+JKB	12	NP_AJT
+12	도착했다.	도착 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00117_wikitree	경찰은 항공보안법 위반 혐의를 받는 바비킴을 피혐의자 신분으로 소환해 조사한 뒤 기내난동과 성추행 혐의가 인정되면 피의자 신분으로 전환할 계획이다.
+1	경찰은	경찰 은	NNG+JX	10	NP_SBJ
+2	항공보안법	항공 보안 법	NNG+NNG+NNG	3	NP
+3	위반	위반	NNG	4	NP
+4	혐의를	혐의 를	NNG+JKO	5	NP_OBJ
+5	받는	받 는	VV+ETM	6	VP_MOD
+6	바비킴을	바비킴 을	NNP+JKO	9	NP_OBJ
+7	피혐의자	피 혐의자	XPN+NNG	8	NP
+8	신분으로	신분 으로	NNG+JKB	9	NP_AJT
+9	소환해	소환 하 여	NNG+XSV+EC	10	VP
+10	조사한	조사 하 ㄴ	NNG+XSV+ETM	11	VP_MOD
+11	뒤	뒤	NNG	15	NP_AJT
+12	기내난동과	기내 난동 과	NNG+NNG+JC	13	NP_CNJ
+13	성추행	성 추행	NNG+NNG	14	NP
+14	혐의가	혐의 가	NNG+JKS	15	NP_SBJ
+15	인정되면	인정 되 면	NNG+XSV+EC	19	VP
+16	피의자	피의자	NNG	17	NP
+17	신분으로	신분 으로	NNG+JKB	18	NP_AJT
+18	전환할	전환 하 ㄹ	NNG+XSV+ETM	19	VP_MOD
+19	계획이다.	계획 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00118_wikitree	AFP통신과 영국 일간 가디언 등에 따르면 시리아 북부 코바니 출신 에이란 쿠르디(3)는 이날 오전 터키 휴양지 보드룸의 해변에서 싸늘한 시신으로 발견됐다.
+1	AFP통신과	AFP 통신 과	SL+NNG+JC	4	NP_CNJ
+2	영국	영국	NNP	3	NP
+3	일간	일간	NNG	4	NP
+4	가디언	가디언	NNP	5	NP
+5	등에	등 에	NNB+JKB	6	NP_AJT
+6	따르면	따르 면	VV+EC	21	VP
+7	시리아	시리아	NNP	8	NP
+8	북부	북부	NNG	9	NP
+9	코바니	코바니	NNP	10	NP
+10	출신	출신	NNG	12	NP
+11	에이란	에이란	NNP	12	NP
+12	쿠르디(3)는	쿠르디 ( 3 ) 는	NNP+SS+SN+SS+JX	21	NP_SBJ
+13	이날	이 날	MMD+NNG	14	NP
+14	오전	오전	NNG	21	NP_AJT
+15	터키	터키	NNP	16	NP
+16	휴양지	휴양지	NNG	17	NP
+17	보드룸의	보드룸 의	NNP+JKG	18	NP_MOD
+18	해변에서	해변 에서	NNG+JKB	21	NP_AJT
+19	싸늘한	싸늘하 ㄴ	VA+ETM	20	VP_MOD
+20	시신으로	시신 으로	NNG+JKB	21	NP_AJT
+21	발견됐다.	발견 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00119_wikitree	가수 정애리가 반포 한강공원에서 숨진 것으로 알려진 가운데, 공원 관계자가 전한 말입니다.
+1	가수	가수	NNG	2	NP
+2	정애리가	정애리 가	NNP+JKS	5	NP_SBJ
+3	반포	반포	NNG	4	NP
+4	한강공원에서	한강 공원 에서	NNP+NNG+JKB	5	NP_AJT
+5	숨진	숨지 ㄴ	VV+ETM	6	VP_MOD
+6	것으로	것 으로	NNB+JKB	7	NP_AJT
+7	알려진	알리 어 지 ㄴ	VV+EC+VX+ETM	8	VP_MOD
+8	가운데,	가운데 ,	NNG+SP	11	NP_AJT
+9	공원	공원	NNG	10	NP
+10	관계자가	관계자 가	NNG+JKS	11	NP_SBJ
+11	전한	전하 ㄴ	VV+ETM	12	VP_MOD
+12	말입니다.	말 이 ㅂ니다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00120_wikitree	7일 대구 달성경찰서에 따르면 6일 오후 9시52분 대구 달성군 구지면 용암리의 한 아파트 6층 베란다에서 여고생 A(16)양이 뛰어내렸다.
+1	7일	7 일	SN+NNB	2	NP
+2	대구	대구	NNP	3	NP
+3	달성경찰서에	달성경찰서 에	NNP+JKB	4	NP_AJT
+4	따르면	따르 면	VV+EC	18	VP
+5	6일	6 일	SN+NNB	6	NP
+6	오후	오후	NNG	7	NP
+7	9시52분	9 시 52 분	SN+NNB+SN+NNB	18	NP_AJT
+8	대구	대구	NNP	9	NP
+9	달성군	달성군	NNP	10	NP
+10	구지면	구지면	NNP	11	NP
+11	용암리의	용암리 의	NNP+JKG	15	NP_MOD
+12	한	한	MMN	13	DP
+13	아파트	아파트	NNG	14	NP
+14	6층	6 층	SN+NNG	15	NP
+15	베란다에서	베란다 에서	NNG+JKB	18	NP_AJT
+16	여고생	여고 생	NNG+XSN	17	NP
+17	A(16)양이	A ( 16 ) 양 이	SL+SS+SN+SS+NNB+JKS	18	NP_SBJ
+18	뛰어내렸다.	뛰 어 내리 었 다 .	VV+EC+VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00121_wikitree	이들은 오후 3시 국회에서 열리는 운영위원회에 참석, '대화록 실종'을 공식 보고할 예정이다.
+1	이들은	이 들 은	NP+XSN+JX	11	NP_SBJ
+2	오후	오후	NNG	3	NP
+3	3시	3 시	SN+NNB	7	NP_AJT
+4	국회에서	국회 에서	NNG+JKB	5	NP_AJT
+5	열리는	열리 는	VV+ETM	6	VP_MOD
+6	운영위원회에	운영 위원회 에	NNG+NNG+JKB	7	NP_AJT
+7	참석,	참석 ,	NNG+SP	11	NP
+8	'대화록	' 대화록	SS+NNG	9	NP
+9	실종'을	실종 ' 을	NNG+SS+JKO	11	NP_OBJ
+10	공식	공식	NNG	11	NP_AJT
+11	보고할	보고 하 ㄹ	NNG+XSV+ETM	12	VP_MOD
+12	예정이다.	예정 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00122_wikitree	한편 이번 연구는 부부 중 한 사람이 최소 51세 이상일 경우로 한정 됐으며 약 20년 간 2701쌍의 부부를 관찰한 결과를 토대로 발표됐다.
+1	한편	한편	MAG	22	AP
+2	이번	이번	NNG	3	NP
+3	연구는	연구 는	NNG+JX	13	NP_SBJ
+4	부부	부부	NNG	5	NP
+5	중	중	NNB	7	NP
+6	한	한	MMN	7	DP
+7	사람이	사람 이	NNG+JKS	10	NP_SBJ
+8	최소	최소	NNG	10	NP
+9	51세	51 세	SN+NNB	10	NP
+10	이상일	이상 이 ㄹ	NNG+VCP+ETM	11	VNP_MOD
+11	경우로	경우 로	NNG+JKB	13	NP_AJT
+12	한정	한정	NNG	13	NP_CMP
+13	됐으며	되 었 으며	VV+EP+EC	22	VP
+14	약	약	MMA	15	DP
+15	20년	20 년	SN+NNB	16	NP
+16	간	간	NNB	19	NP_AJT
+17	2701쌍의	2701 쌍 의	SN+NNG+JKG	18	NP_MOD
+18	부부를	부부 를	NNG+JKO	19	NP_OBJ
+19	관찰한	관찰 하 ㄴ	NNG+XSV+ETM	20	VP_MOD
+20	결과를	결과 를	NNG+JKO	21	NP_OBJ
+21	토대로	토대 로	NNG+JKB	22	NP_AJT
+22	발표됐다.	발표 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00123_wikitree	금융당국이 자회사 간 정보 교류 남용으로 인한 은행 정보 유출이 지주사 내부 통제 문제로 드러나면 책임을 물을 방침이기 때문이다.
+1	금융당국이	금융 당국 이	NNG+NNG+JKS	17	NP_SBJ
+2	자회사	자회사	NNG	3	NP
+3	간	간	NNB	5	NP
+4	정보	정보	NNG	5	NP
+5	교류	교류	NNG	6	NP
+6	남용으로	남용 으로	NNG+JKB	7	NP_AJT
+7	인한	인하 ㄴ	VV+ETM	10	VP_MOD
+8	은행	은행	NNG	9	NP
+9	정보	정보	NNG	10	NP
+10	유출이	유출 이	NNG+JKS	15	NP_SBJ
+11	지주사	지주사	NNG	12	NP
+12	내부	내부	NNG	13	NP
+13	통제	통제	NNG	14	NP
+14	문제로	문제 로	NNG+JKB	15	NP_AJT
+15	드러나면	드러나 면	VV+EC	17	VP
+16	책임을	책임 을	NNG+JKO	17	NP_OBJ
+17	물을	묻 을	VV+ETM	18	VP_MOD
+18	방침이기	방침 이 기	NNG+VCP+ETN	19	VNP
+19	때문이다.	때문 이 다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00124_wikitree	박 교수는 또 제2롯데월드 초고층부와 가장 가까운 쪽의 지하수 수위가 다른 지점보다 더 낮다고 지적했다.
+1	박	박	NNP	2	NP
+2	교수는	교수 는	NNG+JX	15	NP_SBJ
+3	또	또	MAG	15	AP
+4	제2롯데월드	제 2 롯데월드	XPN+SN+NNP	5	NP
+5	초고층부와	초 고층부 와	XPN+NNG+JC	7	NP_AJT
+6	가장	가장	MAG	7	AP
+7	가까운	가깝 ㄴ	VA+ETM	8	VP_MOD
+8	쪽의	쪽 의	NNB+JKG	10	NP_MOD
+9	지하수	지하수	NNG	10	NP
+10	수위가	수위 가	NNG+JKS	14	NP_SBJ
+11	다른	다른	MMD	12	DP
+12	지점보다	지점 보다	NNG+JKB	14	NP_AJT
+13	더	더	MAG	14	AP
+14	낮다고	낮 다고	VA+EC	15	VP_CMP
+15	지적했다.	지적 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00125_wikitree	항상 국가안보를 걱정하고 아낌없는 질타를 해 주시는 위원장님과 위원들께 깊은 감사를 드린다.
+1	항상	항상	MAG	3	AP
+2	국가안보를	국가 안보 를	NNG+NNG+JKO	3	NP_OBJ
+3	걱정하고	걱정 하 고	NNG+XSV+EC	6	VP
+4	아낌없는	아끼 ㅁ 없 는	VV+ETN+VA+ETM	5	VP_MOD
+5	질타를	질타 를	NNG+JKO	6	NP_OBJ
+6	해	하 여	VV+EC	7	VP
+7	주시는	주 시 는	VX+EP+ETM	9	VP_MOD
+8	위원장님과	위원장 님 과	NNG+XSN+JC	9	NP_CNJ
+9	위원들께	위원 들 께	NNG+XSN+JKB	12	NP_AJT
+10	깊은	깊 은	VA+ETM	11	VP_MOD
+11	감사를	감사 를	NNG+JKO	12	NP_OBJ
+12	드린다.	드리 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00126_wikitree	진보정의당이 21일 당명을 '정의당'으로 바꾸고 새 당대표로 천호선 의원을 선출했다.
+1	진보정의당이	진보정의당 이	NNP+JKS	5	NP_SBJ
+2	21일	21 일	SN+NNB	5	NP_AJT
+3	당명을	당 명 을	NNG+NNG+JKO	5	NP_OBJ
+4	'정의당'으로	' 정의당 ' 으로	SS+NNP+SS+JKB	5	NP_AJT
+5	바꾸고	바꾸 고	VV+EC	10	VP
+6	새	새	MMA	7	DP
+7	당대표로	당 대표 로	NNG+NNG+JKB	10	NP_AJT
+8	천호선	천호선	NNP	9	NP
+9	의원을	의원 을	NNG+JKO	10	NP_OBJ
+10	선출했다.	선출 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00127_wikitree	금융위원회와 금융감독원은 온라인 손보사의 경우 자동차보험 비중이 절대적인데다 막대한 적자로 경영 위기에 직면한 점을 고려해 일부 인상을 허용할 방침이다.
+1	금융위원회와	금융위원회 와	NNG+JC	2	NP_CNJ
+2	금융감독원은	금융감독원 은	NNG+JX	15	NP_SBJ
+3	온라인	온라인	NNG	4	NP
+4	손보사의	손보사 의	NNG+JKG	5	NP_MOD
+5	경우	경우	NNG	8	NP_AJT
+6	자동차보험	자동차 보험	NNG+NNG	7	NP
+7	비중이	비중 이	NNG+JKS	8	NP_SBJ
+8	절대적인데다	절대 적 이 ㄴ 데 에다	NNG+XSN+VCP+ETM+NNB+JKB	13	VNP
+9	막대한	막대하 ㄴ	VA+ETM	10	VP_MOD
+10	적자로	적자 로	NNG+JKB	13	NP_AJT
+11	경영	경영	NNG	12	NP
+12	위기에	위기 에	NNG+JKB	13	NP_AJT
+13	직면한	직면 하 ㄴ	NNG+XSV+ETM	14	VP_MOD
+14	점을	점 을	NNG+JKO	15	NP_OBJ
+15	고려해	고려 하 여	NNG+XSV+EC	18	VP
+16	일부	일부	NNG	17	NP
+17	인상을	인상 을	NNG+JKO	18	NP_OBJ
+18	허용할	허용 하 ㄹ	NNG+XSV+ETM	19	VP_MOD
+19	방침이다.	방침 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00128_wikitree	이날 당원투표와 여론조사를 합산한 결과 '공천해야 한다’는 의견이 53.44%, '공천하지 않아야 한다’는 견해가 46.56%로 나왔다.
+1	이날	이 날	MMD+NNG	4	NP_AJT
+2	당원투표와	당원 투표 와	NNG+NNG+JC	3	NP_CNJ
+3	여론조사를	여론 조사 를	NNG+NNG+JKO	4	NP_OBJ
+4	합산한	합산 하 ㄴ	NNG+XSV+ETM	5	VP_MOD
+5	결과	결과	NNG	15	NP_AJT
+6	'공천해야	' 공천 하 여야	SS+NNG+XSV+EC	7	VP
+7	한다’는	하 ㄴ다 ’ 는	VX+EF+SS+ETM	8	VP_MOD
+8	의견이	의견 이	NNG+JKS	15	NP_SBJ
+9	53.44%,	53 . 44 % ,	SN+SP+SN+SW+SP	15	NP_AJT
+10	'공천하지	' 공천 하 지	SS+NNG+XSV+EC	11	VP
+11	않아야	않 아야	VX+EC	12	VP
+12	한다’는	하 ㄴ다 ’ 는	VX+EF+SS+ETM	13	VP_MOD
+13	견해가	견해 가	NNG+JKS	15	NP_SBJ
+14	46.56%로	46 . 56 % 로	SN+SP+SN+SW+JKB	15	NP_AJT
+15	나왔다.	나오 았 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00129_wikitree	우리 주재원의 중국 최초 체류기간 2년 부여대상(기존 1년)을 확대하기로 합의됐으며 양국 공동제작 영화 및 방송 프로그램에 국내산에 준하는 혜택을 부여하기로 했다.
+1	우리	우리	NP	2	NP
+2	주재원의	주재원 의	NNG+JKG	4	NP_MOD
+3	중국	중국	NNP	4	NP
+4	최초	최초	NNG	5	NP
+5	체류기간	체류 기간	NNG+NNG	8	NP
+6	2년	2 년	SN+NNB	7	NP
+7	부여대상(기존	부여 대상 ( 기존	NNG+NNG+SS+NNG	8	NP
+8	1년)을	1 년 ) 을	SN+NNB+SS+JKO	9	NP_OBJ
+9	확대하기로	확대 하 기 로	NNG+XSV+ETN+JKB	10	VP_AJT
+10	합의됐으며	합의 되 었 으며	NNG+XSV+EP+EC	20	VP
+11	양국	양국	NNG	12	NP
+12	공동제작	공동 제작	NNG+NNG	13	NP
+13	영화	영화	NNG	16	NP_CNJ
+14	및	및	MAG	16	AP
+15	방송	방송	NNG	16	NP
+16	프로그램에	프로그램 에	NNG+JKB	20	NP_AJT
+17	국내산에	국내산 에	NNG+JKB	18	NP_AJT
+18	준하는	준하 는	VV+ETM	19	VP_MOD
+19	혜택을	혜택 을	NNG+JKO	20	NP_OBJ
+20	부여하기로	부여 하 기 로	NNG+XSV+ETN+JKB	21	VP_AJT
+21	했다.	하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00130_wikitree	박 선수의 시범경기 성적은 타율 0.316(19타수 6안타) 3홈런 7타점이다.
+1	박	박	NNP	2	NP
+2	선수의	선수 의	NNG+JKG	4	NP_MOD
+3	시범경기	시범 경기	NNG+NNG	4	NP
+4	성적은	성적 은	NNG+JX	9	NP_SBJ
+5	타율	타율	NNG	7	NP
+6	0.316(19타수	0 . 316 ( 19 타수	SN+SP+SN+SS+SN+NNG	7	NP
+7	6안타)	6 안타 )	SN+NNG+SS	8	NP
+8	3홈런	3 홈런	SN+NNG	9	NP
+9	7타점이다.	7 타점 이 다 .	SN+NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00131_wikitree	양가 부모도 모두 중산층으로 특별한 경제적 어려움이 없는 것으로 조사됐다.
+1	양가	양 가	MMN+NNG	2	NP
+2	부모도	부모 도	NNG+JX	8	NP_SBJ
+3	모두	모두	MAG	4	AP
+4	중산층으로	중산 층 으로	NNG+XSN+JKB	8	NP_AJT
+5	특별한	특별 하 ㄴ	NNG+XSA+ETM	7	VP_MOD
+6	경제적	경제 적	NNG+XSN	7	NP
+7	어려움이	어렵 음 이	VA+ETN+JKS	8	VP_SBJ
+8	없는	없 는	VA+ETM	9	VP_MOD
+9	것으로	것 으로	NNB+JKB	10	NP_AJT
+10	조사됐다.	조사 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00132_wikitree	이번 대회에서는 전날 50ｍ 권총 단체전 은메달에 이은 두 번째 메달이다.
+1	이번	이 번	MMD+NNB	2	NP
+2	대회에서는	대회 에서 는	NNG+JKB+JX	11	NP_AJT
+3	전날	전 날	NNG+NNG	6	NP
+4	50ｍ	50 ｍ	SN+SW	5	NP
+5	권총	권총	NNG	6	NP
+6	단체전	단체전	NNG	7	NP
+7	은메달에	은 메달 에	NNG+NNG+JKB	8	NP_AJT
+8	이은	잇 ㄴ	VV+ETM	11	VP_MOD
+9	두	두	MMN	10	DP
+10	번째	번 째	NNB+XSN	11	NP
+11	메달이다.	메달 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00133_wikitree	인터넷 매체 'GO발뉴스'의 김성훈 고문변호사가 카드사 3사의 개인정보 불법유출 관련 집단 소송을 진행합니다.
+1	인터넷	인터넷	NNG	2	NP
+2	매체	매체	NNG	3	NP
+3	'GO발뉴스'의	' GO 발뉴스 ' 의	SS+SL+NNG+SS+JKG	5	NP_MOD
+4	김성훈	김성훈	NNP	5	NP
+5	고문변호사가	고문 변호사 가	NNG+NNG+JKS	13	NP_SBJ
+6	카드사	카드사	NNG	7	NP
+7	3사의	3 사 의	SN+NNG+JKG	9	NP_MOD
+8	개인정보	개인 정보	NNG+NNG	9	NP
+9	불법유출	불법 유출	NNG+NNG	10	NP
+10	관련	관련	NNG	12	NP
+11	집단	집단	NNG	12	NP
+12	소송을	소송 을	NNG+JKO	13	NP_OBJ
+13	진행합니다.	진행 하 ㅂ니다 .	NNG+XSV+EF+SF	0	VP
+
+## klue-dp-v1_train_00134_wikitree	한편 작년부터 중국매체들에선 올해 중 베컴의 중국 프로팀 이적설이 심심찮게 나오고 있습니다.
+1	한편	한편	MAG	12	AP
+2	작년부터	작년 부터	NNG+JX	11	NP_AJT
+3	중국매체들에선	중국 매체 들 에서 ㄴ	NNP+NNG+XSN+JKB+JX	11	NP_AJT
+4	올해	올해	NNG	5	NP
+5	중	중	NNB	9	NP_AJT
+6	베컴의	베컴 의	NNP+JKG	9	NP_MOD
+7	중국	중국	NNP	8	NP
+8	프로팀	프로 팀	NNG+NNG	9	NP
+9	이적설이	이적설 이	NNG+JKS	11	NP_SBJ
+10	심심찮게	심심찮 게	VA+EC	11	VP_AJT
+11	나오고	나오 고	VV+EC	12	VP
+12	있습니다.	있 습니다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00135_wikitree	그러나 후반 19분 크리스티안 로드리게스(아틀레티코 마드리드)의 왼발슛이 다비드 오스피나(니스) 골키퍼의 손에 걸리는 등 마무리가 부족했다.
+1	그러나	그러나	MAJ	15	AP
+2	후반	후반	NNG	3	NP
+3	19분	19 분	SN+NNB	12	NP_AJT
+4	크리스티안	크리스티안	NNP	5	NP
+5	로드리게스(아틀레티코	로드리게스 ( 아틀레티코	NNP+SS+NNP	6	NP
+6	마드리드)의	마드리드 ) 의	NNP+SS+JKG	7	NP_MOD
+7	왼발슛이	왼 발 슛 이	MMD+NNG+NNG+JKS	12	NP_SBJ
+8	다비드	다비드	NNP	9	NP
+9	오스피나(니스)	오스피나 ( 니스 )	NNP+SS+NNP+SS	10	NP
+10	골키퍼의	골키퍼 의	NNG+JKG	11	NP_MOD
+11	손에	손 에	NNG+JKB	12	NP_AJT
+12	걸리는	걸리 는	VV+ETM	13	VP_MOD
+13	등	등	NNB	15	NP_AJT
+14	마무리가	마무리 가	NNG+JKS	15	NP_SBJ
+15	부족했다.	부족 하 였 다 .	NNG+XSA+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00136_wikitree	제품을 사려고 결제를 시도하면 결제 대신 '티갭 주얼리' 사이트가 추구하는 가치를 담은 글이 나타난다.
+1	제품을	제품 을	NNG+JKO	2	NP_OBJ
+2	사려고	사 려고	VV+EC	4	VP
+3	결제를	결제 를	NNG+JKO	4	NP_OBJ
+4	시도하면	시도 하 면	NNG+XSV+EC	14	VP
+5	결제	결제	NNG	6	NP
+6	대신	대신	NNG	14	NP_AJT
+7	'티갭	' 티갭	SS+NNG	8	NP
+8	주얼리'	주얼리 '	NNG+SS	9	NP
+9	사이트가	사이트 가	NNG+JKS	10	NP_SBJ
+10	추구하는	추구 하 는	NNG+XSV+ETM	11	VP_MOD
+11	가치를	가치 를	NNG+JKO	12	NP_OBJ
+12	담은	담 은	VV+ETM	13	VP_MOD
+13	글이	글 이	NNG+JKS	14	NP_SBJ
+14	나타난다.	나타나 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00137_wikitree	오늘(24일) 발표된 3차 라인업에는 박정현, 불독맨션 등을 포함한 12명이 추가됐습니다.
+1	오늘(24일)	오늘 ( 24 일 )	NNG+SS+SN+NNB+SS	2	NP_AJT
+2	발표된	발표 되 ㄴ	NNG+XSV+ETM	4	VP_MOD
+3	3차	3 차	SN+NNB	4	NP
+4	라인업에는	라인 업 에는	NNG+NNG+JKS	10	NP_AJT
+5	박정현,	박정현 ,	NNP+SP	6	NP_CNJ
+6	불독맨션	불독맨션	NNP	7	NP
+7	등을	등 을	NNB+JKO	8	NP_OBJ
+8	포함한	포함 하 ㄴ	NNG+XSV+ETM	9	VP_MOD
+9	12명이	12 명 이	SN+NNB+JKS	10	NP_SBJ
+10	추가됐습니다.	추가 되 었 습니다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00138_wikitree	구는 상습적인 불법광고에 대해서는 과태료를 부과하고, 청소년 유해 광고물의 경우 경찰에 고발 조치를 병행할 방침이다.
+1	구는	구 는	NNG+JX	6	NP_SBJ
+2	상습적인	상습 적 이 ㄴ	NNG+XSN+VCP+ETM	3	VNP_MOD
+3	불법광고에	불법 광고 에	NNG+NNG+JKB	4	NP_AJT
+4	대해서는	대하 여서 는	VV+EC+JX	6	VP
+5	과태료를	과태료 를	NNG+JKO	6	NP_OBJ
+6	부과하고,	부과 하 고 ,	NNG+XSV+EC+SP	14	VP
+7	청소년	청소년	NNG	8	NP
+8	유해	유해	NNG	9	NP
+9	광고물의	광고물 의	NNG+JKG	10	NP_MOD
+10	경우	경우	NNG	14	NP_AJT
+11	경찰에	경찰 에	NNG+JKB	13	NP_AJT
+12	고발	고발	NNG	13	NP
+13	조치를	조치 를	NNG+JKO	14	NP_OBJ
+14	병행할	병행 하 ㄹ	NNG+XSV+ETM	15	VP_MOD
+15	방침이다.	방침 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00139_wikitree	이 영상은 지난 2008년 7월 스티브잡스가 아이폰 3G가 처음 소개된 것부터 시작해 지난해 가을 아이폰5S 발표까지 일목요연하게 정리돼 있다.
+1	이	이	MMD	2	DP
+2	영상은	영상 은	NNG+JX	18	NP_SBJ
+3	지난	지나 ㄴ	VV+ETM	5	VP_MOD
+4	2008년	2008 년	SN+NNB	5	NP
+5	7월	7 월	SN+NNB	10	NP_AJT
+6	스티브잡스가	스티브잡스 가	NNP+JKS	10	NP_SBJ
+7	아이폰	아이폰	NNP	8	NP
+8	3G가	3 G 가	SN+SL+JKS	10	NP_SBJ
+9	처음	처음	NNG	10	NP_AJT
+10	소개된	소개 되 ㄴ	NNG+XSV+ETM	11	VP_MOD
+11	것부터	것 부터	NNB+JX	12	NP_AJT
+12	시작해	시작 하 여	NNG+XSV+EC	18	VP
+13	지난해	지나 ㄴ 해	VV+ETM+NNG	14	NP
+14	가을	가을	NNG	16	NP
+15	아이폰5S	아이폰 5 S	NNP+SN+SL	16	NP
+16	발표까지	발표 까지	NNG+JX	18	NP_AJT
+17	일목요연하게	일목요연하 게	VA+EC	18	VP_AJT
+18	정리돼	정리 되 어	NNG+XSV+EC	19	VP
+19	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00140_wikitree	한편 강동원 씨는 위험에 직면한 소녀를 구하기 위해 사건에 뛰어든 두 사제 간 이야기를 그린 영화 '검은 사제들’(감독 장재현) 촬영에 한창이다.
+1	한편	한편	MAG	21	AP
+2	강동원	강동원	NNP	3	NP
+3	씨는	씨 는	NNB+JX	21	NP_SBJ
+4	위험에	위험 에	NNG+JKB	5	NP_AJT
+5	직면한	직면하 ㄴ	VV+ETM	6	VP_MOD
+6	소녀를	소녀 를	NNG+JKO	7	NP_OBJ
+7	구하기	구하 기	VV+ETN	8	VP_OBJ
+8	위해	위하 여	VV+EC	10	VP
+9	사건에	사건 에	NNG+JKB	10	NP_AJT
+10	뛰어든	뛰 어 들 ㄴ	VV+EC+VX+ETM	13	VP_MOD
+11	두	두	MMN	12	DP
+12	사제	사제	NNG	13	NP
+13	간	간	NNG	14	NP
+14	이야기를	이야기 를	NNG+JKO	15	NP_OBJ
+15	그린	그리 ㄴ	VV+ETM	16	VP_MOD
+16	영화	영화	NNG	19	NP
+17	'검은	' 검 은	SS+VA+ETM	18	VP_MOD
+18	사제들’(감독	사제 들 ’ ( 감독	NNG+XSN+SS+SS+NNG	19	NP
+19	장재현)	장재현 )	NNP+SS	20	NP
+20	촬영에	촬영 에	NNG+JKB	21	NP_AJT
+21	한창이다.	한창 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00141_wikitree	오바마 대통령은 이날 오후 부인인 미셸 여사, 두 딸 말리아와 사샤, 장모인 마리안 로빈슨과 함께 쿠바 아바나의 호세마르티 국제공항에 도착했다.
+1	오바마	오바마	NNP	2	NP
+2	대통령은	대통령 은	NNG+JX	20	NP_SBJ
+3	이날	이 날	MMD+NNG	4	NP
+4	오후	오후	NNG	20	NP_AJT
+5	부인인	부인 이 ㄴ	NNG+VCP+ETM	7	VNP_MOD
+6	미셸	미셸	NNP	7	NP
+7	여사,	여사 ,	NNG+SP	14	NP_CNJ
+8	두	두	MMN	9	DP
+9	딸	딸	NNG	11	NP
+10	말리아와	말리아 와	NNP+JC	11	NP_CNJ
+11	사샤,	사샤 ,	NNP+SP	14	NP_CNJ
+12	장모인	장모 이 ㄴ	NNG+VCP+ETM	14	VNP_MOD
+13	마리안	마리안	NNP	14	NP
+14	로빈슨과	로빈슨 과	NNP+JKB	15	NP_AJT
+15	함께	함께	MAG	20	AP
+16	쿠바	쿠바	NNP	17	NP
+17	아바나의	아바나 의	NNP+JKG	19	NP_MOD
+18	호세마르티	호세마르티	NNP	19	NP
+19	국제공항에	국제 공항 에	NNG+NNG+JKB	20	NP_AJT
+20	도착했다.	도착 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00142_wikitree	경찰은 지난해 11월부터 지난 달까지 해당 어린이집 원생 11명이 지속적으로 폭행을 당한 사실을 확인했다고 밝혔다.
+1	경찰은	경찰 은	NNG+JX	15	NP_SBJ
+2	지난해	지나 ㄴ 해	VV+ETM+NNG	3	NP
+3	11월부터	11 월 부터	SN+NNB+JX	5	NP_AJT
+4	지난	지나 ㄴ	VV+ETM	5	VP_MOD
+5	달까지	달 까지	NNG+JX	12	NP_AJT
+6	해당	해당	NNG	7	NP
+7	어린이집	어린이집	NNG	8	NP
+8	원생	원생	NNG	9	NP
+9	11명이	11 명 이	SN+NNB+JKS	12	NP_SBJ
+10	지속적으로	지속 적 으로	NNG+XSN+JKB	12	NP_AJT
+11	폭행을	폭행 을	NNG+JKO	12	NP_OBJ
+12	당한	당하 ㄴ	VV+ETM	13	VP_MOD
+13	사실을	사실 을	NNG+JKO	14	NP_OBJ
+14	확인했다고	확인 하 였 다고	NNG+XSV+EP+EC	15	VP_AJT
+15	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00143_wikitree	JTBC 드라마 '하녀들’ 촬영 도중 불의의 사고로 소중한 생명이 희생된 점에 대해 유족과 온 국민께 심심한 사과의 말씀을 드립니다.
+1	JTBC	JTBC	SL	2	NP
+2	드라마	드라마	NNG	3	NP
+3	'하녀들’	' 하녀들 ’	SS+NNP+SS	4	NP
+4	촬영	촬영	NNG	5	NP
+5	도중	도중	NNG	10	NP_AJT
+6	불의의	불의 의	NNG+JKG	7	NP_MOD
+7	사고로	사고 로	NNG+JKB	10	NP_AJT
+8	소중한	소중하 ㄴ	VA+ETM	9	VP_MOD
+9	생명이	생명 이	NNG+JKS	10	NP_SBJ
+10	희생된	희생 되 ㄴ	NNG+XSV+ETM	11	VP_MOD
+11	점에	점 에	NNG+JKB	12	NP_AJT
+12	대해	대하 여	VV+EC	19	VP
+13	유족과	유족 과	NNG+JC	15	NP_CNJ
+14	온	온	MMD	15	DP
+15	국민께	국민 께	NNG+XSN	19	NP_AJT
+16	심심한	심심하 ㄴ	VA+ETM	18	VP_MOD
+17	사과의	사과 의	NNG+JKG	18	NP_MOD
+18	말씀을	말씀 을	NNG+JKO	19	NP_OBJ
+19	드립니다.	드리 ㅂ니다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00144_wikitree	이 글을 본 한 트위터 이용자가 자신의 생각을 밝히며 설전이 시작됐다.
+1	이	이	MMD	2	DP
+2	글을	글 을	NNG+JKO	3	NP_OBJ
+3	본	보 ㄴ	VV+ETM	6	VP_MOD
+4	한	한	MMN	6	DP
+5	트위터	트위터	NNP	6	NP
+6	이용자가	이용자 가	NNG+JKS	9	NP_SBJ
+7	자신의	자신 의	NNG+JKG	8	NP_MOD
+8	생각을	생각 을	NNG+JKO	9	NP_OBJ
+9	밝히며	밝히 며	VV+EC	11	VP
+10	설전이	설전 이	NNG+JKS	11	NP_SBJ
+11	시작됐다.	시작 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00145_wikitree	A씨는 그해 5월 사직서를 제출했지만 학교 교원징계위원회는 이를 반려하고 같은 해 10월 파면을 결정했다.
+1	A씨는	A 씨 는	SL+NNB+JX	5	NP_SBJ
+2	그해	그 해	NP+NNG	3	NP
+3	5월	5 월	SN+NNB	5	NP_AJT
+4	사직서를	사직서 를	NNG+JKO	5	NP_OBJ
+5	제출했지만	제출 하 였 지만	NNG+XSV+EP+EC	9	VP
+6	학교	학교	NNG	7	NP
+7	교원징계위원회는	교원징계위원회 는	NNP+JX	9	NP_SBJ
+8	이를	이 를	NP+JKO	9	NP_OBJ
+9	반려하고	반려 하 고	NNG+XSV+EC	14	VP
+10	같은	같 은	VA+ETM	11	VP_MOD
+11	해	해	NNG	12	NP
+12	10월	10 월	SN+NNB	14	NP_AJT
+13	파면을	파면 을	NNG+JKO	14	NP_OBJ
+14	결정했다.	결정 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00146_wikitree	첫 생산품 출하 이래 지난 1월까지 누적 생산량은 20억 1천703만 달러 규모다.
+1	첫	첫	MMN	2	DP
+2	생산품	생산품	NNG	3	NP
+3	출하	출하	NNG	4	NP
+4	이래	이래	NNB	8	NP
+5	지난	지나 ㄴ	VV+ETM	6	VP_MOD
+6	1월까지	1 월 까지	SN+NNB+JX	8	NP_AJT
+7	누적	누적	NNG	8	NP
+8	생산량은	생산량 은	NNG+JX	12	NP_SBJ
+9	20억	20 억	SN+NR	10	NP
+10	1천703만	1 천 703 만	SN+NR+SN+NR	11	NP
+11	달러	달러	NNB	12	NP
+12	규모다.	규모 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00147_wikitree	이명박 전 대통령 기념재단이 6월 지방선거가 끝난 후 설립될 전망이다.
+1	이명박	이명박	NNP	3	NP
+2	전	전	MMD	3	DP
+3	대통령	대통령	NNG	4	NP
+4	기념재단이	기념 재단 이	NNG+NNG+JKS	9	NP_SBJ
+5	6월	6 월	SN+NNB	6	NP
+6	지방선거가	지방 선거 가	NNG+NNG+JKS	7	NP_SBJ
+7	끝난	끝나 ㄴ	VV+ETM	8	VP_MOD
+8	후	후	NNG	9	NP_AJT
+9	설립될	설립 되 ㄹ	NNG+XSV+ETM	10	VP_MOD
+10	전망이다.	전망 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00148_wikitree	봉준호 감독의 '설국열차'가 지난 22일 언론 시사회에서 공개된 뒤 해외 언론에서 호평이 쏟아지고 있다.
+1	봉준호	봉준호	NNP	2	NP
+2	감독의	감독 의	NNG+JKG	3	NP_MOD
+3	'설국열차'가	' 설국열차 ' 가	SS+NNP+SS+JKS	8	NP_SBJ
+4	지난	지나 ㄴ	VV+ETM	5	VP_MOD
+5	22일	22 일	SN+NNB	8	NP_AJT
+6	언론	언론	NNG	7	NP
+7	시사회에서	시사회 에서	NNG+JKB	8	NP_AJT
+8	공개된	공개 되 ㄴ	NNG+XSV+ETM	9	VP_MOD
+9	뒤	뒤	NNG	13	NP_AJT
+10	해외	해외	NNG	11	NP
+11	언론에서	언론 에서	NNG+JKB	13	NP_AJT
+12	호평이	호평 이	NNG+JKS	13	NP_SBJ
+13	쏟아지고	쏟 아 지 고	VV+EC+VX+EC	14	VP
+14	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00149_wikitree	최 씨는 27개월 된 딸을 키우고 있는 21살의 젊은 주부다.
+1	최	최	NNP	2	NP
+2	씨는	씨 는	NNB+JX	10	NP_SBJ
+3	27개월	27 개월	SN+NNB	4	NP_CMP
+4	된	되 ㄴ	VV+ETM	5	VP_MOD
+5	딸을	딸 을	NNG+JKO	6	NP_OBJ
+6	키우고	키우 고	VV+EC	7	VP
+7	있는	있 는	VX+ETM	10	VP_MOD
+8	21살의	21 살 의	SN+NNB+JKG	10	NP_MOD
+9	젊은	젊 은	VA+ETM	10	VP_MOD
+10	주부다.	주부 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00150_wikitree	또한 저로인해 힘들어할 저희멤버들과 가족들에게도 미안하단말 꼭 전하고 싶습니다.
+1	또한	또한	MAG	8	AP
+2	저로인해	저 로 인하 여	NP+JKB+VV+EC	3	VP
+3	힘들어할	힘들 어 하 ㄹ	VA+EC+VX+ETM	5	VP_MOD
+4	저희멤버들과	저희 멤버 들 과	NP+NNG+XSN+JC	5	NP_CNJ
+5	가족들에게도	가족 들 에게 도	NNG+XSN+JKB+JX	8	NP_AJT
+6	미안하단말	미안 하 단 말	NNG+VV+ETM+NNG	8	NP_OBJ
+7	꼭	꼭	MAG	8	AP
+8	전하고	전하 고	VV+EC	9	VP
+9	싶습니다.	싶 습니다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00151_wikitree	해당 제품이 국내·외 각종 행사에서 공식 만찬주로 널리 쓰이고 있었던 만큼 신뢰도에 타격을 입게 됐다.
+1	해당	해당	NNG	2	NP
+2	제품이	제품 이	NNG+JKS	9	NP_SBJ
+3	국내·외	국내 · 외	NNG+SP+NNG	5	NP
+4	각종	각종	NNG	5	NP
+5	행사에서	행사 에서	NNG+JKB	9	NP_AJT
+6	공식	공식	NNG	7	NP
+7	만찬주로	만찬주 로	NNG+JKB	9	NP_AJT
+8	널리	널리	MAG	9	AP
+9	쓰이고	쓰이 고	VV+EC	10	VP
+10	있었던	있 었 던	VX+EP+ETM	11	VP_MOD
+11	만큼	만큼	NNB	14	NP_AJT
+12	신뢰도에	신뢰 도 에	NNG+NNG+JKB	14	NP_AJT
+13	타격을	타격 을	NNG+JKO	14	NP_OBJ
+14	입게	입 게	VV+EC	15	VP
+15	됐다.	되 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00152_wikitree	송혜교 씨와 서경덕 교수는 뉴욕현대미술관(MoMA), 토론토 박물관 등에 한글 안내서를 제공해왔다고 알려졌다.
+1	송혜교	송혜교	NNP	2	NP
+2	씨와	씨 와	NNB+JC	4	NP_CNJ
+3	서경덕	서경덕	NNP	4	NP
+4	교수는	교수 는	NNG+JX	11	NP_SBJ
+5	뉴욕현대미술관(MoMA),	뉴욕현대미술관 ( MoMA ) ,	NNP+SS+SL+SS+SP	7	NP_CNJ
+6	토론토	토론토	NNP	7	NP
+7	박물관	박물관	NNG	8	NP
+8	등에	등 에	NNB+JKB	11	NP_AJT
+9	한글	한글	NNG	10	NP
+10	안내서를	안내서 를	NNG+JKO	11	NP_OBJ
+11	제공해왔다고	제공 하 여 오 았 다고	NNG+XSV+EC+VX+EP+EC	12	VP_CMP
+12	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00153_wikitree	하지만 박지성의 에인트호번 복귀전은 다소 시간이 걸릴 전망이다.
+1	하지만	하지만	MAJ	7	AP
+2	박지성의	박지성 의	NNP+JKG	4	NP_MOD
+3	에인트호번	에인트호번	NNP	4	NP
+4	복귀전은	복귀전 은	NNG+JX	7	NP_SBJ
+5	다소	다소	MAG	7	AP
+6	시간이	시간 이	NNG+JKS	7	NP_SBJ
+7	걸릴	걸리 ㄹ	VV+ETM	8	VP_MOD
+8	전망이다.	전망 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00154_wikitree	제 정치 참여를 반대하시는 분들께 사과드립니다.
+1	제	저 의	NP+JKG	3	NP_MOD
+2	정치	정치	NNG	3	NP
+3	참여를	참여 를	NNG+JKO	4	NP_OBJ
+4	반대하시는	반대 하 시 는	NNG+XSV+EP+ETM	5	VP_MOD
+5	분들께	분 들 께	NNB+XSN+JKB	6	NP_AJT
+6	사과드립니다.	사과 드리 ㅂ니다 .	NNG+VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00155_wikitree	4일 최수현 금융감독원장이 임영록 KB금융지주 회장과 이건호 국민은행장에게 중징계 결정을 내렸다.
+1	4일	4 일	SN+NNB	11	NP_AJT
+2	최수현	최수현	NNP	3	NP
+3	금융감독원장이	금융감독원장 이	NNG+JKS	11	NP_SBJ
+4	임영록	임영록	NNP	6	NP
+5	KB금융지주	KB 금융 지주	SL+NNG+NNG	6	NP
+6	회장과	회장 과	NNG+JC	8	NP_CNJ
+7	이건호	이건호	NNP	8	NP
+8	국민은행장에게	국민은행 장 에게	NNP+NNG+JKB	11	NP_AJT
+9	중징계	중징계	NNG	10	NP
+10	결정을	결정 을	NNG+JKO	11	NP_OBJ
+11	내렸다.	내리 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00156_wikitree	유병언 전 세모그룹 회장 시신이 22일 오전 순천장례식장에서 앰뷸런스로 옮겨지는 장면을 촬영한 'YTN' 영상이다.
+1	유병언	유병언	NNP	4	NP
+2	전	전	MMD	4	DP
+3	세모그룹	세모그룹	NNP	4	NP
+4	회장	회장	NNG	5	NP
+5	시신이	시신 이	NNG+JKS	10	NP_SBJ
+6	22일	22 일	SN+NNB	7	NP
+7	오전	오전	NNG	10	NP_AJT
+8	순천장례식장에서	순천장례식장 에서	NNP+JKB	10	NP_AJT
+9	앰뷸런스로	앰뷸런스 로	NNG+JKB	10	NP_AJT
+10	옮겨지는	옮기 어 지 는	VV+EC+VX+ETM	11	VP_MOD
+11	장면을	장면 을	NNG+JKO	12	NP_OBJ
+12	촬영한	촬영 하 ㄴ	NNG+XSV+ETM	14	VP_MOD
+13	'YTN'	' YTN '	SS+SL+SS	14	NP
+14	영상이다.	영상 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00157_wikitree	사모펀드 형태의 자산이 현지 펀드매니저에게 투자 전권이 위임된 상태로 페이퍼컴퍼니에 분산돼 있었기 때문이다.
+1	사모펀드	사모 펀드	NNG+NNG	2	NP
+2	형태의	형태 의	NNG+JKG	3	NP_MOD
+3	자산이	자산 이	NNG+JKS	11	NP_SBJ
+4	현지	현지	NNG	5	NP
+5	펀드매니저에게	펀드 매니저 에게	NNG+NNG+JKB	8	NP_AJT
+6	투자	투자	NNG	7	NP
+7	전권이	전권 이	NNG+JKS	8	NP_SBJ
+8	위임된	위임 되 ㄴ	NNG+XSV+ETM	9	VP_MOD
+9	상태로	상태 로	NNG+JKB	11	NP_AJT
+10	페이퍼컴퍼니에	페이퍼 컴퍼니 에	NNG+NNG+JKB	11	NP_AJT
+11	분산돼	분산 되 어	NNG+XSV+EC	12	VP
+12	있었기	있 었 기	VX+EP+ETN	13	VP
+13	때문이다.	때문 이 다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00158_wikitree	그는 그 요인으로 고용증가 둔화, 외환위기 이후 기업경영 시스템 변화와 성과주의 보수체계 확산, 소득세 과세체계의 누진성 후퇴 등을 꼽으며 앞으로 성장둔화, 고령화 등을 고려하면 이를 둘러싼 갈등이 커질 것으로 전망했다.
+1	그는	그 는	NP+JX	19	NP_SBJ
+2	그	그	MMD	3	DP
+3	요인으로	요인 으로	NNG+JKB	19	NP_AJT
+4	고용증가	고용 증가	NNG+NNG	5	NP
+5	둔화,	둔화 ,	NNG+SP	17	NP_CNJ
+6	외환위기	외환 위기	NNG+NNG	7	NP
+7	이후	이후	NNG	10	NP
+8	기업경영	기업 경영	NNG+NNG	9	NP
+9	시스템	시스템	NNG	10	NP
+10	변화와	변화 와	NNG+JC	17	NP_CNJ
+11	성과주의	성과 주의	NNG+NNG	12	NP
+12	보수체계	보수 체계	NNG+NNG	13	NP
+13	확산,	확산 ,	NNG+SP	17	NP_CNJ
+14	소득세	소득세	NNG	15	NP
+15	과세체계의	과세 체계 의	NNG+NNG+JKG	16	NP_MOD
+16	누진성	누진 성	NNG+XSN	17	NP
+17	후퇴	후퇴	NNG	18	NP
+18	등을	등 을	NNB+JKO	19	NP_OBJ
+19	꼽으며	꼽 으며	VV+EC	30	VP
+20	앞으로	앞 으로	NNG+JKB	24	NP_AJT
+21	성장둔화,	성장 둔화 ,	NNG+NNG+SP	22	NP_CNJ
+22	고령화	고령 화	NNG+XSN	23	NP
+23	등을	등 을	NNB+JKO	24	NP_OBJ
+24	고려하면	고려 하 면	NNG+XSV+EC	28	VP
+25	이를	이 를	NP+JKO	26	NP_OBJ
+26	둘러싼	두르 어 싸 ㄴ	VV+EC+VV+ETM	27	VP_MOD
+27	갈등이	갈등 이	NNG+JKS	28	NP_SBJ
+28	커질	커지 ㄹ	VV+ETM	29	VP_MOD
+29	것으로	것 으로	NNB+JKB	30	NP_AJT
+30	전망했다.	전망 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00159_wikitree	스콧 바이스는 근육량, 골밀도, 유연성, 전반적인 혈류 속도와 에너지 생산량이 줄어드는 등 신체 부작용이 일어날 것이라고 밝혔다.
+1	스콧	스콧	NNP	2	NP
+2	바이스는	바이스 는	NNP+JX	17	NP_SBJ
+3	근육량,	근육 량 ,	NNG+NNG+SP	10	NP_CNJ
+4	골밀도,	골 밀도 ,	NNG+NNG+SP	10	NP_CNJ
+5	유연성,	유연 성 ,	XR+XSN+SP	10	NP_CNJ
+6	전반적인	전반 적 이 ㄴ	NNG+XSN+VCP+ETM	8	VNP_MOD
+7	혈류	혈류	NNG	8	NP
+8	속도와	속도 와	NNG+JC	10	NP_CNJ
+9	에너지	에너지	NNG	10	NP
+10	생산량이	생산 량 이	NNG+NNG+JKS	11	NP_SBJ
+11	줄어드는	줄 어 들 는	VV+EC+VX+ETM	12	VP_MOD
+12	등	등	NNB	15	NP_AJT
+13	신체	신체	NNG	14	NP
+14	부작용이	부작용 이	NNG+JKS	15	NP_SBJ
+15	일어날	일 어 나 ㄹ	VV+EC+VX+ETM	16	VP_MOD
+16	것이라고	것 이 라고	NNB+VCP+EC	17	VNP_AJT
+17	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00160_wikitree	현재 35번 환자는 호흡을 돕기 위해 인공호흡기 등을 착용하고 있으나, 전반적으로 안정적인 상태를 유지하고 있으며, 의료진은 환자 치료를 위하여 최선을 다하고 있습니다.
+1	현재	현재	MAG	6	AP
+2	35번	35 번	SN+NNB	3	NP
+3	환자는	환자 는	NNG+JX	6	NP_SBJ
+4	호흡을	호흡 을	NNG+JKO	5	NP_OBJ
+5	돕기	돕 기	VV+ETN	6	VP_OBJ
+6	위해	위하 여	VV+EC	9	VP
+7	인공호흡기	인공 호흡기	NNG+NNG	8	NP
+8	등을	등 을	NNB+JKO	9	NP_OBJ
+9	착용하고	착용 하 고	NNG+XSV+EC	10	VP
+10	있으나,	있 으나 ,	VX+EC+SP	14	VP
+11	전반적으로	전반 적 으로	NNG+XSN+JKB	14	NP_AJT
+12	안정적인	안정 적 이 ㄴ	NNG+XSN+VCP+ETM	13	VNP_MOD
+13	상태를	상태 를	NNG+JKO	14	NP_OBJ
+14	유지하고	유지 하 고	NNG+XSV+EC	15	VP
+15	있으며,	있 으며 ,	VX+EC+SP	19	VP
+16	의료진은	의료진 은	NNG+JX	19	NP_SBJ
+17	환자	환자	NNG	18	NP
+18	치료를	치료 를	NNG+JKO	19	NP_OBJ
+19	위하여	위하 여	VV+EC	21	VP
+20	최선을	최선 을	NNG+JKO	21	NP_OBJ
+21	다하고	다 하 고	MAG+XSV+EC	22	VP
+22	있습니다.	있 습니다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00161_wikitree	차노아가 자신의 친아들이 아니라는 논란에 대해 차승원이 공식입장을 발표했다.
+1	차노아가	차노아 가	NNP+JKS	4	NP_SBJ
+2	자신의	자신 의	NNG+JKG	3	NP_MOD
+3	친아들이	친 아들 이	XPN+NNG+JKC	4	NP_CMP
+4	아니라는	아니 라는	VCN+ETM	5	VP_MOD
+5	논란에	논란 에	NNG+JKB	6	NP_AJT
+6	대해	대하 여	VV+EC	9	VP
+7	차승원이	차승원 이	NNP+JKS	9	NP_SBJ
+8	공식입장을	공식 입장 을	NNG+NNG+JKO	9	NP_OBJ
+9	발표했다.	발표 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00162_wikitree	극 중 윤동주(강하늘)가 도쿄 릿교대학 영문학 수업을 듣다 써 내려간 시로 등장한다.
+1	극	극	NNG	2	NP
+2	중	중	NNB	12	NP_AJT
+3	윤동주(강하늘)가	윤동주 ( 강하늘 ) 가	NNP+SS+NNP+SS+JKS	8	NP_SBJ
+4	도쿄	도쿄	NNP	5	NP
+5	릿교대학	릿교대학	NNP	7	NP
+6	영문학	영문학	NNG	7	NP
+7	수업을	수업 을	NNG+JKO	8	NP_OBJ
+8	듣다	듣 다	VV+EC	9	VP
+9	써	쓰 어	VV+EC	10	VP
+10	내려간	내리 어 가 ㄴ	VV+EC+VX+ETM	11	VP_MOD
+11	시로	시 로	NNG+JKB	12	NP_AJT
+12	등장한다.	등장 하 ㄴ다 .	NNG+XSV+EF+SF	0	VP
+
+## klue-dp-v1_train_00163_wikitree	지난 12일 tvN 드라마 '시그널'이 종영한 가운데 주연 배우 조진웅, 이제훈 씨가 마지막 메시지를 전했다.
+1	지난	지나 ㄴ	VV+ETM	2	VP_MOD
+2	12일	12 일	SN+NNB	6	NP_AJT
+3	tvN	tvN	SL	4	NP
+4	드라마	드라마	NNG	5	NP
+5	'시그널'이	' 시그널 ' 이	SS+NNP+SS+JKS	6	NP_SBJ
+6	종영한	종영 하 ㄴ	NNG+XSA+ETM	7	VP_MOD
+7	가운데	가운데	NNG	15	NP_AJT
+8	주연	주연	NNG	9	NP
+9	배우	배우	NNG	12	NP
+10	조진웅,	조진웅 ,	NNP+SP	11	NP_CNJ
+11	이제훈	이제훈	NNP	12	NP
+12	씨가	씨 가	NNB+JKS	15	NP_SBJ
+13	마지막	마지막	NNG	14	NP
+14	메시지를	메시지 를	NNG+JKO	15	NP_OBJ
+15	전했다.	전하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00164_wikitree	후속 엘비스 안드루스의 연속 안타로 텍사스는 무사 2, 3루 찬스를 잡았으나 중심 타선의 침묵으로 한 점도 얻지 못했다.
+1	후속	후속	NNG	3	NP
+2	엘비스	엘비스	NNP	3	NP
+3	안드루스의	안드루스 의	NNP+JKG	5	NP_MOD
+4	연속	연속	NNG	5	NP
+5	안타로	안타 로	NNG+JKB	11	NP_AJT
+6	텍사스는	텍사스 는	NNP+JX	11	NP_SBJ
+7	무사	무사	NNG	9	NP
+8	2,	2 ,	SN+SP	9	NP_CNJ
+9	3루	3 루	SN+NNG	10	NP
+10	찬스를	찬스 를	NNG+JKO	11	NP_OBJ
+11	잡았으나	잡 았 으나	VV+EP+EC	17	VP
+12	중심	중심	NNG	13	NP
+13	타선의	타선 의	NNG+JKG	14	NP_MOD
+14	침묵으로	침묵 으로	NNG+JKB	17	NP_AJT
+15	한	한	MMN	16	DP
+16	점도	점 도	NNB+JX	17	NP_OBJ
+17	얻지	얻 지	VV+EC	18	VP
+18	못했다.	못 하 였 다 .	MAG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00165_wikitree	그리고 그 한나절이 훌쩍 넘는 긴 일정속에 밥은 1끼밖에 안줬습니다.
+1	그리고	그리고	MAJ	10	AP
+2	그	그	MMD	7	DP
+3	한나절이	한 나절 이	MMN+NNG+JKS	5	NP_SBJ
+4	훌쩍	훌쩍	MAG	5	AP
+5	넘는	넘 는	VV+ETM	7	VP_MOD
+6	긴	길 ㄴ	VA+ETM	7	VP_MOD
+7	일정속에	일정 속 에	NNG+NNG+JKB	10	NP_AJT
+8	밥은	밥 은	NNG+JX	10	NP_OBJ
+9	1끼밖에	1 끼 밖에	SN+NNG+JX	10	NP_OBJ
+10	안줬습니다.	안 주 었 습니다 .	MAG+VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00166_wikitree	2일(현지시간) 인도네시아에서 규모 6.1의 강진이 발생해 아체 지역에 영향을 미쳤다고 미국 지질조사국(USGS)이 밝혔다.
+1	2일(현지시간)	2 일 ( 현지 시간 )	SN+NNB+SS+NNG+NNG+SS	6	NP_AJT
+2	인도네시아에서	인도네시아 에서	NNP+JKB	6	NP_AJT
+3	규모	규모	NNG	4	NP
+4	6.1의	6 . 1 의	SN+SP+SN+JKG	5	NP_MOD
+5	강진이	강진 이	NNG+JKS	6	NP_SBJ
+6	발생해	발생 하 여	NNG+XSV+EC	10	VP
+7	아체	아체	NNP	8	NP
+8	지역에	지역 에	NNG+JKB	10	NP_AJT
+9	영향을	영향 을	NNG+JKO	10	NP_OBJ
+10	미쳤다고	미치 었 다고	VV+EP+EC	13	VP_AJT
+11	미국	미국	NNP	12	NP
+12	지질조사국(USGS)이	지질조사국 ( USGS ) 이	NNP+SS+SL+SS+JKS	13	NP_SBJ
+13	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00167_wikitree	15일 금융권에 따르면 금융감독원은 이날 국민검사청구심의위원회를 열어 만장일치로 금융소비자원 등 600여명의 동양 CP 피해자들이 제기한 국민검사청구를 수용하기로 했다.
+1	15일	15 일	SN+NNB	3	NP_AJT
+2	금융권에	금융 권 에	NNG+XSN+JKB	3	NP_AJT
+3	따르면	따르 면	VV+EC	17	VP
+4	금융감독원은	금융 감독원 은	NNG+NNG+JX	17	NP_SBJ
+5	이날	이 날	MMD+NNG	7	NP_AJT
+6	국민검사청구심의위원회를	국민검사청구심의위원회 를	NNP+JKO	7	NP_OBJ
+7	열어	열 어	VV+EC	17	VP
+8	만장일치로	만장일치 로	NNG+JKB	17	NP_AJT
+9	금융소비자원	금융소비자원	NNP	10	NP
+10	등	등	NNB	14	NP
+11	600여명의	600 여 명 의	SN+XSN+NNB+JKG	14	NP_MOD
+12	동양	동양	NNG	13	NP
+13	CP	CP	SL	14	NP
+14	피해자들이	피해자 들 이	NNG+XSN+JKS	15	NP_SBJ
+15	제기한	제기 하 ㄴ	NNG+XSV+ETM	16	VP_MOD
+16	국민검사청구를	국민 검사 청구 를	NNG+NNG+NNG+JKO	17	NP_OBJ
+17	수용하기로	수용 하 기 로	NNG+XSV+ETN+JKB	18	VP_AJT
+18	했다.	하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00168_wikitree	경찰은 이 차량의 차적을 조회해 이모(26·여)씨가 친구 3명과 밤새 놀다가 자신의 차량에 이들을 태워 황령산 정상으로 간 사실을 확인했다.
+1	경찰은	경찰 은	NNG+JX	5	NP_SBJ
+2	이	이	MMD	3	DP
+3	차량의	차량 의	NNG+JKG	4	NP_MOD
+4	차적을	차적 을	NNG+JKO	5	NP_OBJ
+5	조회해	조회 하 여	NNG+XSV+EC	19	VP
+6	이모(26·여)씨가	이 모 ( 26 · 여 ) 씨 가	NNP+NP+SS+SN+SP+NNG+SS+NNB+JKS	10	NP_SBJ
+7	친구	친구	NNG	8	NP
+8	3명과	3 명 과	SN+NNB+JKB	10	NP_AJT
+9	밤새	밤새	NNG	10	NP_AJT
+10	놀다가	놀 다가	VV+EC	14	VP
+11	자신의	자신 의	NNG+JKG	12	NP_MOD
+12	차량에	차량 에	NNG+JKB	14	NP_AJT
+13	이들을	이 들 을	NP+XSN+JKO	14	NP_OBJ
+14	태워	태우 어	VV+EC	17	VP
+15	황령산	황령산	NNP	16	NP
+16	정상으로	정상 으로	NNG+JKB	17	NP_AJT
+17	간	가 ㄴ	VV+ETM	18	VP_MOD
+18	사실을	사실 을	NNG+JKO	19	NP_OBJ
+19	확인했다.	확인 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00169_wikitree	내선순환 승강장은 지상역의 형태를 띄고 있으며, 외선순환 승강장은 지하역 형태를 띄고 있다.
+1	내선순환	내선 순환	NNG+NNG	2	NP
+2	승강장은	승강장 은	NNG+JX	5	NP_SBJ
+3	지상역의	지상 역 의	NNG+NNG+JKG	4	NP_MOD
+4	형태를	형태 를	NNG+JKO	5	NP_OBJ
+5	띄고	띄 고	VV+EC	6	VP
+6	있으며,	있 으며 ,	VX+EC+SP	11	VP
+7	외선순환	외선 순환	NNG+NNG	8	NP
+8	승강장은	승강장 은	NNG+JX	11	NP_SBJ
+9	지하역	지하 역	NNG+NNG	10	NP
+10	형태를	형태 를	NNG+JKO	11	NP_OBJ
+11	띄고	띄 고	VV+EC	12	VP
+12	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00170_wikitree	2일 가수 아이유 공식 팬카페인 '유애나'에 '2015 아이유 캘린더'에 수록 예정인 이미지가 공개됐다.
+1	2일	2 일	SN+NNB	13	NP_AJT
+2	가수	가수	NNG	3	NP
+3	아이유	아이유	NNP	5	NP
+4	공식	공식	NNG	5	NP
+5	팬카페인	팬카페 이 ㄴ	NNG+VCP+ETM	6	VNP_MOD
+6	'유애나'에	' 유애나 ' 에	SS+NNP+SS+JKB	13	NP_AJT
+7	'2015	' 2015	SS+SN	9	NP
+8	아이유	아이유	NNP	9	NP
+9	캘린더'에	캘린더 ' 에	NNG+SS+JKB	11	NP_AJT
+10	수록	수록	NNG	11	NP
+11	예정인	예정 이 ㄴ	NNG+VCP+ETM	12	VNP_MOD
+12	이미지가	이미지 가	NNG+JKS	13	NP_SBJ
+13	공개됐다.	공개 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00171_wikitree	특히 부모가 바로 어린이집 정보를 확인할 수 있도록 기본현황과 추가 보육료, CCTV 설치 현황은 수시로 공시하고 특별활동 과목·운영시간·비용 및 급식 식단표는 매달 알리도록 했다.
+1	특히	특히	MAG	23	AP
+2	부모가	부모 가	NNG+JKS	6	NP_SBJ
+3	바로	바로	MAG	6	AP
+4	어린이집	어린이 집	NNG+NNG	5	NP
+5	정보를	정보 를	NNG+JKO	6	NP_OBJ
+6	확인할	확인 하 ㄹ	NNG+XSV+ETM	7	VP_MOD
+7	수	수	NNB	8	NP_SBJ
+8	있도록	있 도록	VV+EC	16	VP
+9	기본현황과	기본 현황 과	NNG+NNG+JC	14	NP_CNJ
+10	추가	추가	NNG	11	NP
+11	보육료,	보육료 ,	NNG+SP	14	NP_CNJ
+12	CCTV	CCTV	SL	13	NP
+13	설치	설치	NNG	14	NP
+14	현황은	현황 은	NNG+JX	16	NP_OBJ
+15	수시로	수시로	MAG	16	AP
+16	공시하고	공시 하 고	NNG+XSV+EC	23	VP
+17	특별활동	특별 활동	NNG+NNG	18	NP
+18	과목·운영시간·비용	과목 · 운영 시간 · 비용	NNG+SP+NNG+NNG+SP+NNG	21	NP_CNJ
+19	및	및	MAG	21	AP
+20	급식	급식	NNG	21	NP
+21	식단표는	식단표 는	NNG+JX	23	NP_OBJ
+22	매달	매달	NNG	23	NP_AJT
+23	알리도록	알리 도록	VV+EC	24	VP
+24	했다.	하 였 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00172_wikitree	윤여준 전 환경부 장관이 무소속 안철수 의원 측의 신당 창당준비기구인 '새정치추진위원회(새정추)'에 합류할 것으로 4일 알려졌다.
+1	윤여준	윤여준	NNP	4	NP
+2	전	전	MMD	4	DP
+3	환경부	환경부	NNG	4	NP
+4	장관이	장관 이	NNG+JKS	12	NP_SBJ
+5	무소속	무 소속	XPN+NNG	7	NP
+6	안철수	안철수	NNP	7	NP
+7	의원	의원	NNG	8	NP
+8	측의	측 의	NNB+JKG	10	NP_MOD
+9	신당	신 당	XPN+NNG	10	NP
+10	창당준비기구인	창당 준비 기구 이 ㄴ	NNG+NNG+NNG+VCP+ETM	11	VNP_MOD
+11	'새정치추진위원회(새정추)'에	' 새정치추진위원회 ( 새정추 ) ' 에	SS+NNP+SS+NNP+SS+SS+JKB	12	NP_AJT
+12	합류할	합류 하 ㄹ	NNG+XSV+ETM	13	VP_MOD
+13	것으로	것 으로	NNB+JKB	15	NP_AJT
+14	4일	4 일	SN+NNB	15	NP_AJT
+15	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00173_wikitree	2013 세계피겨스케이팅 선수권대회에서 우승을 차지한 김연아의 '갈라쇼’ 장면이 담긴 풀영상이다.
+1	2013	2013	SN	3	NP
+2	세계피겨스케이팅	세계 피겨 스케이팅	NNG+NNG+NNG	3	NP
+3	선수권대회에서	선수 권 대회 에서	NNG+XSN+NNG+JKB	5	NP_AJT
+4	우승을	우승 을	NNG+JKO	5	NP_OBJ
+5	차지한	차지 하 ㄴ	NNG+XSV+ETM	6	VP_MOD
+6	김연아의	김연아 의	NNP+JKG	7	NP_MOD
+7	'갈라쇼’	' 갈라쇼 ’	SS+NNG+SS	8	NP
+8	장면이	장면 이	NNG+JKS	9	NP_SBJ
+9	담긴	담기 ㄴ	VV+ETM	10	VP_MOD
+10	풀영상이다.	풀영상 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00174_wikitree	18일 부산외대에 따르면 이번 행사는 대학 당국과 학생회가 공동으로 열던 예년과 달리 총학생회 단독으로 주관했다.
+1	18일	18 일	SN+NNB	3	NP_AJT
+2	부산외대에	부산외대 에	NNP+JKB	3	NP_AJT
+3	따르면	따르 면	VV+EC	15	VP
+4	이번	이 번	MMD+NNB	5	NP
+5	행사는	행사 는	NNG+JX	15	NP_SBJ
+6	대학	대학	NNG	7	NP
+7	당국과	당국 과	NNG+JC	8	NP_CNJ
+8	학생회가	학생회 가	NNG+JKS	10	NP_SBJ
+9	공동으로	공동 으로	NNG+JKB	10	NP_AJT
+10	열던	열 던	VV+ETM	11	VP_MOD
+11	예년과	예년 과	NNG+JKB	12	NP_AJT
+12	달리	달리	MAG	15	AP
+13	총학생회	총학생회	NNG	14	NP
+14	단독으로	단독 으로	NNG+JKB	15	NP_AJT
+15	주관했다.	주관 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00175_wikitree	특히 이영애는 이번 화보 촬영에서 그간의 단아하고 심플한 이미지와는 전혀 다른 색다른 모습을 선보였다.
+1	특히	특히	MAG	14	AP
+2	이영애는	이영애 는	NNP+JX	14	NP_SBJ
+3	이번	이번	NNG	5	NP
+4	화보	화보	NNG	5	NP
+5	촬영에서	촬영 에서	NNG+JKB	14	NP_AJT
+6	그간의	그간 의	NNG+JKG	9	NP_MOD
+7	단아하고	단아하 고	VA+EC	8	VP
+8	심플한	심플 하 ㄴ	NNG+XSV+ETM	9	VP_MOD
+9	이미지와는	이미지 와 는	NNG+JKB+JX	11	NP_AJT
+10	전혀	전혀	MAG	11	AP
+11	다른	다른	MMD	13	VP_MOD
+12	색다른	색 다르 ㄴ	NNG+VA+ETM	13	VP_MOD
+13	모습을	모습 을	NNG+JKO	14	NP_OBJ
+14	선보였다.	선 보이 었 다 .	NNG+VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00176_wikitree	KIA는 필의 성실한 태도와 한국 야구에 적응한 점을 높게 평가했다.
+1	KIA는	KIA 는	SL+JX	10	NP_SBJ
+2	필의	필 의	NNP+JKG	8	NP_MOD
+3	성실한	성실 하 ㄴ	NNG+XSA+ETM	4	VP_MOD
+4	태도와	태도 와	NNG+JC	8	NP_CNJ
+5	한국	한국	NNP	6	NP
+6	야구에	야구 에	NNG+JKB	7	NP_AJT
+7	적응한	적응 하 ㄴ	NNG+XSV+ETM	8	VP_MOD
+8	점을	점 을	NNG+JKO	10	NP_OBJ
+9	높게	높 게	VA+EC	10	VP_AJT
+10	평가했다.	평가 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00177_wikitree	민주당은 4대강 사업에 대한 국정조사를 요구하고 있으나 새누리당은 부정적인 입장을 보이고 있다.
+1	민주당은	민주당 은	NNP+JX	6	NP_SBJ
+2	4대강	4 대 강	SN+NNB+NNG	3	NP
+3	사업에	사업 에	NNG+JKB	4	NP_AJT
+4	대한	대하 ㄴ	VV+ETM	5	VP_MOD
+5	국정조사를	국정 조사 를	NNG+NNG+JKO	6	NP_OBJ
+6	요구하고	요구 하 고	NNG+XSV+EC	7	VP
+7	있으나	있 으나	VX+EC	11	VP
+8	새누리당은	새누리당 은	NNP+JX	11	NP_SBJ
+9	부정적인	부정 적 이 ㄴ	NNG+XSN+VCP+ETM	10	VNP_MOD
+10	입장을	입장 을	NNG+JKO	11	NP_OBJ
+11	보이고	보이 고	VV+EC	12	VP
+12	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00178_wikitree	다만 눈 또는 비 때문에 평년보다 낮은 기온을 보이면서 추위가 이어지겠다.
+1	다만	다만	MAG	11	AP
+2	눈	눈	NNG	4	NP_CNJ
+3	또는	또는	MAG	4	AP
+4	비	비	NNG	5	NP
+5	때문에	때문 에	NNB+JKB	9	NP_AJT
+6	평년보다	평년 보다	NNG+JKB	7	NP_AJT
+7	낮은	낮 은	VA+ETM	8	VP_MOD
+8	기온을	기온 을	NNG+JKO	9	NP_OBJ
+9	보이면서	보이 면서	VV+EC	11	VP
+10	추위가	추위 가	NNG+JKS	11	NP_SBJ
+11	이어지겠다.	잇 어 지 겠 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00179_wikitree	아이폰 5S는 지문인식 기능을 탑재하고, 내장 카메라 성능을 개량할 것으로 알려졌다.
+1	아이폰	아이폰	NNG	2	NP
+2	5S는	5 S 는	SN+SL+JX	11	NP_SBJ
+3	지문인식	지문 인식	NNG+NNG	4	NP
+4	기능을	기능 을	NNG+JKO	5	NP_OBJ
+5	탑재하고,	탑재 하 고 ,	NNG+XSV+EC+SP	9	VP
+6	내장	내장	NNG	7	NP
+7	카메라	카메라	NNG	8	NP
+8	성능을	성능 을	NNG+JKO	9	NP_OBJ
+9	개량할	개량 하 ㄹ	NNG+XSV+ETM	10	VP_MOD
+10	것으로	것 으로	NNB+JKB	11	NP_AJT
+11	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00180_wikitree	논란이 됐던 강연료 수입의 경우 클린턴 전 장관은 2013년에만 36차례의 연설로 850만 달러(약 99억6천만원)를 벌어들였고, 클린턴 전 대통령도 같은 기간 41차례 연설에 나서 최소 1천300만 달러(약 152억원)를 벌었다.
+1	논란이	논란 이	NNG+JKC	2	NP_CMP
+2	됐던	되 었 던	VV+EP+ETM	4	VP_MOD
+3	강연료	강연료	NNG	4	NP
+4	수입의	수입 의	NNG+JKG	5	NP_MOD
+5	경우	경우	NNG	15	NP_AJT
+6	클린턴	클린턴	NNP	8	NP
+7	전	전	MMD	8	DP
+8	장관은	장관 은	NNG+JX	15	NP_SBJ
+9	2013년에만	2013 년 에 만	SN+NNB+JKB+JX	15	NP_AJT
+10	36차례의	36 차례 의	SN+NNG+JKG	11	NP_MOD
+11	연설로	연설 로	NNG+JKB	15	NP_AJT
+12	850만	850 만	SN+NR	13	NP
+13	달러(약	달러 ( 약	NNB+SS+MMA	14	DP
+14	99억6천만원)를	99 억 6 천만 원 ) 를	SN+NR+SN+NR+NNB+SS+JKO	15	X_OBJ
+15	벌어들였고,	벌 어 들이 었 고 ,	VV+EC+VV+EP+EC+SP	23	VP
+16	클린턴	클린턴	NNP	18	NP
+17	전	전	MMD	18	DP
+18	대통령도	대통령 도	NNG+JX	23	NP_SBJ
+19	같은	같 은	VA+ETM	20	VP_MOD
+20	기간	기간	NNG	23	NP_AJT
+21	41차례	41 차례	SN+NNG	22	NP
+22	연설에	연설 에	NNG+JKB	23	NP_AJT
+23	나서	나 아서	VV+EC	28	VP
+24	최소	최소	NNG	26	AP
+25	1천300만	1 천 300 만	SN+NR+SN+NR	26	NP
+26	달러(약	달러 ( 약	NNB+SS+MMA	27	DP
+27	152억원)를	152 억 원 ) 를	SN+NR+NNB+SS+JKO	28	X_OBJ
+28	벌었다.	벌 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00181_wikitree	김아랑이 13일 오후(한국시각) 열린 소치올림픽 쇼트트랙 여자 500m 준준결승 3조 경기에서 43.673의 기록을 나타냈지만 준결승에 진출하지 못했다.
+1	김아랑이	김아랑 이	NNP+JKS	14	NP_SBJ
+2	13일	13 일	SN+NNB	3	NP
+3	오후(한국시각)	오후 ( 한국 시각 )	NNG+SS+NNP+NNG+SS	4	NP_AJT
+4	열린	열리 ㄴ	VV+ETM	11	VP_MOD
+5	소치올림픽	소치올림픽	NNP	6	NP
+6	쇼트트랙	쇼트트랙	NNG	9	NP
+7	여자	여자	NNG	8	NP
+8	500m	500 m	SN+SW	9	NP
+9	준준결승	준 준 결승	XPN+XPN+NNG	11	NP
+10	3조	3 조	SN+NNB	11	NP
+11	경기에서	경기 에서	NNG+JKB	14	NP_AJT
+12	43.673의	43 . 673 의	SN+SF+SN+JKG	13	NP_MOD
+13	기록을	기록 을	NNG+JKO	14	NP_OBJ
+14	나타냈지만	나타내 었 지만	VV+EP+EC	16	VP
+15	준결승에	준 결승 에	XPN+NNG+JKB	16	NP_AJT
+16	진출하지	진출 하 지	NNG+XSV+EC	17	VP
+17	못했다.	못 하 였 다 .	MAG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00182_wikitree	앞서 블룸버그 통신과 로이터 통신은 오는 20일 호주 멜버른에서 개막하는 국제에이즈학회 회의에 참석하기 위해 에이즈 전문가 100여명이 사고기에 탑승했다고 보도했다.
+1	앞서	앞서	MAG	20	AP
+2	블룸버그	블룸버그	NNP	3	NP
+3	통신과	통신 과	NNG+JC	5	NP_CNJ
+4	로이터	로이터	NNP	5	NP
+5	통신은	통신 은	NNG+JX	20	NP_SBJ
+6	오는	오 는	VV+ETM	7	VP_MOD
+7	20일	20 일	SN+NNB	10	NP_AJT
+8	호주	호주	NNP	9	NP
+9	멜버른에서	멜버른 에서	NNP+JKB	10	NP_AJT
+10	개막하는	개막 하 는	NNG+XSV+ETM	12	VP_MOD
+11	국제에이즈학회	국제에이즈학회	NNP	12	NP
+12	회의에	회의 에	NNG+JKB	13	NP_AJT
+13	참석하기	참석 하 기	NNG+XSV+ETN	14	VP_OBJ
+14	위해	위하 여	VV+EC	19	VP
+15	에이즈	에이즈	NNG	16	NP
+16	전문가	전문가	NNG	17	NP
+17	100여명이	100 여 명 이	SN+XSN+NNB+JKS	19	NP_SBJ
+18	사고기에	사고기 에	NNG+JKB	19	NP_AJT
+19	탑승했다고	탑승 하 였 다고	NNG+XSV+EP+EC	20	VP_CMP
+20	보도했다.	보도 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00183_wikitree	사고 헬기는 대규모 아파트 단지와 학교 바로 옆 도로에 추락했으나 대형 인명 피해로 이어지지 않았다.
+1	사고	사고	NNG	2	NP
+2	헬기는	헬기 는	NNG+JX	14	NP_SBJ
+3	대규모	대 규모	XPN+NNG	4	NP
+4	아파트	아파트	NNG	5	NP
+5	단지와	단지 와	NNG+JC	9	NP_CNJ
+6	학교	학교	NNG	8	NP
+7	바로	바로	MAG	8	AP
+8	옆	옆	NNG	9	NP
+9	도로에	도로 에	NNG+JKB	10	NP_AJT
+10	추락했으나	추락 하 였 으나	NNG+XSV+EP+EC	14	VP
+11	대형	대형	NNG	13	NP
+12	인명	인명	NNG	13	NP
+13	피해로	피해 로	NNG+JKB	14	NP_AJT
+14	이어지지	잇 어 지 지	VV+EC+VX+EC	15	VP
+15	않았다.	않 았 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00184_wikitree	윤은혜 씨는 디자이너 윤춘호 씨가 운영하는 '아르케' 의상 표절 의혹 후, 소속사로 한 차례 입장 발표를 한 상태다.
+1	윤은혜	윤은혜	NNP	2	NP
+2	씨는	씨 는	NNB+JX	17	NP_SBJ
+3	디자이너	디자이너	NNG	4	NP
+4	윤춘호	윤춘호	NNP	5	NP
+5	씨가	씨 가	NNB+JKS	6	NP_SBJ
+6	운영하는	운영 하 는	NNG+XSV+ETM	7	VP_MOD
+7	'아르케'	' 아르케 '	SS+NNP+SS	8	NP
+8	의상	의상	NNG	9	NP
+9	표절	표절	NNG	10	NP
+10	의혹	의혹	NNG	11	NP
+11	후,	후 ,	NNG+SP	17	NP_AJT
+12	소속사로	소속사 로	NNG+JKB	17	NP_AJT
+13	한	한	MMN	14	DP
+14	차례	차례	NNG	17	NP_OBJ
+15	입장	입장	NNG	16	NP
+16	발표를	발표 를	NNG+JKO	17	NP_OBJ
+17	한	하 ㄴ	VV+ETM	18	VP_MOD
+18	상태다.	상태 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00185_wikitree	현재 일부 실종자 가족은 잠시 안산으로 돌아간 상태며 진도에는 아직 일부 실종자 가족이 남아 있다.
+1	현재	현재	MAG	8	AP
+2	일부	일부	NNG	3	NP
+3	실종자	실종자	NNG	4	NP
+4	가족은	가족 은	NNG+JX	8	NP_SBJ
+5	잠시	잠시	MAG	7	AP
+6	안산으로	안산 으로	NNP+JKB	7	NP_AJT
+7	돌아간	돌 아 가 ㄴ	VV+EC+VX+ETM	8	VP_MOD
+8	상태며	상태 이 며	NNG+VCP+EC	14	VNP
+9	진도에는	진도 에 는	NNP+JKB+JX	14	NP_AJT
+10	아직	아직	MAG	14	AP
+11	일부	일부	NNG	13	NP
+12	실종자	실종자	NNG	13	NP
+13	가족이	가족 이	NNG+JKS	14	NP_SBJ
+14	남아	남 아	VV+EC	15	VP
+15	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00186_wikitree	하지만 이날 스타뉴스는 라 씨가 일방적으로 맞은 것이 아닌 쌍방 폭행 혐의로 검찰에 송치됐다고 보도했다.
+1	하지만	하지만	MAJ	15	AP
+2	이날	이날	NNG	15	NP_AJT
+3	스타뉴스는	스타뉴스 는	NNP+JX	15	NP_SBJ
+4	라	라	NNP	5	NP
+5	씨가	씨 가	NNB+JKS	14	NP_SBJ
+6	일방적으로	일방 적 으로	NNG+XSN+JKB	7	NP_AJT
+7	맞은	맞 은	VV+ETM	8	VP_MOD
+8	것이	것 이	NNB+JKC	9	NP_CMP
+9	아닌	아니 ㄴ	VCN+ETM	12	VP_MOD
+10	쌍방	쌍방	NNG	11	NP
+11	폭행	폭행	NNG	12	NP
+12	혐의로	혐의 로	NNG+JKB	14	NP_AJT
+13	검찰에	검찰 에	NNG+JKB	14	NP_AJT
+14	송치됐다고	송치 되 었 다고	NNG+XSV+EP+EC	15	VP_CMP
+15	보도했다.	보도 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00187_wikitree	일부 영향력 있는 인사들의 몸값도 천정부지로 치솟고 있다.
+1	일부	일부	NNG	4	NP
+2	영향력	영향력	NNG	3	NP_SBJ
+3	있는	있 는	VV+ETM	4	VP_MOD
+4	인사들의	인사 들 의	NNG+XSN+JKG	5	NP_MOD
+5	몸값도	몸 값 도	NNG+NNG+JX	7	NP_SBJ
+6	천정부지로	천정부지 로	NNG+JKB	7	NP_AJT
+7	치솟고	치솟 고	VV+EC	8	VP
+8	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00188_wikitree	이처럼 인기있는 편의점 전용 먹거리 11선을 모아봤다.
+1	이처럼	이 처럼	NP+JKB	2	NP_AJT
+2	인기있는	인기 있 는	NNG+VV+ETM	6	VP_MOD
+3	편의점	편의점	NNG	4	NP
+4	전용	전용	NNG	6	NP
+5	먹거리	먹거리	NNG	6	NP
+6	11선을	11 선 을	SN+NNG+JKO	7	NP_OBJ
+7	모아봤다.	모으 아 보 았 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00189_wikitree	중국 온라인에서 주미 중국대사관 입구에 씌어진 중국어 낙서가 논란을 일으켰다고 11일 중국청년넷(中國青年網)이 전했다.
+1	중국	중국	NNP	2	NP
+2	온라인에서	온라인 에서	NNG+JKB	10	NP_AJT
+3	주미	주미	NNG	4	NP
+4	중국대사관	중국 대사관	NNP+NNG	5	NP
+5	입구에	입구 에	NNG+JKB	6	NP_AJT
+6	씌어진	씌 어 지 ㄴ	VV+EC+VX+ETM	8	VP_MOD
+7	중국어	중국어	NNG	8	NP
+8	낙서가	낙서 가	NNG+JKS	10	NP_SBJ
+9	논란을	논란 을	NNG+JKO	10	NP_OBJ
+10	일으켰다고	일으키 었 다고	VV+EP+EC	13	VP_CMP
+11	11일	11 일	SN+NNB	13	NP_AJT
+12	중국청년넷(中國青年網)이	중국청년넷 ( 中國青年網 ) 이	NNP+SS+SH+SS+JKS	13	NP_SBJ
+13	전했다.	전하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00190_wikitree	이어 17일 '국회 정보위원회의 제도개선 방안과 국정원 예산의 민주적 통제방안' 공청회에서는 동국대 한희원 교수와 뉴데일리 박성현 주필(여당 추천), 아주대 오동석 교수와 건국대 한상희 교수(야당 추천)가 각각 주제 발표자로 나선다.
+1	이어	이어	MAG	29	AP
+2	17일	17 일	SN+NNB	29	NP_AJT
+3	'국회	' 국회	SS+NNG	4	NP
+4	정보위원회의	정보 위원회 의	NNG+NNG+JKG	6	NP_MOD
+5	제도개선	제도 개선	NNG+NNG	6	NP
+6	방안과	방안 과	NNG+JC	10	NP_CNJ
+7	국정원	국정원	NNG	8	NP
+8	예산의	예산 의	NNG+JKG	10	NP_MOD
+9	민주적	민주 적	NNG+XSN	10	DP
+10	통제방안'	통제 방안 '	NNG+NNG+SS	11	NP
+11	공청회에서는	공청회 에서 는	NNG+JKB+JX	29	NP_AJT
+12	동국대	동국대	NNP	14	NP
+13	한희원	한희원	NNG	14	NP
+14	교수와	교수 와	NNG+JC	25	NP_CNJ
+15	뉴데일리	뉴데일리	NNP	16	NP
+16	박성현	박성현	NNP	17	NP
+17	주필(여당	주필 ( 여당	NNG+SS+NNG	18	NP
+18	추천),	추천 ) ,	NNG+SS+SP	25	NP_CNJ
+19	아주대	아주대	NNP	21	NP
+20	오동석	오동석	NNP	21	NP
+21	교수와	교수 와	NNG+JC	25	NP_CNJ
+22	건국대	건국대	NNP	25	NP
+23	한상희	한상희	NNP	24	NP
+24	교수(야당	교수 ( 야당	NNG+SS+NNG	25	NP
+25	추천)가	추천 ) 가	NNG+SS+JKS	29	NP_SBJ
+26	각각	각각	MAG	29	AP
+27	주제	주제	NNG	28	NP
+28	발표자로	발표자 로	NNG+JKB	29	NP_AJT
+29	나선다.	나서 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00191_wikitree	한편 고위층 성접대 의혹을 수사하고 있는 경찰청 특수수사과는 건설업자 윤모(51) 씨가 촬영한 동영상 등의 자료를 확보한 것으로 알려졌습니다.
+1	한편	한편	MAG	18	AP
+2	고위층	고위 층	NNG+XSN	3	NP
+3	성접대	성 접대	NNG+NNG	4	NP
+4	의혹을	의혹 을	NNG+JKO	5	NP_OBJ
+5	수사하고	수사 하 고	NNG+XSV+EC	6	VP
+6	있는	있 는	VX+ETM	8	VP_MOD
+7	경찰청	경찰청	NNG	8	NP
+8	특수수사과는	특수 수사과 는	NNG+NNG+JX	16	NP_SBJ
+9	건설업자	건설업자	NNG	11	NP
+10	윤모(51)	윤 모 ( 51 )	NNP+NP+SS+SN+SS	11	NP
+11	씨가	씨 가	NNB+JKS	12	NP_SBJ
+12	촬영한	촬영 하 ㄴ	NNG+XSV+ETM	13	VP_MOD
+13	동영상	동영상	NNG	14	NP
+14	등의	등 의	NNB+JKG	15	NP_MOD
+15	자료를	자료 를	NNG+JKO	16	NP_OBJ
+16	확보한	확보 하 ㄴ	NNG+XSV+ETM	17	VP_MOD
+17	것으로	것 으로	NNB+JKB	18	NP_AJT
+18	알려졌습니다.	알리 어 지 었 습니다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00192_wikitree	T가족포인트는 2∼5인 가족이 SK텔레콤 서비스에 가입하면 단말기 교체나 유료 콘텐츠 구매에 사용할 수 있는 포인트를 제공하는 가족결합 할인 프로그램이다.
+1	T가족포인트는	T 가족 포인트 는	SL+NNG+NNG+JX	19	NP_SBJ
+2	2∼5인	2 ∼ 5 인	SN+SO+SN+NNG	3	NP
+3	가족이	가족 이	NNG+JKS	6	NP_SBJ
+4	SK텔레콤	SK 텔레콤	SL+NNP	5	NP
+5	서비스에	서비스 에	NNG+JKB	6	NP_AJT
+6	가입하면	가입 하 면	NNG+XSV+EC	16	VP
+7	단말기	단말기	NNG	8	NP
+8	교체나	교체 나	NNG+JC	11	NP_CNJ
+9	유료	유료	NNG	10	NP
+10	콘텐츠	콘텐츠	NNG	11	NP
+11	구매에	구매 에	NNG+JKB	12	NP_AJT
+12	사용할	사용 하 ㄹ	NNG+XSV+ETM	13	VP_MOD
+13	수	수	NNB	14	NP_SBJ
+14	있는	있 는	VV+ETM	15	VP_MOD
+15	포인트를	포인트 를	NNG+JKO	16	NP_OBJ
+16	제공하는	제공 하 는	NNG+XSV+ETM	19	VP_MOD
+17	가족결합	가족 결합	NNG+NNG	18	NP
+18	할인	할인	NNG	19	NP
+19	프로그램이다.	프로그램 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00193_wikitree	홍진경은 지난 26일 방송된 MBC 예능 토크쇼 '황금어장-라디오스타’에 출연, 지금의 남편을 만나 결혼에 성공하게 된 뒷이야기를 깜짝 공개했다.
+1	홍진경은	홍진경 은	NNP+JX	18	NP_SBJ
+2	지난	지나 ㄴ	VV+ETM	3	VP_MOD
+3	26일	26 일	SN+NNB	4	NP_AJT
+4	방송된	방송 되 ㄴ	NNG+XSV+ETM	8	VP_MOD
+5	MBC	MBC	SL	7	NP
+6	예능	예능	NNG	7	NP
+7	토크쇼	토크쇼	NNG	8	NP
+8	'황금어장-라디오스타’에	' 황금어장 - 라디오스타 ’ 에	SS+NNP+SS+NNP+SS+JKB	9	NP_AJT
+9	출연,	출연 ,	NNG+SP	18	NP
+10	지금의	지금 의	NNG+JKG	11	NP_MOD
+11	남편을	남편 을	NNG+JKO	12	NP_OBJ
+12	만나	만나 아	VV+EC	14	VP
+13	결혼에	결혼 에	NNG+JKB	14	NP_AJT
+14	성공하게	성공 하 게	NNG+XSV+EC	15	VP
+15	된	되 ㄴ	VV+ETM	16	VP_MOD
+16	뒷이야기를	뒷이야기 를	NNG+JKO	18	NP_OBJ
+17	깜짝	깜짝	MAG	18	AP
+18	공개했다.	공개 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00194_wikitree	대한민국 엔터테인먼트 산업은 대한민국을 넘어 아시아로 향하고 있습니다.
+1	대한민국	대한민국	NNP	3	NP
+2	엔터테인먼트	엔터테인먼트	NNG	3	NP
+3	산업은	산업 은	NNG+JX	5	NP_SBJ
+4	대한민국을	대한민국 을	NNP+JKO	5	NP_OBJ
+5	넘어	넘 어	VV+EC	7	VP
+6	아시아로	아시아 로	NNP+JKB	7	NP_AJT
+7	향하고	향하 고	VV+EC	8	VP
+8	있습니다.	있 습니다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00195_wikitree	뤽 베송이 제작을 맡고 '테이큰2'의 올리비에 메가톤 감독이 연출을 맡은 이 영화는 오는 2015년 1월9일 북미 개봉 예정입니다.
+1	뤽	뤽	NNP	2	NP
+2	베송이	베송 이	NNP+JKS	4	NP_SBJ
+3	제작을	제작 을	NNG+JKO	4	NP_OBJ
+4	맡고	맡 고	VV+EC	10	VP
+5	'테이큰2'의	' 테이큰 2 ' 의	SS+NNP+SN+SS+JKG	8	NP_MOD
+6	올리비에	올리비에	NNP	7	NP
+7	메가톤	메가톤	NNP	8	NP
+8	감독이	감독 이	NNG+JKS	10	NP_SBJ
+9	연출을	연출 을	NNG+JKO	10	NP_OBJ
+10	맡은	맡 은	VV+ETM	12	VP_MOD
+11	이	이	MMD	12	DP
+12	영화는	영화 는	NNG+JX	18	NP_SBJ
+13	오는	오 는	VV+ETM	15	VP_MOD
+14	2015년	2015 년	SN+NNB	15	NP
+15	1월9일	1 월 9 일	SN+NNB+SN+NNB	18	NP_AJT
+16	북미	북미	NNP	17	NP
+17	개봉	개봉	NNG	18	NP
+18	예정입니다.	예정 이 ㅂ니다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00196_wikitree	일선에서 일하는 의사들 사이에서는 보건당국의 초기대응 실패를 지적하는 목소리가 나왔다.
+1	일선에서	일선 에서	NNG+JKB	2	NP_AJT
+2	일하는	일 하 는	NNG+XSV+ETM	3	VP_MOD
+3	의사들	의사 들	NNG+XSN	4	NP
+4	사이에서는	사이 에서 는	NNG+JKB+JX	10	NP_AJT
+5	보건당국의	보건 당국 의	NNG+NNG+JKG	6	NP_MOD
+6	초기대응	초기 대응	NNG+NNG	7	NP
+7	실패를	실패 를	NNG+JKO	8	NP_OBJ
+8	지적하는	지적 하 는	NNG+XSV+ETM	9	VP_MOD
+9	목소리가	목소리 가	NNG+JKS	10	NP_SBJ
+10	나왔다.	나오 았 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00197_wikitree	신문에 따르면 지난 19일 청와대에서 열린 국가안전보장회의에서 참석자들은 '핵안보정상회의를 계기로 한미일 정상이 북핵 문제와 관련한 세 나라의 협력관계를 강조할 필요가 있다'고 판단했고, 박 대통령은 이를 보고받은 뒤 참석을 결정했다.
+1	신문에	신문 에	NNG+JKB	2	NP_AJT
+2	따르면	따르 면	VV+EC	29	VP
+3	지난	지나 ㄴ	VV+ETM	4	VP_MOD
+4	19일	19 일	SN+NNB	6	NP_AJT
+5	청와대에서	청와대 에서	NNP+JKB	6	NP_AJT
+6	열린	열리 ㄴ	VV+ETM	7	VP_MOD
+7	국가안전보장회의에서	국가 안전 보장 회의 에서	NNG+NNG+NNG+NNG+JKB	22	NP_AJT
+8	참석자들은	참석자 들 은	NNG+XSN+JX	22	NP_SBJ
+9	'핵안보정상회의를	' 핵 안보 정상 회의 를	SS+NNG+NNG+NNG+NNG+JKO	10	NP_OBJ
+10	계기로	계기 로	NNG+JKB	19	NP_AJT
+11	한미일	한 미 일	NNP+NNP+NNP	12	NP
+12	정상이	정상 이	NNG+JKS	19	NP_SBJ
+13	북핵	북 핵	NNP+NNG	14	NP
+14	문제와	문제 와	NNG+JKB	15	NP_AJT
+15	관련한	관련 하 ㄴ	NNG+XSV+ETM	18	VP_MOD
+16	세	세	MMN	17	DP
+17	나라의	나라 의	NNG+JKG	18	NP_MOD
+18	협력관계를	협력 관계 를	NNG+NNG+JKO	19	NP_OBJ
+19	강조할	강조 하 ㄹ	NNG+XSV+ETM	20	VP_MOD
+20	필요가	필요 가	NNG+JKS	21	NP_SBJ
+21	있다'고	있 다 ' 고	VV+EC+SS+JKQ	22	VP_CMP
+22	판단했고,	판단 하 였 고 ,	NNG+XSV+EP+EC+SP	29	VP
+23	박	박	NNP	24	NP
+24	대통령은	대통령 은	NNG+JX	29	NP_SBJ
+25	이를	이 를	NP+JKO	26	NP_OBJ
+26	보고받은	보고 받 은	NNG+VV+ETM	27	VP_MOD
+27	뒤	뒤	NNG	29	NP_AJT
+28	참석을	참석 을	NNG+JKO	29	NP_OBJ
+29	결정했다.	결정 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00198_wikitree	김씨는 시신 유기 당시 남편과 함께 있었지만 살해 과정에는 개입하지 않았다고 주장해 왔다.
+1	김씨는	김 씨 는	NNP+NNB+JX	7	NP_SBJ
+2	시신	시신	NNG	3	NP
+3	유기	유기	NNG	4	NP
+4	당시	당시	NNG	7	NP_AJT
+5	남편과	남편 과	NNG+JKB	7	NP_AJT
+6	함께	함께	MAG	7	AP
+7	있었지만	있 었 지만	VV+EP+EC	10	VP
+8	살해	살해	NNG	9	NP
+9	과정에는	과정 에는	NNG+JKB	10	NP_AJT
+10	개입하지	개입 하 지	NNG+XSV+EC	11	VP
+11	않았다고	않 았 다고	VX+EP+EC	12	VP_CMP
+12	주장해	주장 하 여	NNG+XSV+EC	13	VP
+13	왔다.	오 았 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00199_wikitree	지난달 30일 끝난 2014회계연도 4분기 실적에서 스타벅스는 미국과 아시아에서의 매출 호조로 5% 신장했으나, 영업이익은 월스트리트 전문가의 예상치(42억4천만 달러)에 약간 못 미친 41억8천만 달러에 그쳤다.
+1	지난달	지난달	NNG	2	NP
+2	30일	30 일	SN+NNB	3	NP_AJT
+3	끝난	끝나 ㄴ	VV+ETM	6	VP_MOD
+4	2014회계연도	2014 회계 연도	SN+NNG+NNG	5	NP
+5	4분기	4 분기	SN+NNG	6	NP
+6	실적에서	실적 에서	NNG+JKB	13	NP_AJT
+7	스타벅스는	스타 벅스 는	NNG+NNP+JX	13	NP_SBJ
+8	미국과	미국 과	NNP+JC	9	NP_CNJ
+9	아시아에서의	아시아 에서 의	NNP+JKB+JKG	11	NP_MOD
+10	매출	매출	NNG	11	NP
+11	호조로	호조 로	NNG+JKB	13	NP_AJT
+12	5%	0	SN+SW	13	NP_SBJ
+13	신장했으나,	신장 하 였 으나 ,	NNG+XSV+EP+EC+SP	24	VP
+14	영업이익은	영업 이익 은	NNG+NNG+JX	24	NP_SBJ
+15	월스트리트	월스트리트	NNP	16	NP
+16	전문가의	전문가 의	NNG+JKG	18	NP_MOD
+17	예상치(42억4천만	예상치 ( 42 억 4 천만	NNG+SS+SN+NR+SN+NR	18	NP
+18	달러)에	달러 ) 에	NNB+SS+JKB	21	NP_AJT
+19	약간	약간	MAG	21	AP
+20	못	못	MAG	21	AP
+21	미친	미치 ㄴ	VV+ETM	23	VP_MOD
+22	41억8천만	41 억 8 천만	SN+NR+SN+NR	23	NP
+23	달러에	달러 에	NNB+JKB	24	NP_AJT
+24	그쳤다.	그치 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00200_wikitree	벼랑에 몰린 넥센은 5회에 오재영, 6회 한현희, 9회 손승락을 투입하는 마운드의 총력전을 펼쳤으나 팀 타선은 막판까지 침묵을 지켰다.
+1	벼랑에	벼랑 에	NNG+JKB	2	NP_AJT
+2	몰린	몰리 ㄴ	VV+ETM	3	VP_MOD
+3	넥센은	넥센 은	NNP+JX	13	NP_SBJ
+4	5회에	5 회 에	SN+NNB+JKB	10	NP_AJT
+5	오재영,	오재영 ,	NNP+SP	10	NP_OBJ
+6	6회	6 회	SN+NNB	10	NP_AJT
+7	한현희,	한현희 ,	NNP+SP	10	NP_OBJ
+8	9회	9 회	SN+NNB	10	NP_AJT
+9	손승락을	손승락 을	NNP+JKO	10	NP_OBJ
+10	투입하는	투입 하 는	NNG+XSV+ETM	12	VP_MOD
+11	마운드의	마운드 의	NNG+JKG	12	NP_MOD
+12	총력전을	총력전 을	NNG+JKO	13	NP_OBJ
+13	펼쳤으나	펼치 었 으나	VV+EP+EC	18	VP
+14	팀	팀	NNG	15	NP
+15	타선은	타선 은	NNG+JX	18	NP_SBJ
+16	막판까지	막판 까지	NNG+JX	18	NP_AJT
+17	침묵을	침묵 을	NNG+JKO	18	NP_OBJ
+18	지켰다.	지키 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00201_wikitree	남북간 협의가 순조롭다면 이번 주 안에라도 개성공단은 부분적인 재가동 수순에 들어갈 것으로 전망되지만, 협의가 난항 한다면 재가동 시기는 늦춰질 수밖에 없을 것으로 보인다.
+1	남북간	남북 간	NNP+NNB	2	NP
+2	협의가	협의 가	NNG+JKS	3	NP_SBJ
+3	순조롭다면	순조 롭 다면	NNG+XSA+EC	13	VP
+4	이번	이번	NNG	5	NP
+5	주	주	NNG	6	NP
+6	안에라도	안 에 이 라도	NNG+JKB+VCP+EC	11	VNP
+7	개성공단은	개성 공단 은	NNP+NNG+JX	11	NP_SBJ
+8	부분적인	부분 적 이 ㄴ	NNG+XSN+VCP+ETM	9	VNP_MOD
+9	재가동	재 가동	XPN+NNG	10	NP
+10	수순에	수순 에	NNG+JKB	11	NP_AJT
+11	들어갈	들 어 가 ㄹ	VV+EC+VX+ETM	12	VP_MOD
+12	것으로	것 으로	NNB+JKB	13	NP_AJT
+13	전망되지만,	전망 되 지만 ,	NNG+XSV+EC+SP	23	VP
+14	협의가	협의 가	NNG+JKS	16	NP_SBJ
+15	난항	난항	NNG	16	NP_OBJ
+16	한다면	하 ㄴ다면	VV+EC	19	VP
+17	재가동	재 가동	XPN+NNG	18	NP
+18	시기는	시기 는	NNG+JX	19	NP_SBJ
+19	늦춰질	늦추 어 지 ㄹ	VV+EC+VX+ETM	20	VP_MOD
+20	수밖에	수 밖에	NNB+JX	21	NP_SBJ
+21	없을	없 을	VA+ETM	22	VP_MOD
+22	것으로	것 으로	NNB+JKB	23	NP_AJT
+23	보인다.	보이 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00202_wikitree	특히 총 중량 1만8천144㎏에 달하는 핵폭탄 16발을 탑재할 수 있다.
+1	특히	특히	MAG	8	AP
+2	총	총	MMN	3	DP
+3	중량	중량	NNG	4	NP
+4	1만8천144㎏에	1 만 8 천 144 ㎏ 에	SN+NR+SN+NR+SN+SW+JKB	5	NP_AJT
+5	달하는	달하 는	VV+ETM	7	VP_MOD
+6	핵폭탄	핵 폭탄	NNG+NNG	7	NP
+7	16발을	16 발 을	SN+NNB+JKO	8	NP_OBJ
+8	탑재할	탑재 하 ㄹ	NNG+XSV+ETM	9	VP_MOD
+9	수	수	NNB	10	NP_SBJ
+10	있다.	있 다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00203_wikitree	세월호 현장 지원활동을 마치고 복귀하던 소방헬기가 광주 도심 인도에서 추락해 탑승자 전원인 5명 숨져.
+1	세월호	세월호	NNP	2	NP
+2	현장	현장	NNG	3	NP
+3	지원활동을	지원 활동 을	NNG+NNG+JKO	4	NP_OBJ
+4	마치고	마치 고	VV+EC	5	VP
+5	복귀하던	복귀 하 던	NNG+XSV+ETM	6	VP_MOD
+6	소방헬기가	소방 헬기 가	NNG+NNG+JKS	10	NP_SBJ
+7	광주	광주	NNP	8	NP
+8	도심	도심	NNG	9	NP
+9	인도에서	인도 에서	NNP+JKB	10	NP_AJT
+10	추락해	추락 하 여	NNG+XSV+EC	14	VP
+11	탑승자	탑승자	NNG	12	NP
+12	전원인	전원 이 ㄴ	NNG+VCP+ETM	13	VNP_MOD
+13	5명	5 명	SN+NNB	14	NP_SBJ
+14	숨져.	숨지 어 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00204_wikitree	PD님은 분명히 마지막 결승전 까지의 전체적인 그림을 가지고 있다는 겁니다.
+1	PD님은	PD 님 은	SL+XSN+JX	8	NP_SBJ
+2	분명히	분명히	MAG	8	AP
+3	마지막	마지막	NNG	4	NP
+4	결승전	결승전	NNG	5	NP
+5	까지의	까지 의	JX+JKG	7	NP_MOD
+6	전체적인	전체 적 이 ㄴ	NNG+XSN+VCP+ETM	7	VNP_MOD
+7	그림을	그림 을	NNG+JKO	8	NP_OBJ
+8	가지고	가지 고	VV+EC	9	VP
+9	있다는	있 다는	VX+ETM	10	VP_MOD
+10	겁니다.	것 이 ㅂ니다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00205_wikitree	앞서 철원지역은 이날 오전 0시 20분을 기해 호우주의보가 내려졌다.
+1	앞서	앞서	MAG	9	AP
+2	철원지역은	철원 지역 은	NNP+NNG+JX	7	NP_SBJ
+3	이날	이 날	MMD+NNG	6	NP
+4	오전	오전	NNG	6	NP
+5	0시	0 시	SN+NNB	6	NP
+6	20분을	20 분 을	SN+NNB+JKO	7	NP_OBJ
+7	기해	기 하 여	NNG+VV+EC	9	VP
+8	호우주의보가	호우 주의보 가	NNG+NNG+JKS	9	NP_SBJ
+9	내려졌다.	내리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00206_wikitree	미국과 독일은 각각 22위, 13위를 기록했고 니카라과(9위)와 룩셈부르크(17위) 등의 국가는 여성 국회의원 비율이 늘면서 순위가 상승했다.
+1	미국과	미국 과	NNP+JC	2	NP_CNJ
+2	독일은	독일 은	NNP+JX	6	NP_SBJ
+3	각각	각각	MAG	6	AP
+4	22위,	22 위 ,	SN+NNB+SP	5	NP_CNJ
+5	13위를	13 위 를	SN+NNB+JKO	6	NP_OBJ
+6	기록했고	기록 하 였 고	NNG+XSV+EP+EC	14	VP
+7	니카라과(9위)와	니카라과 ( 9 위 ) 와	NNP+SS+SN+NNB+SS+JC	8	NP_CNJ
+8	룩셈부르크(17위)	룩셈부르크 ( 17 위 )	NNP+SS+SN+NNB+SS	9	NP
+9	등의	등 의	NNB+JKG	10	NP_MOD
+10	국가는	국가 는	NNG+JX	14	NP_SBJ
+11	여성	여성	NNG	12	NP
+12	국회의원	국회 의원	NNG+NNG	13	NP
+13	비율이	비율 이	NNG+JKS	14	NP_SBJ
+14	늘면서	늘 면서	VV+EC	16	VP
+15	순위가	순위 가	NNG+JKS	16	NP_SBJ
+16	상승했다.	상승 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00207_wikitree	이어 국정원 직원이 무슨 이유로 주행거리가 22만km를 넘겨 폐차 직전인 마티즈를 구입했다가 20일만에 폐차를 시킨 것인지 경찰 조사가 필요하다고 주장했다.
+1	이어	이어	MAG	20	AP
+2	국정원	국정원	NNG	3	NP
+3	직원이	직원 이	NNG+JKS	12	NP_SBJ
+4	무슨	무슨	MMD	5	DP
+5	이유로	이유 로	NNG+JKB	12	NP_AJT
+6	주행거리가	주행거리 가	NNG+JKS	8	NP_SBJ
+7	22만km를	22 만 km 를	SN+NR+SL+JKO	8	NP_OBJ
+8	넘겨	넘기 어	VV+EC	10	VP
+9	폐차	폐차	NNG	10	NP
+10	직전인	직전 이 ㄴ	NNG+VCP+ETM	11	VNP_MOD
+11	마티즈를	마티즈 를	NNP+JKO	12	NP_OBJ
+12	구입했다가	구입 하 였 다가	NNG+XSV+EP+EC	15	VP
+13	20일만에	20 일 만 에	SN+NNB+NNB+JKB	15	NP_AJT
+14	폐차를	폐차 를	NNG+JKO	15	NP_OBJ
+15	시킨	시키 ㄴ	VV+ETM	16	VP_MOD
+16	것인지	것 이 ㄴ지	NNB+VCP+EC	19	VNP
+17	경찰	경찰	NNG	18	NP
+18	조사가	조사 가	NNG+JKS	19	NP_SBJ
+19	필요하다고	필요 하 다고	NNG+XSA+EC	20	VP_CMP
+20	주장했다.	주장 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00208_wikitree	기재부는 주거용 오피스텔 1채만 보유한 '1가구 1오피스텔'의 경우 세법상 1주택자로 간주되는 만큼 이 오피스텔을 구입해 주택으로 사용하는 사람에게도 양도세 면제 혜택을 부여하는 방안을 유력하게 검토중이다.
+1	기재부는	기재부 는	NNP+JX	25	NP_SBJ
+2	주거용	주거 용	NNG+XSN	3	NP
+3	오피스텔	오피스텔	NNG	4	NP
+4	1채만	1 채 만	SN+NNB+JX	5	NP_OBJ
+5	보유한	보유 하 ㄴ	NNG+XSV+ETM	7	VP_MOD
+6	'1가구	' 1 가구	SS+SN+NNG	7	NP
+7	1오피스텔'의	1 오피스텔 ' 의	SN+NNG+SS+JKG	8	NP_MOD
+8	경우	경우	NNG	11	NP_AJT
+9	세법상	세법 상	NNG+XSN	10	NP
+10	1주택자로	1 주택자 로	SN+NNG+JKB	11	NP_AJT
+11	간주되는	간주 되 는	NNG+XSV+ETM	12	VP_MOD
+12	만큼	만큼	NNB	22	NP_AJT
+13	이	이	MMD	14	DP
+14	오피스텔을	오피스텔 을	NNG+JKO	15	NP_OBJ
+15	구입해	구입 하 여	NNG+XSV+EC	17	VP
+16	주택으로	주택 으로	NNG+JKB	17	NP_AJT
+17	사용하는	사용 하 는	NNG+XSV+ETM	18	VP_MOD
+18	사람에게도	사람 에게 도	NNG+JKB+JX	22	NP_AJT
+19	양도세	양도 세	NNG+NNG	20	NP
+20	면제	면제	NNG	21	NP
+21	혜택을	혜택 을	NNG+JKO	22	NP_OBJ
+22	부여하는	부여 하 는	NNG+XSV+ETM	23	VP_MOD
+23	방안을	방안 을	NNG+JKO	25	NP_OBJ
+24	유력하게	유력 하 게	NNG+XSA+EC	25	VP_AJT
+25	검토중이다.	검토 중 이 다 .	NNG+NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00209_wikitree	영화 속에서 '안나'는 언니 '엘사'의 대관식 날 굳게 닫혔던 성문이 몇 년 만에 열리는 기쁨을 이 곡을 통해 노래했습니다.
+1	영화	영화	NNG	2	NP
+2	속에서	속 에서	NNG+JKB	19	NP_AJT
+3	'안나'는	' 안나 ' 는	SS+NNP+SS+JX	19	NP_SBJ
+4	언니	언니	NNG	5	NP
+5	'엘사'의	' 엘사 ' 의	SS+NNP+SS+JKG	6	NP_MOD
+6	대관식	대관식	NNG	7	NP
+7	날	날	NNG	9	NP_AJT
+8	굳게	굳 게	VA+EC	9	VP_AJT
+9	닫혔던	닫히 었 던	VV+EP+ETM	10	VP_MOD
+10	성문이	성 문 이	NNG+NNG+JKS	14	NP_SBJ
+11	몇	몇	MMN	12	DP
+12	년	년	NNB	13	NP
+13	만에	만 에	NNB+JKB	14	NP_AJT
+14	열리는	열리 는	VV+ETM	15	VP_MOD
+15	기쁨을	기쁨 을	NNG+JKO	19	NP_OBJ
+16	이	이	MMD	17	DP
+17	곡을	곡 을	NNG+JKO	18	NP_OBJ
+18	통해	통하 여	VV+EC	19	VP
+19	노래했습니다.	노래 하 였 습니다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00210_wikitree	구글은 ECJ의 판결 이후 유럽 이용자로부터 정보 삭제 요구를 얼마나 받았는지는 밝히지 않고 있다.
+1	구글은	구글 은	NNP+JX	11	NP_SBJ
+2	ECJ의	ECJ 의	SL+JKG	3	NP_MOD
+3	판결	판결	NNG	4	NP
+4	이후	이후	NNG	11	NP_AJT
+5	유럽	유럽	NNP	6	NP
+6	이용자로부터	이용자 로부터	NNG+JKB	11	NP_AJT
+7	정보	정보	NNG	8	NP
+8	삭제	삭제	NNG	9	NP
+9	요구를	요구 를	NNG+JKO	11	NP_OBJ
+10	얼마나	얼마나	MAG	11	AP
+11	받았는지는	받 았 는지 는	VV+EP+EC+JX	12	VP
+12	밝히지	밝히 지	VV+EC	13	VP
+13	않고	않 고	VX+EC	14	VP
+14	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00211_wikitree	\"아버님 왜 이렇게 못난 생각을 하시냐고 하니까 아버님께서 아들 두 분 중에서 한 분은 자살을 하셨는데 딱 3개월된 날이라고 하시더라고요.
+1	\"아버님	\" 아버님	SS+NNG	2	IP
+2	왜	왜	MAG	6	AP
+3	이렇게	이렇 게	VA+EC	4	VP_AJT
+4	못난	못 나 ㄴ	MAG+VV+ETM	5	VP_MOD
+5	생각을	생각 을	NNG+JKO	6	NP_OBJ
+6	하시냐고	하 시 냐고	VV+EP+EC	7	VP
+7	하니까	하 니까	VV+EC	20	VP
+8	아버님께서	아버님 께서	NNG+JKS	20	NP_SBJ
+9	아들	아들	NNG	11	NP
+10	두	두	MMN	11	DP
+11	분	분	NNB	12	NP
+12	중에서	중 에서	NNB+JKB	16	NP_AJT
+13	한	한	MMN	14	DP
+14	분은	분 은	NNB+JX	16	NP_SBJ
+15	자살을	자살 을	NNG+JKO	16	NP_OBJ
+16	하셨는데	하 시 었 는데	VV+EP+EP+EC	19	VP
+17	딱	딱	MAG	18	AP
+18	3개월된	3 개월 되 ㄴ	SN+NNB+XSV+ETM	19	VP_MOD
+19	날이라고	날 이 라고	NNG+VCP+EC	20	VNP_CMP
+20	하시더라고요.	하 시 더라고요 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00212_wikitree	지난 22일 사우스웨스트 항공사 소속 보잉 737 여객기가 미국 뉴욕 라구아디아공항에 착륙하다가 앞바퀴가 부러지는 사고가 난 가운데, 당시 객실 내부 등을 촬영한 영상이 공개됐다.
+1	지난	지나 ㄴ	VV+ETM	2	VP_MOD
+2	22일	22 일	SN+NNB	16	NP_AJT
+3	사우스웨스트	사우스웨스트	NNP	4	NP
+4	항공사	항공사	NNG	5	NP
+5	소속	소속	NNG	8	NP
+6	보잉	보잉	NNP	7	NP
+7	737	737	SN	8	NP
+8	여객기가	여객기 가	NNG+JKS	12	NP_SBJ
+9	미국	미국	NNP	10	NP
+10	뉴욕	뉴욕	NNP	11	NP
+11	라구아디아공항에	라구아디아 공항 에	NNP+NNG+JKB	12	NP_AJT
+12	착륙하다가	착륙 하 다가	NNG+XSV+EC	16	VP
+13	앞바퀴가	앞 바퀴 가	NNG+NNG+JKS	14	NP_SBJ
+14	부러지는	부러지 는	VV+ETM	15	VP_MOD
+15	사고가	사고 가	NNG+JKS	16	NP_SBJ
+16	난	나 ㄴ	NP+JX	17	VP_MOD
+17	가운데,	가운데 ,	NNG+SP	24	NP_AJT
+18	당시	당시	NNG	22	NP_AJT
+19	객실	객실	NNG	20	NP
+20	내부	내부	NNG	21	NP
+21	등을	등 을	NNB+JKO	22	NP_OBJ
+22	촬영한	촬영 하 ㄴ	NNG+XSV+ETM	23	VP_MOD
+23	영상이	영상 이	NNG+JKS	24	NP_SBJ
+24	공개됐다.	공개 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00213_wikitree	임 병장은 자신의 소총으로 왼쪽 가슴 위쪽에서 어깨 사이를 쐈고, 헬기로 강릉 아산병원으로 이송됐다.
+1	임	임	NNP	2	NP
+2	병장은	병장 은	NNG+JX	10	NP_SBJ
+3	자신의	자신 의	NNG+JKG	4	NP_MOD
+4	소총으로	소총 으로	NNG+JKB	10	NP_AJT
+5	왼쪽	왼쪽	NNG	6	NP
+6	가슴	가슴	NNG	7	NP
+7	위쪽에서	위쪽 에서	NNG+JKB	10	NP_AJT
+8	어깨	어깨	NNG	9	NP
+9	사이를	사이 를	NNG+JKO	10	NP_OBJ
+10	쐈고,	쏘 았 고 ,	VV+EP+EC+SP	14	VP
+11	헬기로	헬기 로	NNG+JKB	14	NP_AJT
+12	강릉	강릉	NNP	13	NP
+13	아산병원으로	아산병원 으로	NNP+JKB	14	NP_AJT
+14	이송됐다.	이송 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00214_wikitree	인사처는 자기개발 휴직제가 도입되면 공무원의 역량이 높아지고, 공직사회 내에 학습 분위기가 조성될 것으로 기대했다.
+1	인사처는	인사처 는	NNG+JX	14	NP_SBJ
+2	자기개발	자기 개발	NP+NNG	3	NP
+3	휴직제가	휴직 제 가	NNG+XSN+JKS	4	NP_SBJ
+4	도입되면	도입 되 면	NNG+XSV+EC	7	VP
+5	공무원의	공무원 의	NNG+JKG	6	NP_MOD
+6	역량이	역량 이	NNG+JKS	7	NP_SBJ
+7	높아지고,	높 아 지 고 ,	VA+EC+VX+EC+SP	12	VP
+8	공직사회	공직 사회	NNG+NNG	9	NP
+9	내에	내 에	NNB+JKB	12	NP_AJT
+10	학습	학습	NNG	11	NP
+11	분위기가	분위기 가	NNG+JKS	12	NP_SBJ
+12	조성될	조성 되 ㄹ	NNG+XSV+ETM	13	VP_MOD
+13	것으로	것 으로	NNB+JKB	14	NP_AJT
+14	기대했다.	기대 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00215_wikitree	정세진(40) 아나운서의 마음을 사로잡은 29세 예비신랑은 직장인으로 알려졌다.
+1	정세진(40)	정세진 ( 40 )	NNP+SS+SN+SS	2	NP
+2	아나운서의	아나운서 의	NNG+JKG	3	NP_MOD
+3	마음을	마음 을	NNG+JKO	4	NP_OBJ
+4	사로잡은	사로잡 은	VV+ETM	6	VP_MOD
+5	29세	29 세	SN+NNB	6	NP
+6	예비신랑은	예비 신랑 은	NNG+NNG+JX	8	NP_SBJ
+7	직장인으로	직장인 으로	NNG+JKB	8	NP_AJT
+8	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00216_wikitree	특히 치킨과 환상 궁합을 자랑하는 맥주는 많은 사람들이 즐겨마시는 술이다.
+1	특히	특히	MAG	10	AP
+2	치킨과	치킨 과	NNG+JKB	5	NP_AJT
+3	환상	환상	NNG	4	NP
+4	궁합을	궁합 을	NNG+JKO	5	NP_OBJ
+5	자랑하는	자랑 하 는	NNG+XSV+ETM	6	VP_MOD
+6	맥주는	맥주 는	NNG+JX	10	NP_SBJ
+7	많은	많 은	VA+ETM	8	VP_MOD
+8	사람들이	사람 들 이	NNG+XSN+JKS	9	NP_SBJ
+9	즐겨마시는	즐기 어 마시 는	VV+EC+VV+ETM	10	VP_MOD
+10	술이다.	술 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00217_wikitree	안전교육 활동은 지난 5월 22일 포스코에너지가 국민안전처 등 15개 기관과 함께 체결한 '안전사회 조성 위한 민-관 합동 사회공헌활동 협약’에 따른 것이다.
+1	안전교육	안전 교육	NNG+NNG	2	NP
+2	활동은	활동 은	NNG+JX	20	NP_SBJ
+3	지난	지나 ㄴ	VV+ETM	5	VP_MOD
+4	5월	5 월	SN+NNB	5	NP
+5	22일	22 일	SN+NNB	12	NP_AJT
+6	포스코에너지가	포스코에너지 가	NNP+JKS	12	NP_SBJ
+7	국민안전처	국민안전처	NNP	8	NP
+8	등	등	NNB	10	NP
+9	15개	15 개	SN+NNB	10	NP
+10	기관과	기관 과	NNG+JKB	12	NP_AJT
+11	함께	함께	MAG	12	AP
+12	체결한	체결 하 ㄴ	NNG+XSV+ETM	19	VP_MOD
+13	'안전사회	' 안전 사회	SS+NNG+NNG	14	NP
+14	조성	조성	NNG	15	NP_OBJ
+15	위한	위하 ㄴ	VV+ETM	19	VP_MOD
+16	민-관	민 - 관	NNG+SS+NNG	17	NP
+17	합동	합동	NNG	18	NP
+18	사회공헌활동	사회 공헌 활동	NNG+NNG+NNG	19	NP
+19	협약’에	협약 ’ 에	NNG+SS+JKB	20	NP_AJT
+20	따른	따르 ㄴ	VV+ETM	21	VP_MOD
+21	것이다.	것 이 다 .	NNB+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00218_wikitree	가족에 따르면 이씨와 최씨는 평소에 고부갈등이 심했으며, 이 날도 반찬 문제로 시어머니가 욕설과 폭언을 했던 것으로 드러났다.
+1	가족에	가족 에	NNG+JKB	2	NP_AJT
+2	따르면	따르 면	VV+EC	17	VP
+3	이씨와	이 씨 와	NNP+NNB+JKB	4	NP_CNJ
+4	최씨는	최 씨 는	NNP+NNB+JX	7	NP_SBJ
+5	평소에	평소 에	NNG+JKB	7	NP_AJT
+6	고부갈등이	고부 갈등 이	NNG+NNG+JKS	7	NP_SBJ
+7	심했으며,	심하 였 으며 ,	VA+EP+EC+SP	15	VP
+8	이	이	MMD	9	DP
+9	날도	날 도	NNG+JX	15	NP_AJT
+10	반찬	반찬	NNG	11	NP
+11	문제로	문제 로	NNG+JKB	15	NP_AJT
+12	시어머니가	시어머니 가	NNG+JKS	15	NP_SBJ
+13	욕설과	욕설 과	NNG+JC	14	NP_CNJ
+14	폭언을	폭언 을	NNG+JKO	15	NP_OBJ
+15	했던	하 였 던	VV+EP+ETM	16	VP_MOD
+16	것으로	것 으로	NNB+JKB	17	NP_AJT
+17	드러났다.	드러나 았 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00219_wikitree	뉴욕 데일리뉴스는 소니 김이 27년 경찰 생활동안 훈장만 22개 받을 정도로 모범적이었다고 보도했다.
+1	뉴욕	뉴욕	NNP	2	NP
+2	데일리뉴스는	데일리뉴스 는	NNP+JX	13	NP_SBJ
+3	소니	소니	NNP	4	NP
+4	김이	김 이	NNP+JKS	10	NP_SBJ
+5	27년	27 년	SN+NNB	7	NP
+6	경찰	경찰	NNG	7	NP
+7	생활동안	생활 동안	NNG+NNG	10	NP_AJT
+8	훈장만	훈장 만	NNG+JX	10	NP_OBJ
+9	22개	22 개	SN+NNB	10	NP_OBJ
+10	받을	받 을	VV+ETM	11	VP_MOD
+11	정도로	정도 로	NNG+JKB	12	NP_AJT
+12	모범적이었다고	모범 적 이 었 다고	NNG+XSN+VCP+EP+EC	13	VNP_CMP
+13	보도했다.	보도 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00220_wikitree	영상은 '여러분은 야스쿠니 신사에 대해 들어본 적이 있나요?'라는 자막으로 시작되며, 일본 우익들의 야스쿠니 신사 참배와 동해 표기문제, 독도 영유권 주장에 대해 비판하는 내용이 담겨있다.
+1	영상은	영상 은	NNG+JX	10	NP_SBJ
+2	'여러분은	' 여러분 은	SS+NP+JX	5	NP_SBJ
+3	야스쿠니	야스쿠니	NNP	4	NP
+4	신사에	신사 에	NNG+JKB	5	NP_AJT
+5	대해	대하 여	VV+EC	6	VP
+6	들어본	들 어 보 ㄴ	VV+EC+VX+ETM	7	VP_MOD
+7	적이	적 이	NNB+JKS	8	NP_SBJ
+8	있나요?'라는	있 나요 ? ' 이 라는	VV+EF+SF+SS+VCP+ETM	9	VNP_MOD
+9	자막으로	자막 으로	NNG+JKB	10	NP_AJT
+10	시작되며,	시작 되 며 ,	NNG+XSV+EC+SP	24	VP
+11	일본	일본	NNP	12	NP
+12	우익들의	우익 들 의	NNG+XSN+JKG	15	NP_MOD
+13	야스쿠니	야스쿠니	NNP	14	NP
+14	신사	신사	NNG	15	NP
+15	참배와	참배 와	NNG+JC	20	NP_CNJ
+16	동해	동해	NNG	17	NP
+17	표기문제,	표기 문제 ,	NNG+NNG+SP	20	NP_CNJ
+18	독도	독도	NNP	19	NP
+19	영유권	영유 권	NNG+XSN	20	NP
+20	주장에	주장 에	NNG+JKB	21	NP_AJT
+21	대해	대하 여	VV+EC	22	VP
+22	비판하는	비판 하 는	NNG+XSV+ETM	23	VP_MOD
+23	내용이	내용 이	NNG+JKS	24	NP_SBJ
+24	담겨있다.	담기 어 있 다 .	VV+EC+VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00221_wikitree	에어아시아는 2001년 출범 이래 호주를 포함해 아시아 전역 20여개국 약 100곳에 취항하고 있으며 태국과 인도네시아, 필리핀, 인도 등지에도 계열사가 있다.
+1	에어아시아는	에어아시아 는	NNP+JX	12	NP_SBJ
+2	2001년	2001 년	SN+NNB	3	NP_AJT
+3	출범	출범	NNG	4	NP
+4	이래	이래	NNB	12	NP_AJT
+5	호주를	호주 를	NNP+JKO	6	NP_OBJ
+6	포함해	포함 하 여	NNG+XSV+EC	12	VP
+7	아시아	아시아	NNP	8	NP
+8	전역	전역	NNG	9	NP
+9	20여개국	20 여 개국	SN+XSN+NNB	11	NP
+10	약	약	MMA	11	DP
+11	100곳에	100 곳 에	SN+NNG+JKB	12	NP_AJT
+12	취항하고	취항 하 고	NNG+XSV+EC	13	VP
+13	있으며	있 으며	VX+EC	20	VP
+14	태국과	태국 과	NNP+JC	17	NP_CNJ
+15	인도네시아,	인도네시아 ,	NNP+SP	17	NP_CNJ
+16	필리핀,	필리핀 ,	NNP+SP	17	NP_CNJ
+17	인도	인도	NNP	18	NP
+18	등지에도	등지 에 도	NNB+JKB+JX	20	NP_AJT
+19	계열사가	계열사 가	NNG+JKS	20	NP_SBJ
+20	있다.	있 다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00222_wikitree	그러나 현재 분위기로 볼 때 아베 총리가 실제로 열병식에 참석할 가능성은 희박할 것이란 관측이 우세하다.
+1	그러나	그러나	MAJ	15	AP
+2	현재	현재	NNG	3	NP
+3	분위기로	분위기 로	NNG+JKB	4	NP_AJT
+4	볼	보 ㄹ	VV+ETM	5	VP_MOD
+5	때	때	NNG	12	NP_AJT
+6	아베	아베	NNP	7	NP
+7	총리가	총리 가	NNG+JKS	10	NP_SBJ
+8	실제로	실제로	MAG	10	AP
+9	열병식에	열병식 에	NNG+JKB	10	NP_AJT
+10	참석할	참석 하 ㄹ	NNG+XSV+ETM	11	VP_MOD
+11	가능성은	가능 성 은	NNG+XSN+JX	12	NP_SBJ
+12	희박할	희박하 ㄹ	VA+ETM	13	VP_MOD
+13	것이란	것 이 란	NNB+VCP+ETM	14	VNP_MOD
+14	관측이	관측 이	NNG+JKS	15	NP_SBJ
+15	우세하다.	우세 하 다 .	NNG+XSA+EF+SF	0	VP
+
+## klue-dp-v1_train_00223_wikitree	지난 19일 한 차량용 블랙박스에 찍힌 화면입니다.
+1	지난	지나 ㄴ	VV+ETM	2	VP_MOD
+2	19일	19 일	SN+NNB	6	NP_AJT
+3	한	한	MMN	5	DP
+4	차량용	차량 용	NNG+XSN	5	NP
+5	블랙박스에	블랙 박스 에	NNG+NNG+JKB	6	NP_AJT
+6	찍힌	찍히 ㄴ	VV+ETM	7	VP_MOD
+7	화면입니다.	화면 이 ㅂ니다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00224_wikitree	1일 인터넷매체 오마이뉴스는 1975년 국군의날 행사 준비에 동원돼 지하벙커 공사 과정을 지켜봤다는 김경중(60) 씨를 인터뷰했다.
+1	1일	1 일	SN+NNB	15	NP_AJT
+2	인터넷매체	인터넷 매체	NNG+NNG	3	NP
+3	오마이뉴스는	오마이뉴스 는	NNP+JX	15	NP_SBJ
+4	1975년	1975 년	SN+NNB	6	NP
+5	국군의날	국군의날	NNP	6	NP
+6	행사	행사	NNG	7	NP
+7	준비에	준비 에	NNG+JKB	8	NP_AJT
+8	동원돼	동원 되 어	NNG+XSV+EC	12	VP
+9	지하벙커	지하 벙커	NNG+NNG	10	NP
+10	공사	공사	NNG	11	NP
+11	과정을	과정 을	NNG+JKO	12	NP_OBJ
+12	지켜봤다는	지키 어 보 았 다는	VV+EC+VX+EP+ETM	14	VP_MOD
+13	김경중(60)	김경중 ( 60 )	NNP+SS+SN+SS	14	NP
+14	씨를	씨 를	NNB+JKO	15	NP_OBJ
+15	인터뷰했다.	인터뷰 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00225_wikitree	미국 다녀온 사이에 많은 일이 있었네요.
+1	미국	미국	NNP	2	NP_AJT
+2	다녀온	다니 어 오 ㄴ	VV+EC+VX+ETM	3	VP_MOD
+3	사이에	사이 에	NNG+JKB	6	NP_AJT
+4	많은	많 은	VA+ETM	5	VP_MOD
+5	일이	일 이	NNG+JKS	6	NP_SBJ
+6	있었네요.	있 었 네요 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00226_wikitree	2013 프로야구 2차 드래프트 지명선수 명단이 발표됐습니다.
+1	2013	2013	SN	2	NP
+2	프로야구	프로 야구	NNG+NNG	4	NP
+3	2차	2 차	SN+NNB	4	NP
+4	드래프트	드래프트	NNG	5	NP
+5	지명선수	지명 선수	NNG+NNG	6	NP
+6	명단이	명단 이	NNG+JKS	7	NP_SBJ
+7	발표됐습니다.	발표 되 었 습니다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00227_wikitree	반면 성남의 한 주민센터와 같이 실제 주민등록증과 같은 수준의 품질로 아기주민등록증을 제작하는 경우도 있다.
+1	반면	반면	NNG	12	NP_AJT
+2	성남의	성남 의	NNP+JKG	4	NP_MOD
+3	한	한	MMN	4	DP
+4	주민센터와	주민 센터 와	NNG+NNG+JKB	5	NP_AJT
+5	같이	같이	MAG	12	AP
+6	실제	실제	NNG	7	NP
+7	주민등록증과	주민 등록증 과	NNG+NNG+JKB	8	NP_AJT
+8	같은	같 은	VA+ETM	9	VP_MOD
+9	수준의	수준 의	NNG+JKG	10	NP_MOD
+10	품질로	품질 로	NNG+JKB	12	NP_AJT
+11	아기주민등록증을	아기 주민 등록증 을	NNG+NNG+NNG+JKO	12	NP_OBJ
+12	제작하는	제작 하 는	NNG+XSV+ETM	13	VP_MOD
+13	경우도	경우 도	NNG+JX	14	NP_SBJ
+14	있다.	있 다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00228_wikitree	달콤한 선물도 좋지만 애인이나 배우자의 치아건강이 걱정된다면 치과의사협의 충치유발지수를 고려해볼 만하다.
+1	달콤한	달콤하 ㄴ	VA+ETM	2	VP_MOD
+2	선물도	선물 도	NNG+JX	3	NP_SBJ
+3	좋지만	좋 지만	VA+EC	10	VP
+4	애인이나	애인 이나	NNG+JC	5	NP_CNJ
+5	배우자의	배우자 의	NNG+JKG	6	NP_MOD
+6	치아건강이	치아 건강 이	NNG+NNG+JKS	7	NP_SBJ
+7	걱정된다면	걱정 되 ㄴ다면	NNG+XSV+EC	10	VP
+8	치과의사협의	치과의사협 의	NNP+JKG	9	NP_MOD
+9	충치유발지수를	충치 유발 지수 를	NNG+NNG+NNG+JKO	10	NP_OBJ
+10	고려해볼	고려 하 여 보 ㄹ	NNG+XSV+EC+VX+ETM	11	VP_MOD
+11	만하다.	만 하 다 .	NNB+XSA+EF+SF	0	VP
+
+## klue-dp-v1_train_00229_wikitree	피해 차량은 포르셰 911 카레라 4S, 포르셰 파나메라, 에쿠스리무진, 벤츠 S클래스 승용차 등으로 알려졌다.
+1	피해	피해	NNG	2	NP
+2	차량은	차량 은	NNG+JX	14	NP_SBJ
+3	포르셰	포르셰	NNP	4	NP
+4	911	911	SN	5	NP
+5	카레라	카레라	NNP	6	NP
+6	4S,	4 S ,	SN+SL+SP	12	NP_CNJ
+7	포르셰	포르셰	NNP	8	NP
+8	파나메라,	파나메라 ,	NNP+SP	12	NP_CNJ
+9	에쿠스리무진,	에쿠스리무진 ,	NNP+SP	12	NP_CNJ
+10	벤츠	벤츠	NNG	11	NP
+11	S클래스	S 클래스	SL+NNG	12	NP
+12	승용차	승용차	NNG	13	NP
+13	등으로	등 으로	NNB+JKB	14	NP_AJT
+14	알려졌다.	알리 어 지 었 다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00230_wikitree	뉴욕타임스는 이번 여성 폭력 문제는 거칠 것 없이 잘 나가는 닥터 드레에게는 악재가 될 것이라고 지적했다.
+1	뉴욕타임스는	뉴욕타임스 는	NNP+JX	16	NP_SBJ
+2	이번	이번	NNG	5	NP
+3	여성	여성	NNG	4	NP
+4	폭력	폭력	NNG	5	NP
+5	문제는	문제 는	NNG+JX	14	NP_SBJ
+6	거칠	거치 ㄹ	VV+ETM	7	VP_MOD
+7	것	것	NNB	8	NP_SBJ
+8	없이	없이	MAG	10	AP
+9	잘	잘	MAG	10	AP
+10	나가는	나가 는	VV+ETM	12	VP_MOD
+11	닥터	닥터	NNG	12	NP
+12	드레에게는	드레 에게 는	NNG+JKB+JX	14	NP_AJT
+13	악재가	악재 가	NNG+JKC	14	NP_CMP
+14	될	되 ㄹ	VV+ETM	15	VP_MOD
+15	것이라고	것 이 라고	NNB+VCP+EC	16	VNP_CMP
+16	지적했다.	지적 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00231_wikitree	그러나 사고 12일째인 지난 16일 추자도 해안과 해상에서 13번째 사망자 이모(44·경남 창원)씨와 14번째 사망자 이모(47·경남 양산)씨 시신을 각각 수습한 뒤로는 실종자가 추가로 발견되지 않았다.
+1	그러나	그러나	MAJ	23	AP
+2	사고	사고	NNG	3	NP
+3	12일째인	12 일 째 이 ㄴ	SN+NNB+XSN+VCP+ETM	5	VNP_MOD
+4	지난	지나 ㄴ	VV+ETM	5	VP_MOD
+5	16일	16 일	SN+NNB	19	NP_AJT
+6	추자도	추자도	NNP	7	NP
+7	해안과	해안 과	NNG+JC	8	NP_CNJ
+8	해상에서	해상 에서	NNG+JKB	19	NP_AJT
+9	13번째	13 번 째	SN+NNB+XSN	10	NP
+10	사망자	사망자	NNG	12	NP
+11	이모(44·경남	이 모 ( 44 · 경남	NNG+NP+SS+SN+SP+NNP	12	NP
+12	창원)씨와	창원 ) 씨 와	NNP+SS+NNB+JC	16	NP_CNJ
+13	14번째	14 번 째	SN+NNB+XSN	14	NP
+14	사망자	사망자	NNG	16	NP
+15	이모(47·경남	이 모 ( 47 · 경남	NNG+NP+SS+SN+SP+NNP	16	NP
+16	양산)씨	양산 ) 씨	NNP+SS+NNB	17	NP
+17	시신을	시신 을	NNG+JKO	19	NP_OBJ
+18	각각	각각	MAG	19	AP
+19	수습한	수습 하 ㄴ	NNG+XSV+ETM	20	VP_MOD
+20	뒤로는	뒤 로 는	NNG+JKB+JX	23	NP_AJT
+21	실종자가	실종자 가	NNG+JKS	23	NP_SBJ
+22	추가로	추가 로	NNG+JKB	23	NP_AJT
+23	발견되지	발견 되 지	NNG+XSV+EC	24	VP
+24	않았다.	않 았 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00232_wikitree	회의에선 한일과 보조를 맞추는 상임이사국 미국이 대북제재를 이란제재와 같은 수준으로 격상하는 한편 금융제재를 강화하라고 촉구할 전망이다.
+1	회의에선	회의 에서 ㄴ	NNG+JKB+JX	15	NP_AJT
+2	한일과	한일 과	NNP+JC	4	NP_AJT
+3	보조를	보조 를	NNG+JKO	4	NP_OBJ
+4	맞추는	맞추 는	VV+ETM	6	VP_MOD
+5	상임이사국	상임 이사국	NNG+NNG	6	NP
+6	미국이	미국 이	NNP+JKS	11	NP_SBJ
+7	대북제재를	대북제재 를	NNP+JKO	11	NP_OBJ
+8	이란제재와	이란제재 와	NNP+JKB	9	NP_AJT
+9	같은	같 은	VA+ETM	10	VP_MOD
+10	수준으로	수준 으로	NNG+JKB	11	NP_AJT
+11	격상하는	격상 하 는	NNG+XSV+ETM	12	VP_MOD
+12	한편	한편	NNG	14	NP_AJT
+13	금융제재를	금융 제재 를	NNG+NNG+JKO	14	NP_OBJ
+14	강화하라고	강화 하 라고	NNG+XSV+EC	15	VP_AJT
+15	촉구할	촉구 하 ㄹ	NNG+XSV+ETM	16	VP_MOD
+16	전망이다.	전망 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00233_wikitree	상반기와 하반기에 한 차례씩 조선성곽의 변천사를 볼 수 있는 성곽유적들을 탐방하면서 조선건국과, 병자호란 그리고 사도세자와 정조 등 해당 성곽유적과 관련 있는 역사 이야기들을 청소년회원들이 탐구하고 직접 안내해설을 할 수 있는 기회의 장으로 활용되었다.
+1	상반기와	상반기 와	NNG+JC	2	NP_CNJ
+2	하반기에	하반기 에	NNG+JKB	11	NP_AJT
+3	한	한	MMN	4	DP
+4	차례씩	차례 씩	NNG+XSN	11	NP_AJT
+5	조선성곽의	조선 성곽 의	NNP+NNG+JKG	6	NP_MOD
+6	변천사를	변천사 를	NNG+JKO	7	NP_OBJ
+7	볼	보 ㄹ	VV+ETM	8	VP_MOD
+8	수	수	NNB	9	NP_SBJ
+9	있는	있 는	VV+ETM	10	VP_MOD
+10	성곽유적들을	성곽 유적 들 을	NNG+NNG+XSN+JKO	11	NP_OBJ
+11	탐방하면서	탐방 하 면서	NNG+XSV+EC	25	VP
+12	조선건국과,	조선 건국 과 ,	NNP+NNG+JC+SP	16	NP_CNJ
+13	병자호란	병자호란	NNP	16	NP_CNJ
+14	그리고	그리고	MAJ	16	AP
+15	사도세자와	사도세자 와	NNP+JC	16	NP_CNJ
+16	정조	정조	NNP	17	NP
+17	등	등	NNB	23	NP
+18	해당	해당	NNG	19	NP
+19	성곽유적과	성곽 유적 과	NNG+NNG+JKB	21	NP_AJT
+20	관련	관련	NNG	21	NP_SBJ
+21	있는	있 는	VV+ETM	23	VP_MOD
+22	역사	역사	NNG	23	NP
+23	이야기들을	이야기 들 을	NNG+XSN+JKO	25	NP_OBJ
+24	청소년회원들이	청소년 회원 들 이	NNG+NNG+XSN+JKS	25	NP_SBJ
+25	탐구하고	탐구 하 고	NNG+XSV+EC	28	VP
+26	직접	직접	MAG	28	AP
+27	안내해설을	안내 해설 을	NNG+NNG+JKO	28	NP_OBJ
+28	할	하 ㄹ	VV+ETM	29	VP_MOD
+29	수	수	NNB	30	NP_SBJ
+30	있는	있 는	VV+ETM	31	VP_MOD
+31	기회의	기회 의	NNG+JKG	32	NP_MOD
+32	장으로	장 으로	NNG+JKB	33	NP_AJT
+33	활용되었다.	활용 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00234_wikitree	민족 최대의 명절인 추석에 전국 대부분 지방에서 구름 사이로 보름달을 볼 수 있을 전망이다.
+1	민족	민족	NNG	2	NP
+2	최대의	최대 의	NNG+JKG	3	NP_MOD
+3	명절인	명절 이 ㄴ	NNG+VCP+ETM	4	VNP_MOD
+4	추석에	추석 에	NNG+JKB	11	NP_AJT
+5	전국	전국	NNG	7	NP
+6	대부분	대 부분	XPN+NNG	7	NP
+7	지방에서	지방 에서	NNG+JKB	11	NP_AJT
+8	구름	구름	NNG	9	NP
+9	사이로	사이 로	NNG+JKB	11	NP_AJT
+10	보름달을	보름 달 을	NNG+NNG+JKO	11	NP_OBJ
+11	볼	보 ㄹ	VV+ETM	12	VP_MOD
+12	수	수	NNB	13	NP_SBJ
+13	있을	있 을	VV+ETM	14	VP_MOD
+14	전망이다.	전망 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00235_wikitree	안전행정부는 지방직 7급 공무원 공개경쟁임용 필기시험이 11일 전국 시험장 59곳에서 일제히 시행된다고 9일 밝혔다.
+1	안전행정부는	안전행정부 는	NNP+JX	14	NP_SBJ
+2	지방직	지방 직	NNG+NNG	4	NP
+3	7급	7 급	SN+NNG	4	NP
+4	공무원	공무원	NNG	5	NP
+5	공개경쟁임용	공개 경쟁 임용	NNG+NNG+NNG	6	NP
+6	필기시험이	필기 시험 이	NNG+NNG+JKS	12	NP_SBJ
+7	11일	11 일	SN+NNB	12	NP_AJT
+8	전국	전국	NNG	9	NP
+9	시험장	시험장	NNG	10	NP
+10	59곳에서	59 곳 에서	SN+NNG+JKB	12	NP_AJT
+11	일제히	일제히	MAG	12	AP
+12	시행된다고	시행 되 ㄴ다고	NNG+XSV+EC	14	VP_AJT
+13	9일	9 일	SN+NNB	14	NP_AJT
+14	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00236_wikitree	지난 2005년, 일본 미즈호 증권의 한 주식중개인은 거래 도중 오타로 회사에 1억9천만파운드(3천억 원) 손해를 끼쳤다.
+1	지난	지나 ㄴ	VV+ETM	2	VP_MOD
+2	2005년,	2005 년 ,	SN+NNB+SP	15	NP_AJT
+3	일본	일본	NNP	5	NP
+4	미즈호	미즈호	NNP	5	NP
+5	증권의	증권 의	NNG+JKG	7	NP_MOD
+6	한	한	MMN	7	DP
+7	주식중개인은	주식 중개인 은	NNG+NNG+JX	15	NP_SBJ
+8	거래	거래	NNG	9	NP
+9	도중	도중	NNG	10	NP_MOD
+10	오타로	오타 로	NNG+JKB	15	NP_AJT
+11	회사에	회사 에	NNG+JKB	15	NP_AJT
+12	1억9천만파운드(3천억	1 억 9 천만 파운드 ( 3 천억	SN+NR+SN+NR+NNB+SS+SN+NR	13	NP
+13	원)	원 )	NNB+SS	14	NP
+14	손해를	손해 를	NNG+JKO	15	NP_OBJ
+15	끼쳤다.	끼치 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00237_wikitree	6.4 지방선거 공식 운동이 22일 시작되며 각 후보 진영에서 다양한 선거 홍보물을 공개하고 있다.
+1	6.4	6 . 4	SN+SF+SN	2	NP
+2	지방선거	지방 선거	NNG+NNG	4	NP
+3	공식	공식	NNG	4	NP
+4	운동이	운동 이	NNG+JKS	6	NP_SBJ
+5	22일	22 일	SN+NNB	6	NP_AJT
+6	시작되며	시작 되 며	NNG+XSV+EC	13	VP
+7	각	각	MMA	9	DP
+8	후보	후보	NNG	9	NP
+9	진영에서	진영 에서	NNG+JKB	13	NP_AJT
+10	다양한	다양 하 ㄴ	NNG+XSA+ETM	12	VP_MOD
+11	선거	선거	NNG	12	NP
+12	홍보물을	홍보물 을	NNG+JKO	13	NP_OBJ
+13	공개하고	공개 하 고	NNG+XSV+EC	14	VP
+14	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00238_wikitree	연구팀은 별에서 가장 먼 세 번째 행성의 공전주기는 4.5일에서 73일 사이에 있으며, 별에서 받는 복사에너지의 양은 지구가 받는 태양복사에너지의 양보다 적을 것으로 추정하고 있다.
+1	연구팀은	연구 팀 은	NNG+NNG+JX	23	NP_SBJ
+2	별에서	별 에서	NNG+JKB	4	NP_AJT
+3	가장	가장	MAG	4	AP
+4	먼	멀 ㄴ	VA+ETM	7	VP_MOD
+5	세	세	MMN	6	DP
+6	번째	번 째	NNB+XSN	7	NP
+7	행성의	행성 의	NNG+JKG	8	NP_MOD
+8	공전주기는	공전 주기 는	NNG+NNG+JX	12	NP_SBJ
+9	4.5일에서	4 . 5 일 에서	SN+SP+SN+NNB+JKB	10	NP_AJT
+10	73일	73 일	SN+NNB	11	NP
+11	사이에	사이 에	NNG+JKB	12	NP_AJT
+12	있으며,	있 으며 ,	VV+EC+SP	21	VP
+13	별에서	별 에서	NNG+JKB	14	NP_AJT
+14	받는	받 는	VV+ETM	15	VP_MOD
+15	복사에너지의	복사 에너지 의	NNG+NNG+JKG	16	NP_MOD
+16	양은	양 은	NNG+JX	21	NP_SBJ
+17	지구가	지구 가	NNG+JKS	18	NP_SBJ
+18	받는	받 는	VV+ETM	19	VP_MOD
+19	태양복사에너지의	태양 복사 에너지 의	NNG+NNG+NNG+JKG	20	NP_MOD
+20	양보다	양 보다	NNG+JKB	21	NP_AJT
+21	적을	적 을	VV+ETM	22	VP_MOD
+22	것으로	것 으로	NNB+JKB	23	NP_AJT
+23	추정하고	추정 하 고	NNG+XSV+EC	24	VP
+24	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00239_wikitree	서울시도 아시아 관광객 위주로 지난해 관광객이 1천만명을 돌파한 가운데 어벤져스2가 개봉되면 미주·유럽권의 관심도 높아지고 한국 관광으로 이어질 수 있다는 점에서 다소간 불편은 감수해야한다는 의지를 비치고 있다.
+1	서울시도	서울시 도	NNP+JX	25	NP_SBJ
+2	아시아	아시아	NNP	3	NP
+3	관광객	관광객	NNG	4	NP
+4	위주로	위주 로	NNG+JKB	8	NP_AJT
+5	지난해	지나 ㄴ 해	VV+ETM+NNG	8	NP_AJT
+6	관광객이	관광객 이	NNG+JKS	8	NP_SBJ
+7	1천만명을	1 천만 명 을	SN+NR+NNB+JKO	8	NP_OBJ
+8	돌파한	돌파 하 ㄴ	NNG+XSV+ETM	9	VP_MOD
+9	가운데	가운데	NNG	11	NP_AJT
+10	어벤져스2가	어벤져스 2 가	NNP+SN+JKS	11	NP_SBJ
+11	개봉되면	개봉 되 면	NNG+XSV+EC	14	VP
+12	미주·유럽권의	미주 · 유럽 권 의	NNP+SP+NNP+XSN+JKG	13	NP_MOD
+13	관심도	관심 도	NNG+JX	14	NP_SBJ
+14	높아지고	높 아 지 고	VA+EC+VX+EC	17	VP
+15	한국	한국	NNP	16	NP
+16	관광으로	관광 으로	NNG+JKB	17	NP_AJT
+17	이어질	잇 어 지 ㄹ	VV+EC+VX+ETM	18	VP_MOD
+18	수	수	NNB	19	NP_SBJ
+19	있다는	있 다는	VV+ETM	20	VP_MOD
+20	점에서	점 에서	NNG+JKB	23	NP_AJT
+21	다소간	다소간	MAG	23	AP
+22	불편은	불편 은	NNG+JX	23	NP_OBJ
+23	감수해야한다는	감수 하 여야 하 ㄴ다는	NNG+XSV+EC+VX+ETM	24	VP_MOD
+24	의지를	의지 를	NNG+JKO	25	NP_OBJ
+25	비치고	비치 고	VV+EC	26	VP
+26	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00240_wikitree	주변 사람들이 다들 '다시 결혼식 올려야 하는 거 아니냐'고 걱정했지만, 이들 부부는 이 남다른 결혼식이 만족스럽다.
+1	주변	주변	NNG	2	NP
+2	사람들이	사람 들 이	NNG+XSN+JKS	10	NP_SBJ
+3	다들	다 들	MAG+XSN	10	AP
+4	'다시	' 다시	SS+MAG	6	AP
+5	결혼식	결혼식	NNG	6	NP_OBJ
+6	올려야	올리 어야	VV+EC	7	VP
+7	하는	하 는	VX+ETM	8	VP_MOD
+8	거	거	NNB	9	NP_CMP
+9	아니냐'고	아니 냐 ' 고	VCN+EC+SS+JKQ	10	VP_AJT
+10	걱정했지만,	걱정 하 였 지만 ,	NNG+XSV+EP+EC+SP	16	VP
+11	이들	이 들	NP+XSN	12	NP
+12	부부는	부부 는	NNG+JX	16	NP_SBJ
+13	이	이	MMD	15	DP
+14	남다른	남다르 ㄴ	VA+ETM	15	VP_MOD
+15	결혼식이	결혼식 이	NNG+JKS	16	NP_SBJ
+16	만족스럽다.	만족 스럽 다 .	NNG+XSA+EF+SF	0	VP
+
+## klue-dp-v1_train_00241_wikitree	이들 해역에는 강한 북서풍이 유입되면서 3∼6ｍ의 높은 파도가 몰아칠 것으로 예측되고 있다.
+1	이들	이 들	NP+XSN	2	NP
+2	해역에는	해역 에 는	NNG+JKB+JX	5	NP_AJT
+3	강한	강하 ㄴ	VA+ETM	4	VP_MOD
+4	북서풍이	북서풍 이	NNG+JKS	5	NP_SBJ
+5	유입되면서	유입 되 면서	NNG+XSV+EC	9	VP
+6	3∼6ｍ의	3 ∼ 6 ｍ 의	SN+SO+SN+SW+JKG	8	NP_MOD
+7	높은	높 은	VA+ETM	8	VP_MOD
+8	파도가	파도 가	NNG+JKS	9	NP_SBJ
+9	몰아칠	몰 아 치 ㄹ	VV+EC+VX+ETM	10	VP_MOD
+10	것으로	것 으로	NNB+JKB	11	NP_AJT
+11	예측되고	예측 되 고	NNG+XSV+EC	12	VP
+12	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00242_wikitree	뇌의 전체적인 용적은 자폐증 그룹과 대조군을 따로따로 분석했을 땐 두 그룹 모두 80~90%가 차이를 보였지만 두 그룹을 서로 비교했을 땐 많아야 2-3% 정도의 차이밖엔 없었다고 딘스타인 박사는 설명했다.
+1	뇌의	뇌 의	NNG+JKG	3	NP_MOD
+2	전체적인	전체 적 이 ㄴ	NNG+XSN+VCP+ETM	3	VNP_MOD
+3	용적은	용적 은	NNG+JX	15	NP_SBJ
+4	자폐증	자폐증	NNG	5	NP
+5	그룹과	그룹 과	NNG+JC	8	NP_AJT
+6	대조군을	대조군 을	NNG+JKO	8	NP_OBJ
+7	따로따로	따로 따로	MAG+MAG	8	AP
+8	분석했을	분석 하 였 을	NNG+XSV+EP+ETM	9	VP_MOD
+9	땐	때 ㄴ	NNG+JX	15	NP_AJT
+10	두	두	MMN	11	DP
+11	그룹	그룹	NNG	15	NP_SBJ
+12	모두	모두	MAG	15	AP
+13	80~90%가	80 ~ 90 % 가	SN+SO+SN+SW+JKS	15	NP_SBJ
+14	차이를	차이 를	NNG+JKO	15	NP_OBJ
+15	보였지만	보이 었 지만	VV+EP+EC	25	VP
+16	두	두	MMN	17	DP
+17	그룹을	그룹 을	NNG+JKO	19	NP_OBJ
+18	서로	서로	MAG	19	AP
+19	비교했을	비교 하 였 을	NNG+XSV+EP+ETM	20	VP_MOD
+20	땐	때 ㄴ	NNG+JX	25	NP_AJT
+21	많아야	많 아야	VA+EC	25	VP
+22	2-3%	2 - 3 %	SN+SS+SN+SW	23	NP
+23	정도의	정도 의	NNG+JKG	24	NP_MOD
+24	차이밖엔	차이 밖에 ㄴ	NNG+JX+JX	25	NP_AJT
+25	없었다고	없 었 다고	VA+EP+EC	28	VP_CMP
+26	딘스타인	딘스타인	NNP	27	NP
+27	박사는	박사 는	NNG+JX	28	NP_SBJ
+28	설명했다.	설명 하 였 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00243_wikitree	이보다 8년 전이던 1994년 미국 대회에서는 2차전에서 볼리비아를 상대로 한국 축구 월드컵 본선 사상 첫 승을 노렸다가 0-0에 그치기도 했다.
+1	이보다	이 보다	NP+JKB	3	NP_AJT
+2	8년	8 년	SN+NNB	3	NP
+3	전이던	전 이 던	NNG+VCP+ETM	6	VNP_MOD
+4	1994년	1994 년	SN+NNB	6	NP
+5	미국	미국	NNP	6	NP
+6	대회에서는	대회 에서 는	NNG+JKB+JX	19	NP_AJT
+7	2차전에서	2 차 전 에서	SN+NNB+NNG+JKB	17	NP_AJT
+8	볼리비아를	볼리비아 를	NNP+JKO	9	NP_OBJ
+9	상대로	상대 로	NNG+JKB	17	NP_AJT
+10	한국	한국	NNP	11	NP
+11	축구	축구	NNG	13	NP
+12	월드컵	월드컵	NNG	13	NP
+13	본선	본선	NNG	14	NP
+14	사상	사상	NNG	16	NP
+15	첫	첫	MMN	16	DP
+16	승을	승 을	NNG+JKO	17	NP_OBJ
+17	노렸다가	노리 었 다가	VV+EP+EC	19	VP
+18	0-0에	0 - 0 에	SN+SS+SN+JKB	19	NP_AJT
+19	그치기도	그치 기 도	VV+ETN+JX	20	VP
+20	했다.	하 였 다 .	VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00244_wikitree	조 전 부사장은 30일 오전 서울 서부지방법원에서 영장실질 심사를 받았다.
+1	조	조	NNP	3	NP
+2	전	전	MMD	3	DP
+3	부사장은	부사장 은	NNG+JX	10	NP_SBJ
+4	30일	30 일	SN+NNB	5	NP
+5	오전	오전	NNG	10	NP_AJT
+6	서울	서울	NNP	7	NP
+7	서부지방법원에서	서부지방법원 에서	NNP+JKB	10	NP_AJT
+8	영장실질	영장 실질	NNG+NNG	9	NP
+9	심사를	심사 를	NNG+JKO	10	NP_OBJ
+10	받았다.	받 았 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00245_wikitree	서버 이전 작업으로 스토리 본문 중, 일부 이미지가 보이지 않거나 SNS 댓글 수집이 되지 않는 현상이 발생할 수 있습니다.
+1	서버	서버	NNG	2	NP
+2	이전	이전	NNG	3	NP
+3	작업으로	작업 으로	NNG+JKB	17	NP_AJT
+4	스토리	스토리	NNG	5	NP
+5	본문	본문	NNG	6	NP
+6	중,	중 ,	NNB+SP	9	NP_AJT
+7	일부	일부	NNG	8	NP
+8	이미지가	이미지 가	NNG+JKS	9	NP_SBJ
+9	보이지	보이 지	VV+EC	10	VP
+10	않거나	않 거나	VX+EC	14	VP
+11	SNS	SNS	SL	12	NP
+12	댓글	댓글	NNG	13	NP
+13	수집이	수집 이	NNG+JKC	14	NP_CMP
+14	되지	되 지	VV+EC	15	VP
+15	않는	않 는	VX+ETM	16	VP_MOD
+16	현상이	현상 이	NNG+JKS	17	NP_SBJ
+17	발생할	발생 하 ㄹ	NNG+XSV+ETM	18	VP_MOD
+18	수	수	NNB	19	NP_SBJ
+19	있습니다.	있 습니다 .	VA+EF+SF	0	VP
+
+## klue-dp-v1_train_00246_wikitree	이와 함께 금융사기에 이용된 '대포통장'을 신고하면 최대 50만원의 포상금을 받게 된다.
+1	이와	이 와	NP+JKB	2	NP_AJT
+2	함께	함께	MAG	6	AP
+3	금융사기에	금융 사기 에	NNG+NNG+JKB	4	NP_AJT
+4	이용된	이용 되 ㄴ	NNG+XSV+ETM	5	VP_MOD
+5	'대포통장'을	' 대포 통장 ' 을	SS+NNG+NNG+SS+JKO	6	NP_OBJ
+6	신고하면	신고 하 면	NNG+XSV+EC	10	VP
+7	최대	최대	NNG	8	NP
+8	50만원의	50 만 원 의	SN+NR+NNB+JKG	9	NP_MOD
+9	포상금을	포상금 을	NNG+JKO	10	NP_OBJ
+10	받게	받 게	VV+EC	11	VP
+11	된다.	되 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00247_wikitree	헤드램프에 들어간 'Z자 라인'과 그동안 고급차에서 볼 수 없었던 파격적인 라디에어터 그릴·범퍼 등이 눈길을 끌었다.
+1	헤드램프에	헤드 램프 에	NNG+NNG+JKB	2	NP_AJT
+2	들어간	들 어 가 ㄴ	VV+EC+VX+ETM	4	VP_MOD
+3	'Z자	' Z 자	SS+SL+NNB	4	NP
+4	라인'과	라인 ' 과	NNG+SS+JC	12	NP_CNJ
+5	그동안	그동안	NNG	7	AP
+6	고급차에서	고급 차 에서	NNG+NNG+JKB	7	NP_AJT
+7	볼	보 ㄹ	VV+ETM	8	VP_MOD
+8	수	수	NNB	9	NP_SBJ
+9	없었던	없 었 던	VA+EP+ETM	12	VP_MOD
+10	파격적인	파격 적 이 ㄴ	NNG+XSN+VCP+ETM	12	VNP_MOD
+11	라디에어터	라디에이터	NNG	12	NP
+12	그릴·범퍼	그릴 · 범퍼	NNG+SP+NNG	13	NP
+13	등이	등 이	NNB+JKS	15	NP_SBJ
+14	눈길을	눈길 을	NNG+JKO	15	NP_OBJ
+15	끌었다.	끌 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00248_wikitree	저는 사회적 정의 실현과 국민들의 알권리라는 명목 하에 미디어를 매게로 한 이익단체들의 자극적인 보도가 자제되었으면 하는 바람이 있습니다.
+1	저는	저 는	NP+JX	18	NP_SBJ
+2	사회적	사회 적	NNG+XSN	3	NP
+3	정의	정의	NNG	4	NP
+4	실현과	실현 과	NNG+JC	6	NP_CNJ
+5	국민들의	국민 들 의	NNG+XSN+JKG	6	NP_MOD
+6	알권리라는	알 ㄹ 권리 이 라는	VV+ETM+NNG+VCP+ETM	7	VNP_MOD
+7	명목	명목	NNG	8	NP
+8	하에	하 에	NNG+JKB	11	NP_AJT
+9	미디어를	미디어 를	NNG+JKO	10	NP_OBJ
+10	매게로	매게 로	NNG+JKB	11	NP_AJT
+11	한	하 ㄴ	VV+ETM	14	VP_MOD
+12	이익단체들의	이익 단체 들 의	NNG+NNG+XSN+JKG	14	NP_MOD
+13	자극적인	자극 적 이 ㄴ	NNG+XSN+VCP+ETM	14	VNP_MOD
+14	보도가	보도 가	NNG+JKS	15	NP_SBJ
+15	자제되었으면	자제 되 었 으면	NNG+XSV+EP+EC	16	VP
+16	하는	하 는	VV+ETM	17	VP_MOD
+17	바람이	바람 이	NNG+JKS	18	NP_SBJ
+18	있습니다.	있 습니다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00249_wikitree	이번 공판은 오씨가 지난 2월 1일 춘천지법에 친자 인지 및 양육비 소송을 제출한 이후 처음이다.
+1	이번	이번	NNG	2	NP
+2	공판은	공판 은	NNG+JX	15	NP_SBJ
+3	오씨가	오 씨 가	NNP+NNB+JKS	13	NP_SBJ
+4	지난	지나 ㄴ	VV+ETM	6	VP_MOD
+5	2월	2 월	SN+NNB	6	NP
+6	1일	1 일	SN+NNB	13	NP_AJT
+7	춘천지법에	춘천지법 에	NNP+JKB	13	NP_AJT
+8	친자	친자	NNG	9	NP
+9	인지	인지	NNG	11	NP
+10	및	및	MAG	11	AP
+11	양육비	양육비	NNG	12	NP
+12	소송을	소송 을	NNG+JKO	13	NP_OBJ
+13	제출한	제출 하 ㄴ	NNG+XSV+ETM	14	VP_MOD
+14	이후	이후	NNG	15	NP_AJT
+15	처음이다.	처음 이 다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00250_wikitree	그는 마리오처럼 이탈리아계인데, 마리오가 이탈리아계 미국인이라는 설정이어서 가장 적합하다고 생각돼 캐스팅됐다.
+1	그는	그 는	NP+JX	3	NP_SBJ
+2	마리오처럼	마리오 처럼	NNP+JKB	3	NP_AJT
+3	이탈리아계인데,	이탈리아 계 이 ㄴ데 ,	NNP+XSN+VCP+EC+SP	7	VNP
+4	마리오가	마리오 가	NNP+JKS	6	NP_SBJ
+5	이탈리아계	이탈리아 계	NNP+XSN	6	NP
+6	미국인이라는	미국인 이 라는	NNG+VCP+ETM	7	VNP_MOD
+7	설정이어서	설정 이 어서	NNG+VCP+EC	9	VNP
+8	가장	가장	MAG	9	AP
+9	적합하다고	적합 하 다고	NNG+XSA+EC	10	VP_CMP
+10	생각돼	생각 되 어	NNG+XSV+EC	11	VP
+11	캐스팅됐다.	캐스팅 되 었 다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00251_wikitree	이날 기공식에서 기념 시삽을 하는 장면을 움짤로 만들어봤습니다.
+1	이날	이 날	MMD+NNG	5	NP_AJT
+2	기공식에서	기공식 에서	NNG+JKB	5	NP_AJT
+3	기념	기념	NNG	4	NP
+4	시삽을	시삽 을	NNG+JKO	5	NP_OBJ
+5	하는	하 는	VV+ETM	6	VP_MOD
+6	장면을	장면 을	NNG+JKO	8	NP_OBJ
+7	움짤로	움짤 로	NNG+JKB	8	NP_AJT
+8	만들어봤습니다.	만들 어 보 았 습니다 .	VV+EC+VX+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00252_wikitree	현직 검사가 검사실에서 여성 피의자와 유사 성행위를 하고 이후 모텔에서 성관계를 가진 사실이 드러나 파문이 일고 있다.
+1	현직	현직	NNG	2	NP
+2	검사가	검사 가	NNG+JKS	8	NP_SBJ
+3	검사실에서	검사실 에서	NNG+JKB	8	NP_AJT
+4	여성	여성	NNG	5	NP
+5	피의자와	피의자 와	NNG+JC	8	NP_AJT
+6	유사	유사	NNG	7	NP
+7	성행위를	성 행위 를	NNG+NNG+JKO	8	NP_OBJ
+8	하고	하 고	VV+EC	12	VP
+9	이후	이후	NNG	12	NP_AJT
+10	모텔에서	모텔 에서	NNG+JKB	12	NP_AJT
+11	성관계를	성 관계 를	NNG+NNG+JKO	12	NP_OBJ
+12	가진	가지 ㄴ	VV+ETM	13	VP_MOD
+13	사실이	사실 이	NNG+JKS	14	NP_SBJ
+14	드러나	드러나 아	VV+EC	16	VP
+15	파문이	파문 이	NNG+JKS	16	NP_SBJ
+16	일고	일 고	VV+EC	17	VP
+17	있다.	있 다 .	VX+EF+SF	0	VP
+
+## klue-dp-v1_train_00253_wikitree	안씨는 일정한 직업 없이 행인에게 받은 돈으로 버스를 타고 서울과 근교를 오가는 생활을 했으며, PC방에서 주로 숙식을 해결했다고 경찰은 전했다.
+1	안씨는	안 씨 는	NNP+NNB+JX	9	NP_SBJ
+2	일정한	일정 하 ㄴ	NNG+XSA+ETM	3	VP_MOD
+3	직업	직업	NNG	4	NP_SBJ
+4	없이	없이	MAG	9	AP
+5	행인에게	행인 에게	NNG+JKB	6	NP_AJT
+6	받은	받 은	VV+ETM	7	VP_MOD
+7	돈으로	돈 으로	NNG+JKB	9	NP_AJT
+8	버스를	버스 를	NNG+JKO	9	NP_OBJ
+9	타고	타 고	VV+EC	12	VP
+10	서울과	서울 과	NNP+JC	11	NP_CNJ
+11	근교를	근교 를	NNG+JKO	12	NP_OBJ
+12	오가는	오가 는	VV+ETM	13	VP_MOD
+13	생활을	생활 을	NNG+JKO	14	NP_OBJ
+14	했으며,	하 였 으며 ,	VV+EP+EC+SP	18	VP
+15	PC방에서	PC 방 에서	SL+NNG+JKB	18	NP_AJT
+16	주로	주로	MAG	18	AP
+17	숙식을	숙식 을	NNG+JKO	18	NP_OBJ
+18	해결했다고	해결 하 였 다고	NNG+XSV+EP+EC	20	VP_CMP
+19	경찰은	경찰 은	NNG+JX	20	NP_SBJ
+20	전했다.	전하 였 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00254_wikitree	인권위는 A 일병 가족들의 진정을 접수하고 진위 파악에 나섰다.
+1	인권위는	인권위 는	NNG+JX	6	NP_SBJ
+2	A	A	SL	3	NP
+3	일병	일병	NNG	4	NP
+4	가족들의	가족 들 의	NNG+XSN+JKG	5	NP_MOD
+5	진정을	진정 을	NNG+JKO	6	NP_OBJ
+6	접수하고	접수 하 고	NNG+XSV+EC	9	VP
+7	진위	진위	NNG	8	NP
+8	파악에	파악 에	NNG+JKB	9	NP_AJT
+9	나섰다.	나서 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00255_wikitree	페이스북 창업자 마크 저커버그의 누나가 아이들의 인터넷 중독 위험성을 다룬 동화책을 냅니다.
+1	페이스북	페이스북	NNP	2	NP
+2	창업자	창업자	NNG	4	NP
+3	마크	마크	NNP	4	NP
+4	저커버그의	저커버그 의	NNP+JKG	5	NP_MOD
+5	누나가	누나 가	NNG+JKS	12	NP_SBJ
+6	아이들의	아이 들 의	NNG+XSN+JKG	8	NP_MOD
+7	인터넷	인터넷	NNG	8	NP
+8	중독	중독	NNG	9	NP
+9	위험성을	위험 성 을	NNG+XSN+JKO	10	NP_OBJ
+10	다룬	다루 ㄴ	VV+ETM	11	VP_MOD
+11	동화책을	동화 책 을	NNG+NNG+JKO	12	NP_OBJ
+12	냅니다.	내 ㅂ니다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00256_wikitree	이제까지 혼자 바장이고 다닌 게 아니라는 것을 똑똑히 보여 주고 싶었는데 많이 안타깝습니다.
+1	이제까지	이제 까지	NNG+JX	3	NP_AJT
+2	혼자	혼자	NNG	3	NP_SBJ
+3	바장이고	바장이 고	VV+EC	4	VP
+4	다닌	다니 ㄴ	VV+ETM	5	VP_MOD
+5	게	것 이	NNB+JKC	6	NP_CMP
+6	아니라는	아니 라는	VCN+ETM	7	VP_MOD
+7	것을	것 을	NNB+JKO	9	NP_OBJ
+8	똑똑히	똑똑히	MAG	9	AP
+9	보여	보이 어	VV+EC	10	VP
+10	주고	주 고	VX+EC	11	VP
+11	싶었는데	싶 었 는데	VX+EP+EC	13	VP
+12	많이	많이	MAG	13	AP
+13	안타깝습니다.	안타깝 습니다 .	VA+EF+SF	0	VP
+
+## klue-dp-v1_train_00257_wikitree	안 의원은 이날 오전 대구에서 신당창당준비기구 '새정치추진위원회' 간부들을 이끌고 신당 창당 설명회를 가진 후 봉하마을로 내려가 노 전 대통령 묘역을 참배했습니다.
+1	안	안	NNP	2	NP
+2	의원은	의원 은	NNG+JX	21	NP_SBJ
+3	이날	이 날	MMD+NNG	4	NP
+4	오전	오전	NNG	13	NP_AJT
+5	대구에서	대구 에서	NNP+JKB	13	NP_AJT
+6	신당창당준비기구	신 당 창당 준비 기구	XPN+NNG+NNG+NNG+NNG	7	NP
+7	'새정치추진위원회'	' 새정치추진위원회 '	SS+NNP+SS	8	NP
+8	간부들을	간부 들 을	NNG+XSN+JKO	9	NP_OBJ
+9	이끌고	이끌 고	VV+EC	13	VP
+10	신당	신 당	XPN+NNG	12	NP
+11	창당	창당	NNG	12	NP
+12	설명회를	설명회 를	NNG+JKO	13	NP_OBJ
+13	가진	가지 ㄴ	VV+ETM	14	VP_MOD
+14	후	후	NNG	16	NP_AJT
+15	봉하마을로	봉하마을 로	NNP+JKB	16	NP_AJT
+16	내려가	내리 어 가 아	VV+EC+VV+EC	21	VP
+17	노	노	NNP	19	NP
+18	전	전	MMD	19	DP
+19	대통령	대통령	NNG	20	NP
+20	묘역을	묘역 을	NNG+JKO	21	NP_OBJ
+21	참배했습니다.	참배 하 였 습니다 .	NNG+XSV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00258_wikitree	지난달 31일 서울역 앞에서 분신한 이남종(40)씨가 오는 4일 광주 5·18 구묘역에 안장될 것으로 보인다.
+1	지난달	지나 ㄴ 달	VV+ETM+NNG	2	NP
+2	31일	31 일	SN+NNB	5	NP_AJT
+3	서울역	서울역	NNP	4	NP
+4	앞에서	앞 에서	NNG+JKB	5	NP_AJT
+5	분신한	분신 하 ㄴ	NNG+XSV+ETM	6	VP_MOD
+6	이남종(40)씨가	이남종 ( 40 ) 씨 가	NNP+SS+SN+SS+NNB+JKS	12	NP_SBJ
+7	오는	오 는	VV+ETM	8	VP_MOD
+8	4일	4 일	SN+NNB	12	NP_AJT
+9	광주	광주	NNP	10	NP
+10	5·18	5 · 18	SN+SP+SN	11	NP
+11	구묘역에	구묘역 에	NNP+JKB	12	NP_AJT
+12	안장될	안장 되 ㄹ	NNG+XSV+ETM	13	VP_MOD
+13	것으로	것 으로	NNB+JKB	14	NP_AJT
+14	보인다.	보이 ㄴ다 .	VV+EF+SF	0	VP
+
+## klue-dp-v1_train_00259_wikitree	그런데 이 과자를 탕수육 소스에 찍어먹으면 맛있을지는 미지수다.
+1	그런데	그런데	MAJ	8	AP
+2	이	이	MMD	3	DP
+3	과자를	과자 를	NNG+JKO	6	NP_OBJ
+4	탕수육	탕수육	NNG	5	NP
+5	소스에	소스 에	NNG+JKB	6	NP_AJT
+6	찍어먹으면	찍 어 먹 으면	VV+EC+VX+EC	7	VP
+7	맛있을지는	맛 있 을지 는	NNG+VA+EC+JX	8	VP
+8	미지수다.	미 지수 이 다 .	XPN+NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00260_wikitree	조금만 더 옆으로 굴러 떨어졌다면 그대로 바다에 빠질 뻔한 상황이었다.
+1	조금만	조금 만	NNG+JX	2	NP_AJT
+2	더	더	MAG	3	AP
+3	옆으로	옆 으로	NNG+JKB	4	NP_AJT
+4	굴러	구르 어	VV+EC	5	VP
+5	떨어졌다면	떨어지 었 다면	VV+EP+EC	8	VP
+6	그대로	그대로	MAG	8	AP
+7	바다에	바다 에	NNG+JKB	8	NP_AJT
+8	빠질	빠지 ㄹ	VV+ETM	9	VP_MOD
+9	뻔한	뻔 하 ㄴ	NNB+XSA+ETM	10	VP_MOD
+10	상황이었다.	상황 이 었 다 .	NNG+VCP+EP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00261_wikitree	미쉘 난단 씨는 오랜 경력을 바탕으로 다양한 경험을 쌓아온 이 대회 최고의 전문가로, 특히 도요타와 푸조의 기술 책임자로 근무하는 동안 총 51회의 우승을 이끌어낸 바 있는 전설적인 인물입니다.
+1	미쉘	미쉘	NNP	2	NP
+2	난단	난단	NNP	3	NP
+3	씨는	씨 는	NNB+JX	13	NP_SBJ
+4	오랜	오랜	MMA	5	DP
+5	경력을	경력 을	NNG+JKO	6	NP_OBJ
+6	바탕으로	바탕 으로	NNG+JKB	9	NP_AJT
+7	다양한	다양 하 ㄴ	NNG+XSA+ETM	8	VP_MOD
+8	경험을	경험 을	NNG+JKO	9	NP_OBJ
+9	쌓아온	쌓 아 오 ㄴ	VV+EC+VX+ETM	13	VP_MOD
+10	이	이	MMD	11	DP
+11	대회	대회	NNG	12	NP
+12	최고의	최고 의	NNG+JKG	13	NP_MOD
+13	전문가로,	전문가 로 ,	NNG+JKB+SP	28	NP_AJT
+14	특히	특히	MAG	24	AP
+15	도요타와	도요타 와	NNP+JC	16	NP_CNJ
+16	푸조의	푸조 의	NNP+JKG	18	NP_MOD
+17	기술	기술	NNG	18	NP
+18	책임자로	책임자 로	NNG+JKB	19	NP_AJT
+19	근무하는	근무 하 는	NNG+XSV+ETM	20	VP_MOD
+20	동안	동안	NNG	24	NP_AJT
+21	총	총	MMN	22	DP
+22	51회의	51 회 의	SN+NNB+JKG	23	NP_MOD
+23	우승을	우승 을	NNG+JKO	24	NP_OBJ
+24	이끌어낸	이끌 어 내 ㄴ	VV+EC+VX+ETM	25	VP_MOD
+25	바	바	NNB	26	NP_SBJ
+26	있는	있 는	VV+ETM	28	VP_MOD
+27	전설적인	전설 적 이 ㄴ	NNG+XSN+VCP+ETM	28	VNP_MOD
+28	인물입니다.	인물 이 ㅂ니다 .	NNG+VCP+EF+SF	0	VNP
+
+## klue-dp-v1_train_00262_wikitree	경기도 부천 원미경찰서는 살인 혐의로 A(49)씨를 구속했다고 20일 밝혔다.
+1	경기도	경기도	NNP	2	NP
+2	부천	부천	NNP	3	NP
+3	원미경찰서는	원미경찰서 는	NNP+JX	7	NP_SBJ
+4	살인	살인	NNG	5	NP
+5	혐의로	혐의 로	NNG+JKB	7	NP_AJT
+6	A(49)씨를	A ( 49 ) 씨 를	SL+SS+SN+SS+NNB+JKO	7	NP_OBJ
+7	구속했다고	구속 하 였 다고	NNG+XSV+EP+EC	9	VP_AJT
+8	20일	20 일	SN+NNB	9	NP_AJT
+9	밝혔다.	밝히 었 다 .	VV+EP+EF+SF	0	VP
+
+## klue-dp-v1_train_00263_wikitree	보리 씨는 지난 2010년 방송된 MBC '무한도전' 2011년 달력 프로젝트와 온스타일 '도전 수퍼모델 코리아' 시리즈에 출연했습니다.
+1	보리	보리	NNP	2	NP
+2	씨는	씨 는	NNB+JX	16	NP_SBJ
+3	지난	지나 ㄴ	VV+ETM	4	VP_MOD
+4	2010년	2010 년	SN+NNB	5	NP_AJT
+5	방송된	방송 되 ㄴ	NNG+XSV+ETM	15	VP_MOD
+6	MBC	MBC	SL	7	NP
+7	'무한도전'	' 무한 도전 '	SS+NNG+NNG+SS	10	NP
+8	2011년	2011 년	SN+NNB	10	NP
+9	달력	달력	NNG	10	NP
+10	프로젝트와	프로젝트 와	NNG+JC	15	NP_CNJ
+11	온스타일	온스타일	NNP	15	NP
+12	'도전	' 도전	SS+NNG	13	NP
+13	수퍼모델	수퍼 모델	NNG+NNG	14	NP
+14	코리아'	코리아 '	NNP+SS	15	NP
+15	시리즈에	시리즈 에	NNG+JKB	16	NP_AJT
+16	출연했습니다.	출연 하 였 습니다 .	NNG+XSV+EP+EF+SF	0	VP
